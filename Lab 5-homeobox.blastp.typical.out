@@ -1,0 +1,4143 @@
+BLASTP 2.10.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: allprotein.fas
+           150,063 sequences; 81,927,641 total letters
+
+
+
+Query= XP_001634249.2 homeobox protein Hox-A6 [Nematostella vectensis]
+
+Length=210
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+Nvectensis.XP_001634249.2 unnamed protein product                     437     3e-158
+Nvectensis.XP_032239568.1 unnamed protein product                     201     5e-65 
+Nvectensis.XP_001634248.1 unnamed protein product                     138     5e-40 
+Bbelcheri.XP_019632224.1 unnamed protein product                      110     6e-28 
+Myessoensis.XP_021345157.1 unnamed protein product                    107     8e-28 
+Aplanci.XP_022082157.1 unnamed protein product                        107     9e-28 
+Myessoensis.XP_021345158.1 unnamed protein product                    107     2e-27 
+Bbelcheri.XP_019632171.1 unnamed protein product                      106     3e-27 
+Hsapiens.NP_061826.1 homeobox protein Hox-C5                          104     4e-27 
+Bbelcheri.XP_019632226.1 unnamed protein product                      105     5e-27 
+Bbelcheri.XP_019632225.1 unnamed protein product                      105     6e-27 
+Hsapiens.NP_002132.3 homeobox protein Hox-A4                          105     2e-26 
+Hsapiens.NP_061975.2 homeobox protein Hox-A5                          104     2e-26 
+Hsapiens.NP_002138.1 homeobox protein Hox-B5                          103     3e-26 
+Hsapiens.NP_008829.3 homeobox protein Hox-D3                          106     3e-26 
+Myessoensis.XP_021345143.1 unnamed protein product                    103     6e-26 
+Hsapiens.NP_705895.1 homeobox protein Hox-A3                          105     1e-25 
+Hsapiens.NP_061825.2 homeobox protein Hox-B6                          100     2e-25 
+Hsapiens.NP_055436.2 homeobox protein Hox-D4                          101     2e-25 
+Myessoensis.XP_021356577.1 unnamed protein product                    102     2e-25 
+Aplanci.XP_022108014.1 unnamed protein product                        103     2e-25 
+Hsapiens.NP_076920.1 homeobox protein Hox-B4                          100     3e-25 
+Hsapiens.NP_705897.1 homeobox protein Hox-C4                          100     3e-25 
+Hsapiens.NP_001371678.1 homeobox protein Hox-B3 isoform 1             103     4e-25 
+Aplanci.XP_022082122.1 unnamed protein product                        100     4e-25 
+Hsapiens.NP_008827.2 homeobox protein Hox-A7                          99.8    5e-25 
+Aplanci.XP_022081988.1 unnamed protein product                        101     7e-25 
+Hsapiens.NP_076919.1 homeobox protein Hox-A6                          99.0    9e-25 
+Bbelcheri.XP_019625106.1 unnamed protein product                      98.6    1e-24 
+Bbelcheri.XP_019632164.1 unnamed protein product                      100     3e-24 
+Hsapiens.NP_000200.1 pancreas/duodenum homeobox protein 1             99.0    3e-24 
+Nvectensis.XP_032222624.1 unnamed protein product                     98.2    3e-24 
+Dgigantea.XP_028396957.1 unnamed protein product                      95.1    3e-24 
+Myessoensis.XP_021345097.1 unnamed protein product                    101     4e-24 
+Myessoensis.XP_021345173.1 unnamed protein product                    97.4    5e-24 
+Hsapiens.NP_005513.2 homeobox protein Hox-A1 isoform a                98.6    7e-24 
+Hsapiens.NP_002136.1 homeobox protein Hox-B2                          98.6    1e-23 
+Myessoensis.XP_021345165.1 unnamed protein product                    100     1e-23 
+Nvectensis.XP_032218287.1 unnamed protein product                     95.5    1e-23 
+Hsapiens.NP_004493.3 homeobox protein Hox-B7                          95.1    2e-23 
+Dgigantea.XP_028391349.1 unnamed protein product                      96.3    2e-23 
+Hsapiens.NP_004494.1 homeobox protein Hox-C6 isoform 1                95.1    3e-23 
+Hsapiens.NP_006726.1 homeobox protein Hox-A2                          97.1    4e-23 
+Bbelcheri.XP_019632236.1 unnamed protein product                      95.5    6e-23 
+Bbelcheri.XP_019632172.1 unnamed protein product                      93.6    6e-23 
+Hsapiens.NP_076921.1 homeobox protein Hox-B8                          94.4    7e-23 
+Bbelcheri.XP_019632097.1 unnamed protein product                      92.0    3e-22 
+Aplanci.XP_022081986.1 unnamed protein product                        95.1    3e-22 
+Nvectensis.XP_001641625.2 unnamed protein product                     91.7    7e-22 
+Dgigantea.XP_028410064.1 unnamed protein product                      91.3    8e-22 
+Aplanci.XP_022082115.1 unnamed protein product                        93.6    9e-22 
+Dgigantea.XP_028418706.1 unnamed protein product                      91.3    2e-21 
+Dgigantea.XP_028401490.1 unnamed protein product                      90.9    3e-21 
+Hsapiens.NP_073149.1 homeobox protein Hox-C8                          89.7    3e-21 
+Dgigantea.XP_028410183.1 unnamed protein product                      88.6    4e-21 
+Nvectensis.XP_001637783.1 unnamed protein product                     88.2    8e-21 
+Hsapiens.NP_002135.2 homeobox protein Hox-B1                          89.4    2e-20 
+Hsapiens.NP_062458.1 homeobox protein Hox-D8 isoform 1                89.0    2e-20 
+Hsapiens.NP_078777.1 homeobox protein Hox-D1                          89.0    3e-20 
+Hvulgaris.XP_002163407.1 unnamed protein product                      87.4    4e-20 
+Myessoensis.XP_021345170.1 unnamed protein product                    87.8    5e-20 
+Dgigantea.XP_028406039.1 unnamed protein product                      85.9    6e-20 
+Hvulgaris.NP_001274725.1 unnamed protein product                      86.7    6e-20 
+Nvectensis.XP_001634252.2 unnamed protein product                     86.7    7e-20 
+Myessoensis.XP_021345139.1 unnamed protein product                    87.0    1e-19 
+Aplanci.XP_022084558.1 unnamed protein product                        87.8    1e-19 
+Aplanci.XP_022082139.1 unnamed protein product                        86.3    1e-19 
+Bbelcheri.XP_019614464.1 unnamed protein product                      85.9    2e-19 
+Bbelcheri.XP_019639715.1 unnamed protein product                      84.0    4e-19 
+Hsapiens.NP_005506.3 motor neuron and pancreas homeobox protein 1...  85.9    6e-19 
+Hsapiens.NP_689952.1 homeobox protein Hox-A9                          84.3    7e-19 
+Aplanci.XP_022108079.1 unnamed protein product                        84.0    9e-19 
+Hsapiens.NP_001476.2 homeobox protein GBX-2 isoform 1                 84.7    1e-18 
+Myessoensis.XP_021342716.1 unnamed protein product                    84.7    1e-18 
+Dgigantea.XP_028418707.1 unnamed protein product                      82.0    2e-18 
+Dgigantea.XP_028401610.1 unnamed protein product                      82.0    2e-18 
+Hsapiens.NP_001092304.1 homeobox protein GBX-1                        84.3    2e-18 
+Hsapiens.NP_076922.1 homeobox protein Hox-B9                          81.6    5e-18 
+Aplanci.XP_022107904.1 unnamed protein product                        82.8    5e-18 
+Myessoensis.XP_021345166.1 unnamed protein product                    81.6    5e-18 
+Dgigantea.XP_028396296.1 unnamed protein product                      79.3    1e-17 
+Aplanci.XP_022081842.1 unnamed protein product                        81.6    1e-17 
+Bbelcheri.XP_019646238.1 unnamed protein product                      81.3    2e-17 
+Bbelcheri.XP_019632090.1 unnamed protein product                      80.9    2e-17 
+Bbelcheri.XP_019646237.1 unnamed protein product                      80.9    3e-17 
+Nvectensis.XP_032225904.1 unnamed protein product                     79.0    3e-17 
+Myessoensis.XP_021344647.1 unnamed protein product                    76.3    3e-17 
+Bbelcheri.XP_019632096.1 unnamed protein product                      78.2    3e-17 
+Bbelcheri.XP_019636205.1 unnamed protein product                      80.1    4e-17 
+Bbelcheri.XP_019632265.1 unnamed protein product                      80.1    4e-17 
+Hsapiens.NP_059105.2 homeobox protein Hox-C10                         80.1    5e-17 
+Hsapiens.NP_061824.3 homeobox protein Hox-A10                         80.5    6e-17 
+Hsapiens.NP_002139.2 homeobox protein Hox-D10                         79.7    7e-17 
+Myessoensis.XP_021357053.1 unnamed protein product                    79.3    8e-17 
+Bbelcheri.XP_019625107.1 unnamed protein product                      80.1    1e-16 
+Nvectensis.XP_032218198.1 unnamed protein product                     77.4    1e-16 
+Nvectensis.XP_001625949.2 unnamed protein product                     77.0    1e-16 
+Myessoensis.XP_021347798.1 unnamed protein product                    78.2    1e-16 
+Hsapiens.NP_663632.1 GS homeobox 1                                    77.8    2e-16 
+Nvectensis.XP_032227750.1 unnamed protein product                     77.0    2e-16 
+Nvectensis.XP_032229387.1 unnamed protein product                     77.0    2e-16 
+Myessoensis.XP_021347813.1 unnamed protein product                    77.8    2e-16 
+Dgigantea.XP_028394994.1 unnamed protein product                      76.6    3e-16 
+Myessoensis.XP_021352550.1 unnamed protein product                    75.1    3e-16 
+Dgigantea.XP_028404807.1 unnamed protein product                      76.6    3e-16 
+Myessoensis.XP_021363190.1 unnamed protein product                    77.8    3e-16 
+Aplanci.XP_022087028.1 unnamed protein product                        77.8    3e-16 
+Aplanci.XP_022080795.1 unnamed protein product                        77.4    3e-16 
+Hsapiens.NP_573574.2 GS homeobox 2                                    77.4    3e-16 
+Nvectensis.XP_032229388.1 unnamed protein product                     76.3    4e-16 
+Hsapiens.NP_001256.4 homeobox protein CDX-2 isoform 1                 77.0    5e-16 
+Bbelcheri.XP_019632094.1 unnamed protein product                      76.6    7e-16 
+Nvectensis.XP_032239839.1 unnamed protein product                     75.1    8e-16 
+Nvectensis.XP_032239572.1 unnamed protein product                     75.1    9e-16 
+Bbelcheri.XP_019614445.1 unnamed protein product                      76.3    9e-16 
+Myessoensis.XP_021356586.1 unnamed protein product                    76.6    9e-16 
+Bbelcheri.XP_019636783.1 unnamed protein product                      75.9    1e-15 
+Bbelcheri.XP_019632267.1 unnamed protein product                      76.3    1e-15 
+Aplanci.XP_022082143.1 unnamed protein product                        76.6    1e-15 
+Bbelcheri.XP_019636784.1 unnamed protein product                      75.9    1e-15 
+Hsapiens.NP_005184.1 homeobox protein CDX-4                           75.5    1e-15 
+Bbelcheri.XP_019615194.1 unnamed protein product                      75.9    1e-15 
+Hsapiens.NP_004518.1 homeobox protein MOX-1 isoform 1                 74.7    2e-15 
+Nvectensis.XP_032222966.1 unnamed protein product                     73.2    2e-15 
+Hsapiens.NP_001795.2 homeobox protein CDX-1                           74.7    2e-15 
+Hsapiens.NP_005915.2 homeobox protein MOX-2                           75.1    2e-15 
+Myessoensis.XP_021356583.1 unnamed protein product                    75.5    3e-15 
+Nvectensis.XP_001625948.2 unnamed protein product                     73.2    3e-15 
+Hsapiens.NP_005512.1 T-cell leukemia homeobox protein 1 isoform 1     74.7    4e-15 
+Aplanci.XP_022081678.1 unnamed protein product                        73.9    4e-15 
+Nvectensis.XP_032239584.1 unnamed protein product                     72.4    4e-15 
+Myessoensis.XP_021361144.1 unnamed protein product                    74.3    5e-15 
+Myessoensis.XP_021357529.1 unnamed protein product                    73.9    5e-15 
+Aplanci.XP_022080923.1 unnamed protein product                        74.7    6e-15 
+Nvectensis.XP_032220664.1 unnamed protein product                     72.4    6e-15 
+Hvulgaris.XP_004206396.1 unnamed protein product                      73.6    7e-15 
+Hsapiens.NP_055028.3 homeobox protein Hox-D9                          73.9    7e-15 
+Nvectensis.XP_032219204.1 unnamed protein product                     72.8    9e-15 
+Hsapiens.NP_005510.1 homeobox protein HMX2                            73.2    1e-14 
+Aplanci.XP_022082137.1 unnamed protein product                        73.2    1e-14 
+Hsapiens.NP_004088.2 homeobox protein EMX1                            73.2    1e-14 
+Hsapiens.NP_066305.2 T-cell leukemia homeobox protein 3               72.8    1e-14 
+Bbelcheri.XP_019637779.1 unnamed protein product                      72.4    2e-14 
+Nvectensis.XP_032233249.1 unnamed protein product                     71.6    2e-14 
+Nvectensis.XP_032221976.1 unnamed protein product                     70.9    2e-14 
+Aplanci.XP_022090705.1 unnamed protein product                        72.8    2e-14 
+Myessoensis.XP_021359646.1 unnamed protein product                    71.6    3e-14 
+Bbelcheri.XP_019625318.1 unnamed protein product                      72.0    3e-14 
+Hsapiens.NP_001269359.1 transcription factor LBX2 isoform 1           70.5    3e-14 
+Bbelcheri.XP_019626406.1 unnamed protein product                      71.6    3e-14 
+Hvulgaris.XP_002163970.1 unnamed protein product                      71.2    4e-14 
+Hsapiens.NP_067015.2 homeobox protein Hox-D11                         72.0    4e-14 
+Bbelcheri.XP_019642725.1 unnamed protein product                      71.2    4e-14 
+Hvulgaris.XP_012556008.1 unnamed protein product                      70.9    4e-14 
+Bbelcheri.XP_019617459.1 unnamed protein product                      70.9    5e-14 
+Bbelcheri.XP_019615136.1 unnamed protein product                      71.6    5e-14 
+Myessoensis.XP_021370369.1 unnamed protein product                    70.9    5e-14 
+Bbelcheri.XP_019636787.1 unnamed protein product                      70.9    5e-14 
+Aplanci.XP_022108013.1 unnamed protein product                        71.6    6e-14 
+Hsapiens.NP_776272.1 homeobox protein Hox-C12                         70.9    6e-14 
+Nvectensis.XP_032230744.1 unnamed protein product                     70.1    6e-14 
+Nvectensis.XP_032235579.1 unnamed protein product                     69.7    7e-14 
+Hsapiens.NP_057254.1 T-cell leukemia homeobox protein 2               70.9    7e-14 
+Nvectensis.XP_032240936.1 unnamed protein product                     70.1    8e-14 
+Hsapiens.NP_008828.1 homeobox protein Hox-C9                          70.5    8e-14 
+Aplanci.XP_022096635.1 unnamed protein product                        70.5    9e-14 
+Dgigantea.XP_028396277.1 unnamed protein product                      68.9    1e-13 
+Aplanci.XP_022098312.1 unnamed protein product                        70.9    1e-13 
+Hsapiens.NP_002720.1 hematopoietically-expressed homeobox protein...  69.7    1e-13 
+Hsapiens.NP_004089.1 homeobox protein EMX2 isoform 1                  69.3    2e-13 
+Nvectensis.XP_032240856.1 unnamed protein product                     68.9    2e-13 
+Aplanci.XP_022080659.1 unnamed protein product                        69.3    2e-13 
+Hsapiens.NP_006352.2 homeobox protein Hox-B13                         69.7    2e-13 
+Hsapiens.NP_055027.1 homeobox protein Hox-C11                         69.7    2e-13 
+Nvectensis.XP_032229701.1 unnamed protein product                     68.9    2e-13 
+Aplanci.XP_022079383.1 unnamed protein product                        69.7    2e-13 
+Nvectensis.XP_032220496.1 unnamed protein product                     68.6    2e-13 
+Nvectensis.XP_032233281.1 unnamed protein product                     67.8    2e-13 
+Hsapiens.NP_005514.1 homeobox protein Hox-A11                         69.3    3e-13 
+Bbelcheri.XP_019637776.1 unnamed protein product                      68.9    3e-13 
+Nvectensis.XP_032220012.1 unnamed protein product                     68.2    3e-13 
+Hsapiens.NP_001106175.1 ventral anterior homeobox 1 isoform a         69.3    3e-13 
+Hsapiens.NP_006553.2 transcription factor LBX1                        68.9    4e-13 
+Aplanci.XP_022080804.1 unnamed protein product                        68.6    4e-13 
+Aplanci.XP_022082136.1 unnamed protein product                        68.9    4e-13 
+Bbelcheri.XP_019636296.1 unnamed protein product                      68.6    4e-13 
+Myessoensis.XP_021361239.1 unnamed protein product                    68.6    4e-13 
+Hsapiens.NP_001277008.1 NK1 transcription factor-related protein 1    69.3    5e-13 
+Nvectensis.XP_001640831.1 unnamed protein product                     68.2    5e-13 
+Hsapiens.NP_061815.2 homeobox protein HMX1 isoform 1                  68.9    5e-13 
+Hsapiens.NP_036608.1 ventral anterior homeobox 2                      68.6    5e-13 
+Hsapiens.NP_001139812.1 NK1 transcription factor-related protein 2    68.6    5e-13 
+Nvectensis.XP_032228794.1 unnamed protein product                     67.0    6e-13 
+Dgigantea.XP_028391215.1 unnamed protein product                      66.2    8e-13 
+Hsapiens.NP_003649.2 homeobox protein BarH-like 2                     67.8    8e-13 
+Dgigantea.XP_028391568.1 unnamed protein product                      67.8    8e-13 
+Bbelcheri.XP_019632103.1 unnamed protein product                      66.6    9e-13 
+Hsapiens.NP_001099044.1 homeobox protein HMX3                         68.2    1e-12 
+Hsapiens.NP_005020.1 pituitary homeobox 3                             67.8    1e-12 
+Dgigantea.XP_028391593.1 unnamed protein product                      66.6    1e-12 
+Bbelcheri.XP_019637589.1 unnamed protein product                      67.4    1e-12 
+Bbelcheri.XP_019641359.1 unnamed protein product                      67.8    1e-12 
+Dgigantea.XP_028394749.1 unnamed protein product                      66.6    1e-12 
+Hsapiens.NP_796374.2 homeobox protein Nkx-6.2                         67.0    1e-12 
+Myessoensis.XP_021362094.1 unnamed protein product                    67.4    1e-12 
+Bbelcheri.XP_019618647.1 unnamed protein product                      66.2    1e-12 
+Hsapiens.NP_067545.3 homeobox protein BarH-like 1                     67.0    1e-12 
+Hsapiens.NP_002439.2 homeobox protein MSX-1                           67.4    1e-12 
+Hsapiens.NP_001129743.2 homeobox protein Nkx-2.6                      67.4    1e-12 
+Myessoensis.XP_021352527.1 unnamed protein product                    67.4    2e-12 
+Hsapiens.NP_000514.2 homeobox protein Hox-D13                         67.4    2e-12 
+Aplanci.XP_022080911.1 unnamed protein product                        67.4    2e-12 
+Dgigantea.XP_028415076.1 unnamed protein product                      67.0    2e-12 
+Bbelcheri.XP_019646339.1 unnamed protein product                      67.4    2e-12 
+Nvectensis.XP_032220675.1 unnamed protein product                     65.5    2e-12 
+Bbelcheri.XP_019646152.1 unnamed protein product                      66.6    2e-12 
+Hsapiens.NP_000513.2 homeobox protein Hox-A13                         67.4    2e-12 
+Nvectensis.XP_032233891.1 unnamed protein product                     66.6    2e-12 
+Aplanci.XP_022096625.1 unnamed protein product                        67.4    2e-12 
+Myessoensis.XP_021353738.1 unnamed protein product                    67.0    2e-12 
+Hsapiens.NP_002440.2 homeobox protein MSX-2 isoform 1                 66.2    2e-12 
+Hsapiens.NP_001980.1 homeobox even-skipped homolog protein 1 isof...  67.4    2e-12 
+Aplanci.XP_022096638.1 unnamed protein product                        67.4    2e-12 
+Aplanci.XP_022084684.1 unnamed protein product                        63.9    2e-12 
+Nvectensis.XP_001632417.1 unnamed protein product                     66.2    2e-12 
+Nvectensis.XP_032222500.1 unnamed protein product                     65.5    2e-12 
+Bbelcheri.XP_019646332.1 unnamed protein product                      66.2    2e-12 
+Dgigantea.XP_028403140.1 unnamed protein product                      65.9    3e-12 
+Hsapiens.NP_064448.1 barH-like 1 homeobox protein                     66.6    3e-12 
+Dgigantea.XP_028391052.1 unnamed protein product                      65.9    3e-12 
+Myessoensis.XP_021363064.1 unnamed protein product                    66.6    3e-12 
+Hsapiens.NP_001418.2 homeobox protein engrailed-2                     66.6    3e-12 
+Bbelcheri.XP_019646328.1 unnamed protein product                      66.6    3e-12 
+Nvectensis.XP_001634765.2 unnamed protein product                     65.1    3e-12 
+Hsapiens.NP_067016.3 homeobox protein Hox-D12                         65.9    3e-12 
+Myessoensis.XP_021363077.1 unnamed protein product                    65.9    3e-12 
+Myessoensis.XP_021344808.1 unnamed protein product                    65.9    3e-12 
+Myessoensis.XP_021346960.1 unnamed protein product                    66.2    4e-12 
+Myessoensis.XP_021346959.1 unnamed protein product                    66.2    4e-12 
+Dgigantea.XP_028391275.1 unnamed protein product                      65.9    4e-12 
+Hsapiens.NP_001091639.1 brain-specific homeobox protein homolog       65.5    4e-12 
+Aplanci.XP_022098314.1 unnamed protein product                        66.2    4e-12 
+Bbelcheri.XP_019615135.1 unnamed protein product                      66.2    4e-12 
+Aplanci.XP_022098347.1 unnamed protein product                        66.2    4e-12 
+Nvectensis.XP_032219765.1 unnamed protein product                     65.5    5e-12 
+Hvulgaris.XP_012566941.1 unnamed protein product                      64.7    5e-12 
+Bbelcheri.XP_019646207.1 unnamed protein product                      65.9    5e-12 
+Nvectensis.XP_032222101.1 unnamed protein product                     65.5    5e-12 
+Bbelcheri.XP_019646156.1 unnamed protein product                      65.5    5e-12 
+Aplanci.XP_022095570.1 unnamed protein product                        66.2    6e-12 
+Aplanci.XP_022080696.1 unnamed protein product                        65.5    6e-12 
+Hsapiens.NP_006158.2 homeobox protein Nkx-3.1 isoform 1               64.7    7e-12 
+Hsapiens.NP_000316.2 pituitary homeobox 2 isoform c                   65.5    7e-12 
+Dgigantea.XP_028391495.1 unnamed protein product                      63.5    7e-12 
+Hsapiens.NP_620689.1 homeobox protein ARX                             65.9    7e-12 
+Nvectensis.XP_032239816.1 unnamed protein product                     64.3    8e-12 
+Bbelcheri.XP_019615837.1 unnamed protein product                      65.1    8e-12 
+Aplanci.XP_022088428.1 unnamed protein product                        64.7    1e-11 
+Bbelcheri.XP_019632253.1 unnamed protein product                      65.1    1e-11 
+Hsapiens.NP_002644.4 pituitary homeobox 1                             65.1    1e-11 
+Nvectensis.XP_032222870.1 unnamed protein product                     63.9    1e-11 
+Myessoensis.XP_021352557.1 unnamed protein product                    64.7    1e-11 
+Myessoensis.XP_021372813.1 unnamed protein product                    64.3    1e-11 
+Myessoensis.XP_021378401.1 unnamed protein product                    64.7    1e-11 
+Myessoensis.XP_021355611.1 unnamed protein product                    64.7    1e-11 
+Nvectensis.XP_032228795.1 unnamed protein product                     63.2    2e-11 
+Hsapiens.NP_001073927.1 homeobox even-skipped homolog protein 2       64.7    2e-11 
+Aplanci.XP_022081622.1 unnamed protein product                        64.7    2e-11 
+Myessoensis.XP_021345167.1 unnamed protein product                    63.9    2e-11 
+Bbelcheri.XP_019632102.1 unnamed protein product                      63.9    2e-11 
+Myessoensis.XP_021345162.1 unnamed protein product                    63.5    2e-11 
+Hsapiens.NP_064447.1 barH-like 2 homeobox protein                     64.3    2e-11 
+Hsapiens.NP_001290437.1 intestine-specific homeobox                   63.5    2e-11 
+Myessoensis.XP_021355955.1 unnamed protein product                    64.3    2e-11 
+Hvulgaris.XP_012564157.1 unnamed protein product                      62.0    2e-11 
+Myessoensis.XP_021339296.1 unnamed protein product                    63.5    2e-11 
+Hsapiens.NP_001351770.1 homeobox protein Nkx-6.3 isoform 1            63.5    2e-11 
+Hsapiens.NP_068777.1 H2.0-like homeobox protein                       64.3    2e-11 
+Aplanci.XP_022099667.1 unnamed protein product                        63.9    2e-11 
+Nvectensis.XP_001630569.2 unnamed protein product                     62.0    3e-11 
+Hsapiens.NP_001180.1 homeobox protein Nkx-3.2                         63.9    3e-11 
+Dgigantea.XP_028393306.1 unnamed protein product                      62.8    3e-11 
+Dgigantea.XP_028406404.1 unnamed protein product                      62.0    3e-11 
+Myessoensis.XP_021371956.1 unnamed protein product                    63.2    3e-11 
+Bbelcheri.XP_019615180.1 unnamed protein product                      63.5    3e-11 
+Myessoensis.XP_021355943.1 unnamed protein product                    63.5    3e-11 
+Hsapiens.NP_006159.2 homeobox protein Nkx-6.1                         63.5    3e-11 
+Aplanci.XP_022106041.1 unnamed protein product                        63.9    4e-11 
+Hsapiens.NP_001127934.1 homeobox protein notochord                    62.8    4e-11 
+Dgigantea.XP_028391503.1 unnamed protein product                      62.0    4e-11 
+Myessoensis.XP_021346595.1 unnamed protein product                    63.5    4e-11 
+Bbelcheri.XP_019646551.1 unnamed protein product                      63.5    4e-11 
+Aplanci.XP_022080807.1 unnamed protein product                        63.5    4e-11 
+Nvectensis.XP_032220488.1 unnamed protein product                     63.2    4e-11 
+Hvulgaris.XP_004206738.1 unnamed protein product                      62.0    4e-11 
+Hvulgaris.XP_002160816.1 unnamed protein product                      62.4    4e-11 
+Bbelcheri.XP_019643845.1 unnamed protein product                      62.4    5e-11 
+Bbelcheri.XP_019639076.1 unnamed protein product                      62.4    5e-11 
+Dgigantea.XP_028409747.1 unnamed protein product                      61.6    5e-11 
+Nvectensis.XP_001641710.2 unnamed protein product                     62.4    5e-11 
+Bbelcheri.XP_019642557.1 unnamed protein product                      63.2    5e-11 
+Myessoensis.XP_021369083.1 unnamed protein product                    62.4    5e-11 
+Aplanci.XP_022096639.1 unnamed protein product                        62.8    6e-11 
+Myessoensis.XP_021362626.1 unnamed protein product                    62.0    7e-11 
+Bbelcheri.XP_019636753.1 unnamed protein product                      62.8    7e-11 
+Myessoensis.XP_021366950.1 unnamed protein product                    62.0    7e-11 
+Aplanci.XP_022097866.1 unnamed protein product                        62.8    8e-11 
+Nvectensis.XP_032230998.1 unnamed protein product                     61.2    8e-11 
+Myessoensis.XP_021357837.1 unnamed protein product                    61.6    9e-11 
+Nvectensis.XP_032233026.1 unnamed protein product                     60.8    9e-11 
+Hvulgaris.XP_002165751.1 unnamed protein product                      60.1    9e-11 
+Aplanci.XP_022079677.1 unnamed protein product                        62.4    1e-10 
+Hsapiens.NP_001004329.2 homeobox protein DBX2                         62.4    1e-10 
+Hsapiens.NP_059106.2 homeobox protein Hox-C13                         62.0    1e-10 
+Hsapiens.NP_001417.3 homeobox protein engrailed-1                     62.4    1e-10 
+Dgigantea.XP_028396638.1 unnamed protein product                      60.5    1e-10 
+Nvectensis.XP_032222914.1 unnamed protein product                     60.1    1e-10 
+Nvectensis.XP_001636912.2 unnamed protein product                     61.2    1e-10 
+Myessoensis.XP_021367509.1 unnamed protein product                    61.6    1e-10 
+Nvectensis.XP_001634166.2 unnamed protein product                     61.6    1e-10 
+Aplanci.XP_022101934.1 unnamed protein product                        61.6    2e-10 
+Bbelcheri.XP_019643257.1 unnamed protein product                      62.4    2e-10 
+Aplanci.XP_022098281.1 unnamed protein product                        61.6    2e-10 
+Nvectensis.XP_001623896.2 unnamed protein product                     61.2    2e-10 
+Aplanci.XP_022082823.1 unnamed protein product                        60.8    2e-10 
+Dgigantea.XP_028401288.1 unnamed protein product                      61.2    2e-10 
+Hvulgaris.XP_012565729.1 unnamed protein product                      60.8    2e-10 
+Hsapiens.NP_001263380.1 dorsal root ganglia homeobox protein          60.8    2e-10 
+Myessoensis.XP_021371762.1 unnamed protein product                    60.5    2e-10 
+Dgigantea.XP_028411009.1 unnamed protein product                      60.5    2e-10 
+Myessoensis.XP_021357195.1 unnamed protein product                    61.6    2e-10 
+Dgigantea.XP_028394232.1 unnamed protein product                      60.8    2e-10 
+Aplanci.XP_022084482.1 unnamed protein product                        61.2    2e-10 
+Aplanci.XP_022106331.1 unnamed protein product                        61.6    2e-10 
+Bbelcheri.XP_019614417.1 unnamed protein product                      60.5    2e-10 
+Hsapiens.NP_068745.2 homeobox protein aristaless-like 4               61.2    2e-10 
+Nvectensis.XP_032222727.1 unnamed protein product                     60.1    3e-10 
+Bbelcheri.XP_019643513.1 unnamed protein product                      59.7    3e-10 
+Hvulgaris.XP_002163770.1 unnamed protein product                      59.7    3e-10 
+Nvectensis.XP_032222102.1 unnamed protein product                     60.1    3e-10 
+Aplanci.XP_022088207.1 unnamed protein product                        61.2    3e-10 
+Myessoensis.XP_021371970.1 unnamed protein product                    60.8    3e-10 
+Hsapiens.NP_001073930.1 homeobox protein unc-4 homolog                61.2    3e-10 
+Dgigantea.XP_028391264.1 unnamed protein product                      59.7    3e-10 
+Aplanci.XP_022088259.1 unnamed protein product                        60.8    3e-10 
+Bbelcheri.XP_019632104.1 unnamed protein product                      60.1    3e-10 
+Nvectensis.XP_032225902.1 unnamed protein product                     60.1    3e-10 
+Myessoensis.XP_021372232.1 unnamed protein product                    60.8    4e-10 
+Dgigantea.XP_028403135.1 unnamed protein product                      60.1    4e-10 
+Nvectensis.XP_001639214.2 unnamed protein product                     59.7    4e-10 
+Hsapiens.NP_004396.1 homeobox protein DLX-2                           60.5    4e-10 
+Aplanci.XP_022099290.1 unnamed protein product                        60.8    4e-10 
+Dgigantea.XP_028407301.1 unnamed protein product                      60.5    4e-10 
+Dgigantea.XP_028391596.1 unnamed protein product                      58.5    4e-10 
+Aplanci.XP_022081421.1 unnamed protein product                        60.5    4e-10 
+Nvectensis.XP_001626048.1 unnamed protein product                     59.7    4e-10 
+Myessoensis.XP_021349125.1 unnamed protein product                    60.1    4e-10 
+Myessoensis.XP_021374886.1 unnamed protein product                    60.1    4e-10 
+Hsapiens.NP_835221.2 homeobox protein DLX-1 isoform 1                 59.7    5e-10 
+Nvectensis.XP_032239554.1 unnamed protein product                     58.9    5e-10 
+Hsapiens.NP_612138.1 homeobox protein DLX-4 isoform a                 59.3    6e-10 
+Dgigantea.XP_028393373.1 unnamed protein product                      58.9    6e-10 
+Myessoensis.XP_021352498.1 unnamed protein product                    60.1    7e-10 
+Dgigantea.XP_028401359.1 unnamed protein product                      59.7    7e-10 
+Bbelcheri.XP_019631766.1 unnamed protein product                      59.3    7e-10 
+Bbelcheri.XP_019635394.1 unnamed protein product                      59.7    7e-10 
+Nvectensis.XP_001631223.2 unnamed protein product                     59.7    7e-10 
+Hsapiens.NP_008913.2 ALX homeobox protein 1                           59.7    7e-10 
+Dgigantea.XP_028416487.1 unnamed protein product                      59.7    7e-10 
+Hsapiens.NP_001355823.1 paired box protein Pax-6 isoform b            60.1    7e-10 
+Dgigantea.XP_028411240.1 unnamed protein product                      59.3    7e-10 
+Hsapiens.NP_005211.1 homeobox protein DLX-3                           59.3    7e-10 
+Aplanci.XP_022086447.1 unnamed protein product                        59.7    8e-10 
+Aplanci.XP_022112112.1 unnamed protein product                        59.7    8e-10 
+Hsapiens.NP_055403.2 visual system homeobox 1 isoform a               59.7    8e-10 
+Myessoensis.XP_021360300.1 unnamed protein product                    59.3    8e-10 
+Dgigantea.XP_028391464.1 unnamed protein product                      58.9    9e-10 
+Aplanci.XP_022087667.1 unnamed protein product                        59.3    9e-10 
+Aplanci.XP_022088377.1 unnamed protein product                        59.7    9e-10 
+Hvulgaris.XP_002156512.1 unnamed protein product                      59.3    9e-10 
+Myessoensis.XP_021350503.1 unnamed protein product                    59.3    1e-09 
+Hsapiens.NP_001306003.2 retina and anterior neural fold homeobox ...  57.8    1e-09 
+Bbelcheri.XP_019616951.1 unnamed protein product                      58.9    1e-09 
+Nvectensis.XP_032230755.1 unnamed protein product                     58.5    1e-09 
+Hsapiens.NP_776248.1 homeobox protein goosecoid                       58.5    1e-09 
+Nvectensis.XP_001639151.1 unnamed protein product                     59.3    1e-09 
+Dgigantea.XP_028391591.1 unnamed protein product                      58.2    1e-09 
+Aplanci.XP_022099671.1 unnamed protein product                        59.3    1e-09 
+Bbelcheri.XP_019626662.1 unnamed protein product                      58.5    1e-09 
+Hsapiens.NP_660328.2 homeobox protein Nkx-2.3                         58.9    1e-09 
+Hsapiens.NP_055283.1 homeobox protein VENTX                           58.5    1e-09 
+Hsapiens.NP_703149.1 homeobox protein ESX1                            58.9    1e-09 
+Nvectensis.XP_032219241.1 unnamed protein product                     58.2    1e-09 
+Nvectensis.XP_032218237.1 unnamed protein product                     58.2    1e-09 
+Nvectensis.XP_032219811.1 unnamed protein product                     58.9    2e-09 
+Aplanci.XP_022083906.1 unnamed protein product                        58.2    2e-09 
+Dgigantea.XP_028394894.1 unnamed protein product                      57.4    2e-09 
+Dgigantea.XP_028392026.1 unnamed protein product                      57.8    2e-09 
+Hsapiens.NP_038463.2 retinal homeobox protein Rx                      58.5    2e-09 
+Aplanci.XP_022093535.1 unnamed protein product                        58.5    2e-09 
+Hsapiens.NP_001128726.1 paired box protein Pax-7 isoform 3            58.9    2e-09 
+Dgigantea.XP_028410530.1 unnamed protein product                      58.5    2e-09 
+Nvectensis.XP_001636909.2 unnamed protein product                     58.2    2e-09 
+Bbelcheri.XP_019637329.1 unnamed protein product                      58.5    2e-09 
+Bbelcheri.XP_019623418.1 unnamed protein product                      58.2    2e-09 
+Myessoensis.XP_021372253.1 unnamed protein product                    58.2    2e-09 
+Bbelcheri.XP_019643939.1 unnamed protein product                      58.2    2e-09 
+Bbelcheri.XP_019639841.1 unnamed protein product                      58.2    2e-09 
+Hsapiens.NP_006483.2 homeobox protein aristaless-like 3               58.2    2e-09 
+Hsapiens.NP_005212.1 homeobox protein DLX-5                           58.2    2e-09 
+Hsapiens.NP_005160.2 paired mesoderm homeobox protein 2A              57.8    3e-09 
+Bbelcheri.XP_019639844.1 unnamed protein product                      57.8    3e-09 
+Aplanci.XP_022087669.1 unnamed protein product                        57.8    3e-09 
+Nvectensis.XP_001631425.2 unnamed protein product                     57.8    3e-09 
+Bbelcheri.XP_019646148.1 unnamed protein product                      57.8    3e-09 
+Dgigantea.XP_028402933.1 unnamed protein product                      58.2    3e-09 
+Myessoensis.XP_021345183.1 unnamed protein product                    58.2    3e-09 
+Nvectensis.XP_032239586.1 unnamed protein product                     57.4    3e-09 
+Nvectensis.XP_032235614.1 unnamed protein product                     57.8    3e-09 
+Hvulgaris.XP_002168027.1 unnamed protein product                      57.8    3e-09 
+Hsapiens.NP_003915.2 paired mesoderm homeobox protein 2B              57.8    3e-09 
+Bbelcheri.XP_019639893.1 unnamed protein product                      58.2    4e-09 
+Dgigantea.XP_028403345.1 unnamed protein product                      57.4    4e-09 
+Myessoensis.XP_021379552.1 unnamed protein product                    57.8    4e-09 
+Dgigantea.XP_028418907.1 unnamed protein product                      57.4    4e-09 
+Myessoensis.XP_021350326.1 unnamed protein product                    57.8    4e-09 
+Bbelcheri.XP_019637326.1 unnamed protein product                      57.8    4e-09 
+Dgigantea.XP_028397731.1 unnamed protein product                      57.4    4e-09 
+Hvulgaris.XP_002164986.2 unnamed protein product                      57.0    4e-09 
+Hsapiens.NP_852123.1 paired box protein Pax-3 isoform PAX3d           57.8    4e-09 
+Nvectensis.XP_001634818.2 unnamed protein product                     57.0    4e-09 
+Aplanci.XP_022105055.1 unnamed protein product                        57.4    4e-09 
+Myessoensis.XP_021378163.1 unnamed protein product                    56.6    5e-09 
+Hsapiens.NP_001025036.2 homeobox protein DBX1                         57.4    5e-09 
+Bbelcheri.XP_019623647.1 unnamed protein product                      57.0    5e-09 
+Hsapiens.NP_005213.3 homeobox protein DLX-6                           57.0    5e-09 
+Bbelcheri.XP_019642587.1 unnamed protein product                      56.6    6e-09 
+Bbelcheri.XP_019634889.1 unnamed protein product                      57.0    6e-09 
+Hsapiens.NP_004378.1 homeobox protein Nkx-2.5 isoform 1               57.0    6e-09 
+Nvectensis.XP_001628685.2 unnamed protein product                     57.0    6e-09 
+Nvectensis.XP_032229509.1 unnamed protein product                     56.2    7e-09 
+Hvulgaris.XP_004209529.2 unnamed protein product                      56.2    9e-09 
+Hsapiens.NP_005306.1 homeobox protein goosecoid-2                     55.5    9e-09 
+Hvulgaris.XP_002160235.2 unnamed protein product                      56.2    9e-09 
+Hsapiens.NP_149416.1 homeobox protein Nkx-2.4                         56.6    1e-08 
+Nvectensis.XP_001635006.1 unnamed protein product                     55.5    1e-08 
+Hsapiens.NP_001073136.1 homeobox protein Nkx-2.1 isoform 1            56.6    1e-08 
+Hsapiens.NP_001353039.1 paired box protein Pax-4 isoform 1            56.2    1e-08 
+Aplanci.XP_022107182.1 unnamed protein product                        53.5    1e-08 
+Aplanci.XP_022087650.1 unnamed protein product                        56.2    1e-08 
+Hsapiens.NP_055175.2 homeobox protein Nkx-2.8                         55.5    1e-08 
+Nvectensis.XP_032235237.1 unnamed protein product                     56.2    1e-08 
+Bbelcheri.XP_019616950.1 unnamed protein product                      55.8    1e-08 
+Nvectensis.XP_001626047.2 unnamed protein product                     55.8    1e-08 
+Myessoensis.XP_021380363.1 unnamed protein product                    56.2    1e-08 
+Aplanci.XP_022092302.1 unnamed protein product                        56.2    1e-08 
+Bbelcheri.XP_019642616.1 unnamed protein product                      56.2    1e-08 
+Myessoensis.XP_021350368.1 unnamed protein product                    55.8    1e-08 
+Aplanci.XP_022106689.1 unnamed protein product                        56.2    2e-08 
+Hvulgaris.XP_002153848.3 unnamed protein product                      55.5    2e-08 
+Bbelcheri.XP_019648010.1 unnamed protein product                      55.8    2e-08 
+Myessoensis.XP_021341387.1 unnamed protein product                    55.8    2e-08 
+Myessoensis.XP_021347269.1 unnamed protein product                    55.5    2e-08 
+Nvectensis.XP_001634210.2 unnamed protein product                     55.1    2e-08 
+Hvulgaris.XP_012558124.1 unnamed protein product                      55.1    2e-08 
+Myessoensis.XP_021349473.1 unnamed protein product                    55.5    2e-08 
+Nvectensis.XP_001635065.2 unnamed protein product                     54.7    3e-08 
+Dgigantea.XP_028399111.1 unnamed protein product                      55.1    3e-08 
+Myessoensis.XP_021368362.1 unnamed protein product                    54.7    3e-08 
+Dgigantea.XP_028410334.1 unnamed protein product                      54.3    3e-08 
+Aplanci.XP_022084154.1 unnamed protein product                        53.5    4e-08 
+Dgigantea.XP_028409083.1 unnamed protein product                      53.9    4e-08 
+Hsapiens.NP_001157150.1 short stature homeobox protein 2 isoform c    54.7    4e-08 
+Nvectensis.XP_001632418.1 unnamed protein product                     54.3    5e-08 
+Dgigantea.XP_028391223.1 unnamed protein product                      53.5    5e-08 
+Myessoensis.XP_021351988.1 unnamed protein product                    54.3    5e-08 
+Hsapiens.NP_757379.1 diencephalon/mesencephalon homeobox protein ...  54.3    6e-08 
+Aplanci.XP_022106679.1 unnamed protein product                        54.3    6e-08 
+Dgigantea.XP_028416490.1 unnamed protein product                      53.1    6e-08 
+Hvulgaris.XP_002165604.2 unnamed protein product                      53.5    6e-08 
+Bbelcheri.XP_019627257.1 unnamed protein product                      54.3    6e-08 
+Hsapiens.NP_000442.1 short stature homeobox protein isoform SHOXa     53.9    7e-08 
+Dgigantea.XP_028408931.1 unnamed protein product                      52.8    7e-08 
+Aplanci.XP_022101181.1 unnamed protein product                        54.3    8e-08 
+Bbelcheri.XP_019647989.1 unnamed protein product                      53.5    8e-08 
+Aplanci.XP_022087657.1 unnamed protein product                        53.5    9e-08 
+Bbelcheri.XP_019643466.1 unnamed protein product                      53.1    9e-08 
+Nvectensis.XP_032229508.1 unnamed protein product                     52.8    9e-08 
+Nvectensis.XP_032222556.1 unnamed protein product                     52.8    9e-08 
+Dgigantea.XP_028393145.1 unnamed protein product                      52.8    1e-07 
+Myessoensis.XP_021341541.1 unnamed protein product                    53.5    1e-07 
+Aplanci.XP_022092310.1 unnamed protein product                        53.1    1e-07 
+Nvectensis.XP_001623996.1 unnamed protein product                     52.8    1e-07 
+Myessoensis.XP_021350497.1 unnamed protein product                    53.1    1e-07 
+Nvectensis.XP_032218270.1 unnamed protein product                     52.8    1e-07 
+Hvulgaris.XP_002161581.1 unnamed protein product                      53.1    1e-07 
+Hvulgaris.XP_002162903.1 unnamed protein product                      52.8    1e-07 
+Dgigantea.XP_028395634.1 unnamed protein product                      53.1    1e-07 
+Nvectensis.XP_001627594.2 unnamed protein product                     53.5    1e-07 
+Myessoensis.XP_021364914.1 unnamed protein product                    53.1    2e-07 
+
+
+>Nvectensis.XP_001634249.2 unnamed protein product
+Length=210
+
+ Score = 437 bits (1124),  Expect = 3e-158, Method: Compositional matrix adjust.
+ Identities = 210/210 (100%), Positives = 210/210 (100%), Gaps = 0/210 (0%)
+
+Query  1    MDMSGPYKSPVINKTYPSSETMLWSSPPRLAHLNSCLYTQPRKSLYTYGEGERANEILQG  60
+            MDMSGPYKSPVINKTYPSSETMLWSSPPRLAHLNSCLYTQPRKSLYTYGEGERANEILQG
+Sbjct  1    MDMSGPYKSPVINKTYPSSETMLWSSPPRLAHLNSCLYTQPRKSLYTYGEGERANEILQG  60
+
+Query  61   EHSSRPNYSYPVPNENQGSQSEPITQHLLDPIYPWMKPKKGGKNHFAFVRESKRHRTSYT  120
+            EHSSRPNYSYPVPNENQGSQSEPITQHLLDPIYPWMKPKKGGKNHFAFVRESKRHRTSYT
+Sbjct  61   EHSSRPNYSYPVPNENQGSQSEPITQHLLDPIYPWMKPKKGGKNHFAFVRESKRHRTSYT  120
+
+Query  121  NKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEKQKTEDCYS  180
+            NKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEKQKTEDCYS
+Sbjct  121  NKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEKQKTEDCYS  180
+
+Query  181  AHQENIEEIPLSSALAPLYIPNSRSACLHS  210
+            AHQENIEEIPLSSALAPLYIPNSRSACLHS
+Sbjct  181  AHQENIEEIPLSSALAPLYIPNSRSACLHS  210
+
+
+>Nvectensis.XP_032239568.1 unnamed protein product
+Length=185
+
+ Score = 201 bits (510),  Expect = 5e-65, Method: Compositional matrix adjust.
+ Identities = 99/117 (85%), Positives = 101/117 (86%), Gaps = 1/117 (1%)
+
+Query  88   LLDPIYPWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISK  147
+            LL+PIYPWMKPKKG  N   FVR SKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISK
+Sbjct  67   LLEPIYPWMKPKKGEANQLRFVRSSKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISK  126
+
+Query  148  ALQLTERQVKIWFQNRRMKWKKDEKQKTEDCYSAHQENIEEIPLSSALAPLYIPNSR  204
+            ALQLTERQVKIWFQNRRMKWKKDEKQKTEDCYSA Q NIEEIP  S L P  I + R
+Sbjct  127  ALQLTERQVKIWFQNRRMKWKKDEKQKTEDCYSAQQYNIEEIPFLS-LTPFEISSIR  182
+
+
+>Nvectensis.XP_001634248.1 unnamed protein product
+Length=231
+
+ Score = 138 bits (348),  Expect = 5e-40, Method: Compositional matrix adjust.
+ Identities = 76/142 (54%), Positives = 96/142 (68%), Gaps = 8/142 (6%)
+
+Query  60   GEHSSRPNYSYPVPNENQGSQSEPITQHLLDPIYPWMKPKKGGKNHFAFVRESKRHRTSY  119
+            G     P  S PV + N+    E +  +LL PIYPWM+ KK G       + +KR+RTSY
+Sbjct  52   GRDFDGPIGSIPVGSSNR----ESLPNYLLQPIYPWMRTKKSGSRGIG-GKHTKRYRTSY  106
+
+Query  120  TNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEKQKTEDCY  179
+            TN+QLLELEKEFH+NKYLC +RRRE++ A++LTERQVK+WFQNRRMK KKDEKQK ED  
+Sbjct  107  TNRQLLELEKEFHYNKYLCGTRRRELANAMKLTERQVKVWFQNRRMKLKKDEKQK-EDGP  165
+
+Query  180  SA--HQENIEEIPLSSALAPLY  199
+            SA    + ++ +P    L P Y
+Sbjct  166  SAFPDYDVMKSLPRLPRLLPTY  187
+
+
+>Bbelcheri.XP_019632224.1 unnamed protein product
+Length=379
+
+ Score = 110 bits (275),  Expect = 6e-28, Method: Compositional matrix adjust.
+ Identities = 54/85 (64%), Positives = 64/85 (75%), Gaps = 2/85 (2%)
+
+Query  91   PIYPWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQ  150
+            P+YPWM+  K   NH A   ++KR RT+YT  Q LELEKEFHFN+YL   RR EI+ AL 
+Sbjct  283  PMYPWMR--KIHLNHSAGTGDNKRTRTAYTRYQTLELEKEFHFNRYLTRRRRIEIAHALC  340
+
+Query  151  LTERQVKIWFQNRRMKWKKDEKQKT  175
+            LTERQ+KIWFQNRRMKWKK+ K K+
+Sbjct  341  LTERQIKIWFQNRRMKWKKENKLKS  365
+
+
+>Myessoensis.XP_021345157.1 unnamed protein product
+Length=262
+
+ Score = 107 bits (268),  Expect = 8e-28, Method: Compositional matrix adjust.
+ Identities = 55/100 (55%), Positives = 69/100 (69%), Gaps = 13/100 (13%)
+
+Query  77   QGSQSEPITQHLLDPIYPWMKPKKG----GKNHFAFVRESKRHRTSYTNKQLLELEKEFH  132
+            Q S  +P+       IYPWM+  +G    G N+   + ESKR+RT+YT  Q+LELEKEFH
+Sbjct  136  QDSDGQPV-------IYPWMRKSQGNNPSGNNNI--ISESKRNRTAYTRHQILELEKEFH  186
+
+Query  133  FNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            FN+YL   RR EI+  L L+ERQ+KIWFQNRRMKWKK+ K
+Sbjct  187  FNRYLTRRRRIEIAHTLCLSERQIKIWFQNRRMKWKKEHK  226
+
+
+>Aplanci.XP_022082157.1 unnamed protein product
+Length=267
+
+ Score = 107 bits (268),  Expect = 9e-28, Method: Compositional matrix adjust.
+ Identities = 53/85 (62%), Positives = 65/85 (76%), Gaps = 6/85 (7%)
+
+Query  91   PIYPWMK-----PKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREI  145
+            P+YPWMK     P  G +   + V ++KR RTSYT +QLLELEKEFHFN+YL   RR EI
+Sbjct  137  PLYPWMKRIHVNPAVGSRLSASGV-DTKRTRTSYTRQQLLELEKEFHFNRYLTRRRRIEI  195
+
+Query  146  SKALQLTERQVKIWFQNRRMKWKKD  170
+            +++L L+ERQ+KIWFQNRRMKWKKD
+Sbjct  196  AQSLGLSERQIKIWFQNRRMKWKKD  220
+
+
+>Myessoensis.XP_021345158.1 unnamed protein product
+Length=281
+
+ Score = 107 bits (267),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 59/98 (60%), Positives = 67/98 (68%), Gaps = 3/98 (3%)
+
+Query  76   NQGSQS-EPITQHLLDPIYPWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFN  134
+            NQ  QS  P  Q+    IYPWM+  +  + +     ESKR RTSYT  Q LELEKEFH+N
+Sbjct  159  NQAPQSPRPTDQYTPPHIYPWMRRMQYSQENADG--ESKRSRTSYTRHQTLELEKEFHYN  216
+
+Query  135  KYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            KYL   RR EI+ AL LTERQ+KIWFQNRRMKWKKD K
+Sbjct  217  KYLTRRRRIEIAHALNLTERQIKIWFQNRRMKWKKDHK  254
+
+
+>Bbelcheri.XP_019632171.1 unnamed protein product
+Length=279
+
+ Score = 106 bits (265),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 49/82 (60%), Positives = 62/82 (76%), Gaps = 1/82 (1%)
+
+Query  92   IYPWMKPKKGGKNHFAF-VRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQ  150
+            +YPWMK         ++  ++SKR RT+YT +Q+LELEKEFHFN+YL   RR EI+ +L 
+Sbjct  154  VYPWMKKVHSNTGSTSYNGQDSKRSRTAYTRQQVLELEKEFHFNRYLTRRRRIEIAHSLG  213
+
+Query  151  LTERQVKIWFQNRRMKWKKDEK  172
+            LTERQ+KIWFQNRRMKWKKD +
+Sbjct  214  LTERQIKIWFQNRRMKWKKDNR  235
+
+
+>Hsapiens.NP_061826.1 homeobox protein Hox-C5
+Length=222
+
+ Score = 104 bits (260),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 52/87 (60%), Positives = 60/87 (69%), Gaps = 5/87 (6%)
+
+Query  92   IYPWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQL  151
+            IYPWM      K H +   + KR RTSYT  Q LELEKEFHFN+YL   RR EI+  L L
+Sbjct  140  IYPWMT-----KLHMSHETDGKRSRTSYTRYQTLELEKEFHFNRYLTRRRRIEIANNLCL  194
+
+Query  152  TERQVKIWFQNRRMKWKKDEKQKTEDC  178
+             ERQ+KIWFQNRRMKWKKD K K+++ 
+Sbjct  195  NERQIKIWFQNRRMKWKKDSKMKSKEA  221
+
+
+>Bbelcheri.XP_019632226.1 unnamed protein product
+Length=227
+
+ Score = 105 bits (261),  Expect = 5e-27, Method: Compositional matrix adjust.
+ Identities = 55/110 (50%), Positives = 68/110 (62%), Gaps = 6/110 (5%)
+
+Query  77   QGSQSEPITQHL---LDPIYPWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHF  133
+            QGS    +   L     P++PWM+    G +  A   E KR R +YT  Q LELEKEFHF
+Sbjct  99   QGSPGSTVGAQLPQPTPPVFPWMRK---GSSQSAMGEEKKRGRQTYTRYQTLELEKEFHF  155
+
+Query  134  NKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEKQKTEDCYSAHQ  183
+            NKYL   RR EI+  L LTERQ+KIWFQNRRMKWKK+ K  + +  + +Q
+Sbjct  156  NKYLTRKRRIEIAHLLGLTERQIKIWFQNRRMKWKKENKIPSLNATTINQ  205
+
+
+>Bbelcheri.XP_019632225.1 unnamed protein product
+Length=236
+
+ Score = 105 bits (261),  Expect = 6e-27, Method: Compositional matrix adjust.
+ Identities = 52/88 (59%), Positives = 59/88 (67%), Gaps = 9/88 (10%)
+
+Query  85   TQHLLDPIYPWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRRE  144
+            T  +  PIYPWM+         +   E KR R +YT  Q LELEKEFHFNKYL   RR E
+Sbjct  140  TAQMTTPIYPWMR---------STAPERKRGRQTYTRYQTLELEKEFHFNKYLTRRRRIE  190
+
+Query  145  ISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            I+ AL LTERQ+KIWFQNRRMKWKK+ K
+Sbjct  191  IAHALCLTERQIKIWFQNRRMKWKKENK  218
+
+
+>Hsapiens.NP_002132.3 homeobox protein Hox-A4
+Length=320
+
+ Score = 105 bits (262),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 53/87 (61%), Positives = 61/87 (70%), Gaps = 11/87 (13%)
+
+Query  92   IYPWMKPKKGGKNHFAFVR------ESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREI  145
+            +YPWMK     K H + V       E KR RT+YT +Q+LELEKEFHFN+YL   RR EI
+Sbjct  194  VYPWMK-----KIHVSAVNPSYNGGEPKRSRTAYTRQQVLELEKEFHFNRYLTRRRRIEI  248
+
+Query  146  SKALQLTERQVKIWFQNRRMKWKKDEK  172
+            +  L L+ERQVKIWFQNRRMKWKKD K
+Sbjct  249  AHTLCLSERQVKIWFQNRRMKWKKDHK  275
+
+
+>Hsapiens.NP_061975.2 homeobox protein Hox-A5
+Length=270
+
+ Score = 104 bits (259),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 60/110 (55%), Positives = 70/110 (64%), Gaps = 10/110 (9%)
+
+Query  71   PVPNENQGSQSEPITQHLLDP-IYPWMKPKKGGKNHFAFVR----ESKRHRTSYTNKQLL  125
+            P  +E   +QSEP       P IYPWM+     K H +       E KR RT+YT  Q L
+Sbjct  154  PASSEQASAQSEPSPAPPAQPQIYPWMR-----KLHISHDNIGGPEGKRARTAYTRYQTL  208
+
+Query  126  ELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEKQKT  175
+            ELEKEFHFN+YL   RR EI+ AL L+ERQ+KIWFQNRRMKWKKD K K+
+Sbjct  209  ELEKEFHFNRYLTRRRRIEIAHALCLSERQIKIWFQNRRMKWKKDNKLKS  258
+
+
+>Hsapiens.NP_002138.1 homeobox protein Hox-B5
+Length=269
+
+ Score = 103 bits (258),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 56/109 (51%), Positives = 69/109 (63%), Gaps = 8/109 (7%)
+
+Query  79   SQSEPITQHLLDP------IYPWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFH  132
+            +Q EP+      P      I+PWM+  K   +H     + KR RT+YT  Q LELEKEFH
+Sbjct  157  AQPEPMATSTAAPEGQTPQIFPWMR--KLHISHDMTGPDGKRARTAYTRYQTLELEKEFH  214
+
+Query  133  FNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEKQKTEDCYSA  181
+            FN+YL   RR EI+ AL L+ERQ+KIWFQNRRMKWKKD K K+    +A
+Sbjct  215  FNRYLTRRRRIEIAHALCLSERQIKIWFQNRRMKWKKDNKLKSMSLATA  263
+
+
+>Hsapiens.NP_008829.3 homeobox protein Hox-D3
+Length=432
+
+ Score = 106 bits (265),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 59/119 (50%), Positives = 70/119 (59%), Gaps = 14/119 (12%)
+
+Query  92   IYPWMKPKKGG---KNHFAFVRES-----------KRHRTSYTNKQLLELEKEFHFNKYL  137
+            I+PWMK  +     KN  A   ES           KR RT+YT+ QL+ELEKEFHFN+YL
+Sbjct  160  IFPWMKESRQNSKQKNSCATAGESCEDKSPPGPASKRVRTAYTSAQLVELEKEFHFNRYL  219
+
+Query  138  CSSRRREISKALQLTERQVKIWFQNRRMKWKKDEKQKTEDCYSAHQENIEEIPLSSALA  196
+            C  RR E++  L LTERQ+KIWFQNRRMK+KKD+K K      A Q      PL  A  
+Sbjct  220  CRPRRVEMANLLNLTERQIKIWFQNRRMKYKKDQKAKGILHSPASQSPERSPPLGGAAG  278
+
+
+>Myessoensis.XP_021345143.1 unnamed protein product
+Length=299
+
+ Score = 103 bits (257),  Expect = 6e-26, Method: Compositional matrix adjust.
+ Identities = 51/81 (63%), Positives = 60/81 (74%), Gaps = 2/81 (2%)
+
+Query  92   IYPWMKPK-KGGKNHFAFVR-ESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKAL  149
+            +YPWM+    GG N+FA V  E KR R +YT  Q LELEKEFH+N+YL   RR EI+  L
+Sbjct  183  VYPWMRAAVNGGFNYFAEVTYEQKRTRQTYTRYQTLELEKEFHYNRYLTRRRRIEIAHLL  242
+
+Query  150  QLTERQVKIWFQNRRMKWKKD  170
+             LTERQ+KIWFQNRRMKWKK+
+Sbjct  243  GLTERQIKIWFQNRRMKWKKE  263
+
+
+>Hsapiens.NP_705895.1 homeobox protein Hox-A3
+Length=443
+
+ Score = 105 bits (261),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 51/99 (52%), Positives = 62/99 (63%), Gaps = 16/99 (16%)
+
+Query  92   IYPWMKPKK----------------GGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNK  135
+            I+PWMK  +                 G         SKR RT+YT+ QL+ELEKEFHFN+
+Sbjct  155  IFPWMKESRQNTKQKTSSSSSGESCAGDKSPPGQASSKRARTAYTSAQLVELEKEFHFNR  214
+
+Query  136  YLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEKQK  174
+            YLC  RR E++  L LTERQ+KIWFQNRRMK+KKD+K K
+Sbjct  215  YLCRPRRVEMANLLNLTERQIKIWFQNRRMKYKKDQKGK  253
+
+
+>Hsapiens.NP_061825.2 homeobox protein Hox-B6
+Length=224
+
+ Score = 100 bits (250),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 49/87 (56%), Positives = 60/87 (69%), Gaps = 1/87 (1%)
+
+Query  86   QHLLDPIYPWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREI  145
+            Q    P+YPWM+ +    N  +F    +R R +YT  Q LELEKEFH+N+YL   RR EI
+Sbjct  121  QKCSTPVYPWMQ-RMNSCNSSSFGPSGRRGRQTYTRYQTLELEKEFHYNRYLTRRRRIEI  179
+
+Query  146  SKALQLTERQVKIWFQNRRMKWKKDEK  172
+            + AL LTERQ+KIWFQNRRMKWKK+ K
+Sbjct  180  AHALCLTERQIKIWFQNRRMKWKKESK  206
+
+
+>Hsapiens.NP_055436.2 homeobox protein Hox-D4
+Length=255
+
+ Score = 101 bits (252),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 52/87 (60%), Positives = 60/87 (69%), Gaps = 11/87 (13%)
+
+Query  92   IYPWMKPKKGGKNHFAFVR------ESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREI  145
+            +YPWMK     K H   V       E KR RT+YT +Q+LELEKEFHFN+YL   RR EI
+Sbjct  133  VYPWMK-----KVHVNSVNPNYTGGEPKRSRTAYTRQQVLELEKEFHFNRYLTRRRRIEI  187
+
+Query  146  SKALQLTERQVKIWFQNRRMKWKKDEK  172
+            +  L L+ERQ+KIWFQNRRMKWKKD K
+Sbjct  188  AHTLCLSERQIKIWFQNRRMKWKKDHK  214
+
+
+>Myessoensis.XP_021356577.1 unnamed protein product
+Length=315
+
+ Score = 102 bits (255),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 49/91 (54%), Positives = 60/91 (66%), Gaps = 9/91 (10%)
+
+Query  93   YPWMKPKKGGKNH---------FAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRR  143
+            +PWMK  K   +          F    ++KR RT+YT  QLLELEKEFHFNKY+   RR 
+Sbjct  152  FPWMKTTKSHAHQWKAQWPGAQFPIEDDNKRTRTAYTRGQLLELEKEFHFNKYISRPRRI  211
+
+Query  144  EISKALQLTERQVKIWFQNRRMKWKKDEKQK  174
+            E++  L LTER +KIWFQNRRMKWKKDE ++
+Sbjct  212  ELAAMLNLTERHIKIWFQNRRMKWKKDEAKR  242
+
+
+>Aplanci.XP_022108014.1 unnamed protein product
+Length=370
+
+ Score = 103 bits (257),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 48/84 (57%), Positives = 60/84 (71%), Gaps = 0/84 (0%)
+
+Query  106  FAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRM  165
+            F    E+KR RT+YT  QLLELEKEFHFNKY+   RR E++  L LTER +KIWFQNRRM
+Sbjct  222  FVDFDENKRTRTAYTRGQLLELEKEFHFNKYISRPRRIELAAMLNLTERHIKIWFQNRRM  281
+
+Query  166  KWKKDEKQKTEDCYSAHQENIEEI  189
+            KWKK+E ++      A +E+ +EI
+Sbjct  282  KWKKEEAKRRPSGGKAEKEDGDEI  305
+
+
+>Hsapiens.NP_076920.1 homeobox protein Hox-B4
+Length=251
+
+ Score = 100 bits (250),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 54/106 (51%), Positives = 69/106 (65%), Gaps = 18/106 (17%)
+
+Query  73   PNENQGSQSEPITQHLLDPIYPWMKPKKGGKNHFAFVR------ESKRHRTSYTNKQLLE  126
+            P+ +  +  EP+       +YPWM+     K H + V       E KR RT+YT +Q+LE
+Sbjct  129  PSPSHSACKEPV-------VYPWMR-----KVHVSTVNPNYAGGEPKRSRTAYTRQQVLE  176
+
+Query  127  LEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            LEKEFH+N+YL   RR EI+ AL L+ERQ+KIWFQNRRMKWKKD K
+Sbjct  177  LEKEFHYNRYLTRRRRVEIAHALCLSERQIKIWFQNRRMKWKKDHK  222
+
+
+>Hsapiens.NP_705897.1 homeobox protein Hox-C4
+Length=264
+
+ Score = 100 bits (250),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 58/121 (48%), Positives = 73/121 (60%), Gaps = 11/121 (9%)
+
+Query  92   IYPWMKPKKGGKNHFAFVR------ESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREI  145
+            +YPWMK     K H + V       E KR RT+YT +Q+LELEKEFH+N+YL   RR EI
+Sbjct  135  VYPWMK-----KIHVSTVNPNYNGGEPKRSRTAYTRQQVLELEKEFHYNRYLTRRRRIEI  189
+
+Query  146  SKALQLTERQVKIWFQNRRMKWKKDEKQKTEDCYSAHQENIEEIPLSSALAPLYIPNSRS  205
+            + +L L+ERQ+KIWFQNRRMKWKKD +       SA         LS+A       +S+S
+Sbjct  190  AHSLCLSERQIKIWFQNRRMKWKKDHRLPNTKVRSAPPAGAAPSTLSAATPGTSEDHSQS  249
+
+Query  206  A  206
+            A
+Sbjct  250  A  250
+
+
+>Hsapiens.NP_001371678.1 homeobox protein Hox-B3 isoform 1
+Length=431
+
+ Score = 103 bits (257),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 44/63 (70%), Positives = 54/63 (86%), Gaps = 0/63 (0%)
+
+Query  112  SKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDE  171
+            SKR RT+YT+ QL+ELEKEFHFN+YLC  RR E++  L L+ERQ+KIWFQNRRMK+KKD+
+Sbjct  188  SKRARTAYTSAQLVELEKEFHFNRYLCRPRRVEMANLLNLSERQIKIWFQNRRMKYKKDQ  247
+
+Query  172  KQK  174
+            K K
+Sbjct  248  KAK  250
+
+
+>Aplanci.XP_022082122.1 unnamed protein product
+Length=254
+
+ Score = 100 bits (249),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 50/86 (58%), Positives = 59/86 (69%), Gaps = 2/86 (2%)
+
+Query  92   IYPWMKP--KKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKAL  149
+            IYPWM+        +    +  SKR RT+YT  Q LELEKEFHFN+YL   RR EI+ AL
+Sbjct  144  IYPWMRRIHSNTAVSQTNGLEPSKRSRTAYTRYQTLELEKEFHFNRYLTRRRRIEIAHAL  203
+
+Query  150  QLTERQVKIWFQNRRMKWKKDEKQKT  175
+             LTERQ+KIWFQNRRMKWKK+   K+
+Sbjct  204  GLTERQIKIWFQNRRMKWKKEHNVKS  229
+
+
+>Hsapiens.NP_008827.2 homeobox protein Hox-A7
+Length=230
+
+ Score = 99.8 bits (247),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 62/153 (41%), Positives = 76/153 (50%), Gaps = 12/153 (8%)
+
+Query  25   SSPPRLAHLNSCLYTQPRKSLYTYGEGERANEILQGEHSSRPNYSYPVPNENQGSQSEPI  84
+            S+ P L ++NS LY  P  S Y  G     N        + P     +         E  
+Sbjct  49   STVPGLYNVNSPLYQSPFASGYGLGADAYGNLPCASYDQNIPGLCSDLAKGACDKTDEGA  108
+
+Query  85   TQHLLDP---IYPWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSR  141
+                 +    IYPWM+             + KR R +YT  Q LELEKEFHFN+YL   R
+Sbjct  109  LHGAAEANFRIYPWMRSSG---------PDRKRGRQTYTRYQTLELEKEFHFNRYLTRRR  159
+
+Query  142  RREISKALQLTERQVKIWFQNRRMKWKKDEKQK  174
+            R EI+ AL LTERQ+KIWFQNRRMKWKK+ K +
+Sbjct  160  RIEIAHALCLTERQIKIWFQNRRMKWKKEHKDE  192
+
+
+>Aplanci.XP_022081988.1 unnamed protein product
+Length=324
+
+ Score = 101 bits (251),  Expect = 7e-25, Method: Compositional matrix adjust.
+ Identities = 56/127 (44%), Positives = 76/127 (60%), Gaps = 18/127 (14%)
+
+Query  92   IYPWM-KPKKGGKNHFAFVRE---------SKRHRTSYTNKQLLELEKEFHFNKYLCSSR  141
+            IYPWM + ++  K       E         SKR+RT++T+ QL+ELEKEFHFN+YLC  R
+Sbjct  144  IYPWMTESRQNVKQKVTSASEKKKQLEIAASKRNRTAFTSAQLVELEKEFHFNRYLCRPR  203
+
+Query  142  RREISKALQLTERQVKIWFQNRRMKWKKDEKQ--------KTEDCYSAHQENIEEIPLSS  193
+            R E++ +L LTERQ+KIWFQNRRMK+K+D K+        K  D   A Q       ++S
+Sbjct  204  RIEMAGSLSLTERQIKIWFQNRRMKYKRDAKESERAERGIKVSDSVLARQSERSPRFIAS  263
+
+Query  194  ALAPLYI  200
+              +PL +
+Sbjct  264  TGSPLML  270
+
+
+>Hsapiens.NP_076919.1 homeobox protein Hox-A6
+Length=233
+
+ Score = 99.0 bits (245),  Expect = 9e-25, Method: Compositional matrix adjust.
+ Identities = 51/104 (49%), Positives = 63/104 (61%), Gaps = 3/104 (3%)
+
+Query  71   PVPNENQGS--QSEPITQHLLDPIYPWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELE  128
+            P  +  QG     E   +    P+YPWM+ +        +    +R R +YT  Q LELE
+Sbjct  113  PDSSSGQGKALHDEGADRKYTSPVYPWMQ-RMNSCAGAVYGSHGRRGRQTYTRYQTLELE  171
+
+Query  129  KEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            KEFHFN+YL   RR EI+ AL LTERQ+KIWFQNRRMKWKK+ K
+Sbjct  172  KEFHFNRYLTRRRRIEIANALCLTERQIKIWFQNRRMKWKKENK  215
+
+
+>Bbelcheri.XP_019625106.1 unnamed protein product
+Length=215
+
+ Score = 98.6 bits (244),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 49/91 (54%), Positives = 61/91 (67%), Gaps = 9/91 (10%)
+
+Query  93   YPWMKPKKGGKN---------HFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRR  143
+            +PWMK  K   +          FA   E+KR RT+YT  QLLELEKEFHFNKY+   RR 
+Sbjct  112  FPWMKTTKSHAHAWKSQWPGASFAVEDENKRTRTAYTRGQLLELEKEFHFNKYISRPRRI  171
+
+Query  144  EISKALQLTERQVKIWFQNRRMKWKKDEKQK  174
+            E++  L LTER +KIWFQNRRMKWKK++ ++
+Sbjct  172  ELAAMLNLTERHIKIWFQNRRMKWKKEQVRR  202
+
+
+>Bbelcheri.XP_019632164.1 unnamed protein product
+Length=434
+
+ Score = 100 bits (250),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 50/101 (50%), Positives = 63/101 (62%), Gaps = 18/101 (18%)
+
+Query  92   IYPWMKPKK------------------GGKNHFAFVRESKRHRTSYTNKQLLELEKEFHF  133
+            IYPWMK  +                   G++        KR RT+YT+ QL+ELEKEFHF
+Sbjct  120  IYPWMKESRQNSKQRQPTNLSVGSTTEAGESPGLGGAAGKRARTAYTSAQLVELEKEFHF  179
+
+Query  134  NKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEKQK  174
+            N+YLC  RR E++  L LTERQ+KIWFQNRRMK+KK++K K
+Sbjct  180  NRYLCRPRRVEMAAMLNLTERQIKIWFQNRRMKYKKEQKVK  220
+
+
+>Hsapiens.NP_000200.1 pancreas/duodenum homeobox protein 1
+Length=283
+
+ Score = 99.0 bits (245),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 50/90 (56%), Positives = 60/90 (67%), Gaps = 8/90 (9%)
+
+Query  93   YPWMKPKKG--------GKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRRE  144
+            +PWMK  K         G  + A   E+KR RT+YT  QLLELEKEF FNKY+   RR E
+Sbjct  119  FPWMKSTKAHAWKGQWAGGAYAAEPEENKRTRTAYTRAQLLELEKEFLFNKYISRPRRVE  178
+
+Query  145  ISKALQLTERQVKIWFQNRRMKWKKDEKQK  174
+            ++  L LTER +KIWFQNRRMKWKK+E +K
+Sbjct  179  LAVMLNLTERHIKIWFQNRRMKWKKEEDKK  208
+
+
+>Nvectensis.XP_032222624.1 unnamed protein product
+Length=255
+
+ Score = 98.2 bits (243),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 56/127 (44%), Positives = 73/127 (57%), Gaps = 9/127 (7%)
+
+Query  56   EILQGEHSSRPNYSYPVPNENQGSQSEPITQHLLDPIYPWMKP---------KKGGKNHF  106
+            +  QG+  +  N + P+ +++  S S    Q+     Y W+K             G + +
+Sbjct  70   QSFQGQMPNTNNTASPIDHQSYFSGSAEPGQNCSFHQYAWLKSTAPDNWWPNSTTGNSGW  129
+
+Query  107  AFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMK  166
+            +   E KR RT+YT KQLLELEKEFHFN +L   RR E++  L LTERQVKIWFQNRRMK
+Sbjct  130  SNRAEGKRKRTAYTRKQLLELEKEFHFNHFLTKERRSEMASQLNLTERQVKIWFQNRRMK  189
+
+Query  167  WKKDEKQ  173
+            WKK   Q
+Sbjct  190  WKKCNAQ  196
+
+
+>Dgigantea.XP_028396957.1 unnamed protein product
+Length=145
+
+ Score = 95.1 bits (235),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 49/84 (58%), Positives = 62/84 (74%), Gaps = 9/84 (11%)
+
+Query  91   PIYPWMKPKKG--GKNHFA------FVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRR  142
+            P+Y WMK K+G  GK+         +V +S R R +YTN Q+LELEKEFHFN+YLC  RR
+Sbjct  6    PVYAWMKKKRGKAGKDEENNEDPEPYV-DSSRKRKAYTNAQILELEKEFHFNRYLCRPRR  64
+
+Query  143  REISKALQLTERQVKIWFQNRRMK  166
+             EI+ +L+L+ERQVK+WFQNRRMK
+Sbjct  65   IEIAHSLKLSERQVKVWFQNRRMK  88
+
+
+>Myessoensis.XP_021345097.1 unnamed protein product
+Length=497
+
+ Score = 101 bits (251),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 43/66 (65%), Positives = 56/66 (85%), Gaps = 0/66 (0%)
+
+Query  112  SKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDE  171
+            +KR RT+YT+ QL+ELEKEFHFN+YLC  RR E++  L LTERQ+KIWFQNRRMK+KK++
+Sbjct  205  TKRARTAYTSAQLVELEKEFHFNRYLCRPRRIEMAALLNLTERQIKIWFQNRRMKFKKEQ  264
+
+Query  172  KQKTED  177
+            + K+ D
+Sbjct  265  RHKSSD  270
+
+
+>Myessoensis.XP_021345173.1 unnamed protein product
+Length=252
+
+ Score = 97.4 bits (241),  Expect = 5e-24, Method: Compositional matrix adjust.
+ Identities = 50/82 (61%), Positives = 55/82 (67%), Gaps = 8/82 (10%)
+
+Query  91   PIYPWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQ  150
+            P YPWMK + G           KR R +YT  Q LELEKEFHFNKYL   RR EI+  L 
+Sbjct  165  PFYPWMKSQFGPNR--------KRGRQTYTRYQTLELEKEFHFNKYLTRRRRIEIAHVLC  216
+
+Query  151  LTERQVKIWFQNRRMKWKKDEK  172
+            LTERQ+KIWFQNRRMKWKK+ K
+Sbjct  217  LTERQIKIWFQNRRMKWKKEAK  238
+
+
+>Hsapiens.NP_005513.2 homeobox protein Hox-A1 isoform a
+Length=335
+
+ Score = 98.6 bits (244),  Expect = 7e-24, Method: Compositional matrix adjust.
+ Identities = 48/87 (55%), Positives = 59/87 (68%), Gaps = 5/87 (6%)
+
+Query  92   IYPWMK-----PKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREIS  146
+             + WMK     PK G    + ++ +    RT++T KQL ELEKEFHFNKYL  +RR EI+
+Sbjct  204  TFDWMKVKRNPPKTGKVGEYGYLGQPNAVRTNFTTKQLTELEKEFHFNKYLTRARRVEIA  263
+
+Query  147  KALQLTERQVKIWFQNRRMKWKKDEKQ  173
+             +LQL E QVKIWFQNRRMK KK EK+
+Sbjct  264  ASLQLNETQVKIWFQNRRMKQKKREKE  290
+
+
+>Hsapiens.NP_002136.1 homeobox protein Hox-B2
+Length=356
+
+ Score = 98.6 bits (244),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 56/119 (47%), Positives = 69/119 (58%), Gaps = 14/119 (12%)
+
+Query  98   PKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVK  157
+            P+ GG         ++R RT+YTN QLLELEKEFHFNKYLC  RR EI+  L LTERQVK
+Sbjct  136  PEAGGGG-------ARRLRTAYTNTQLLELEKEFHFNKYLCRPRRVEIAALLDLTERQVK  188
+
+Query  158  IWFQNRRMKWKKDEKQK-TEDCYSAHQENIEEI------PLSSALAPLYIPNSRSACLH  209
+            +WFQNRRMK K+  + +   D   A    +E+I      P +S   P     +  AC H
+Sbjct  189  VWFQNRRMKHKRQTQHREPPDGEPACPGALEDICDPAEEPAASPGGPSASRAAWEACCH  247
+
+
+>Myessoensis.XP_021345165.1 unnamed protein product
+Length=773
+
+ Score = 100 bits (248),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 46/68 (68%), Positives = 56/68 (82%), Gaps = 3/68 (4%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK---  169
+            +R RT+YTN QLLELEKEFHFNKYLC  RR EI+ +L LTERQVK+WFQNRRMK+K+   
+Sbjct  160  RRLRTAYTNTQLLELEKEFHFNKYLCRPRRIEIAASLDLTERQVKVWFQNRRMKYKRQTQ  219
+
+Query  170  DEKQKTED  177
+             ++QK E+
+Sbjct  220  SQRQKVEN  227
+
+
+>Nvectensis.XP_032218287.1 unnamed protein product
+Length=207
+
+ Score = 95.5 bits (236),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 52/113 (46%), Positives = 72/113 (64%), Gaps = 5/113 (4%)
+
+Query  92   IYPWMKP-KKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQ  150
+            IYPWM   +  G         S ++RT Y+ +QL+ELEKEFH+N+YLC  RR EI+++L+
+Sbjct  47   IYPWMTEFRVKGPPPQTKECTSDKNRTIYSTRQLVELEKEFHYNRYLCRPRRIEIAQSLE  106
+
+Query  151  LTERQVKIWFQNRRMKWKKDEKQKTEDCYSAHQENIEEI----PLSSALAPLY  199
+            LTE+QVKIWFQNRRMKWKK+ K   +   S  +E ++ +    P      P+Y
+Sbjct  107  LTEKQVKIWFQNRRMKWKKENKLVEKAIESEIKERVKNLSTQNPDGFGSLPMY  159
+
+
+>Hsapiens.NP_004493.3 homeobox protein Hox-B7
+Length=217
+
+ Score = 95.1 bits (235),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 46/81 (57%), Positives = 54/81 (67%), Gaps = 9/81 (11%)
+
+Query  92   IYPWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQL  151
+            IYPWM+             + KR R +YT  Q LELEKEFH+N+YL   RR EI+  L L
+Sbjct  126  IYPWMRSSG---------TDRKRGRQTYTRYQTLELEKEFHYNRYLTRRRRIEIAHTLCL  176
+
+Query  152  TERQVKIWFQNRRMKWKKDEK  172
+            TERQ+KIWFQNRRMKWKK+ K
+Sbjct  177  TERQIKIWFQNRRMKWKKENK  197
+
+
+>Dgigantea.XP_028391349.1 unnamed protein product
+Length=268
+
+ Score = 96.3 bits (238),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 61/128 (48%), Positives = 68/128 (53%), Gaps = 34/128 (27%)
+
+Query  73   PNENQGSQSEPITQHLLDPI------YPWMKPKKGGKNHF-----------AFV-----R  110
+            PNENQ         HL  P       YPW+K   GG+ H+           A V      
+Sbjct  93   PNENQ---------HLYYPTETGYPQYPWIK---GGETHWWPTTGITAVTPASVWSTRPT  140
+
+Query  111  ESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKD  170
+            E KR RT+YT KQLLELEKEFHFN +L   RR E++  L LTERQVKIWFQNRRMK KK 
+Sbjct  141  EGKRKRTAYTRKQLLELEKEFHFNHFLTKERRAELAAQLSLTERQVKIWFQNRRMKHKKC  200
+
+Query  171  EKQKTEDC  178
+                T   
+Sbjct  201  SGGATAGA  208
+
+
+>Hsapiens.NP_004494.1 homeobox protein Hox-C6 isoform 1
+Length=235
+
+ Score = 95.1 bits (235),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 47/92 (51%), Positives = 60/92 (65%), Gaps = 1/92 (1%)
+
+Query  79   SQSEPITQHLLDPIYPWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLC  138
+             ++ P  Q     IYPWM+ +    +   +  + +R R  Y+  Q LELEKEFHFN+YL 
+Sbjct  109  GRTAPQDQKASIQIYPWMQ-RMNSHSGVGYGADRRRGRQIYSRYQTLELEKEFHFNRYLT  167
+
+Query  139  SSRRREISKALQLTERQVKIWFQNRRMKWKKD  170
+              RR EI+ AL LTERQ+KIWFQNRRMKWKK+
+Sbjct  168  RRRRIEIANALCLTERQIKIWFQNRRMKWKKE  199
+
+
+>Hsapiens.NP_006726.1 homeobox protein Hox-A2
+Length=376
+
+ Score = 97.1 bits (240),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 45/63 (71%), Positives = 51/63 (81%), Gaps = 0/63 (0%)
+
+Query  112  SKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDE  171
+            S+R RT+YTN QLLELEKEFHFNKYLC  RR EI+  L LTERQVK+WFQNRRMK K+  
+Sbjct  143  SRRLRTAYTNTQLLELEKEFHFNKYLCRPRRVEIAALLDLTERQVKVWFQNRRMKHKRQT  202
+
+Query  172  KQK  174
+            + K
+Sbjct  203  QCK  205
+
+
+>Bbelcheri.XP_019632236.1 unnamed protein product
+Length=288
+
+ Score = 95.5 bits (236),  Expect = 6e-23, Method: Compositional matrix adjust.
+ Identities = 48/88 (55%), Positives = 57/88 (65%), Gaps = 6/88 (7%)
+
+Query  92   IYPWMK-----PKKGGKNHFAFVRESKRH-RTSYTNKQLLELEKEFHFNKYLCSSRRREI  145
+             Y WMK     P+ G    + F      + RT++T KQL ELEKEFH+NKYL  +RR EI
+Sbjct  179  TYDWMKLKRNPPRTGKPGEYGFTTSGPNNGRTNFTTKQLTELEKEFHYNKYLTRARRVEI  238
+
+Query  146  SKALQLTERQVKIWFQNRRMKWKKDEKQ  173
+            + AL L E QVKIWFQNRRMK KK EK+
+Sbjct  239  AAALNLNETQVKIWFQNRRMKQKKREKE  266
+
+
+>Bbelcheri.XP_019632172.1 unnamed protein product
+Length=204
+
+ Score = 93.6 bits (231),  Expect = 6e-23, Method: Compositional matrix adjust.
+ Identities = 49/105 (47%), Positives = 64/105 (61%), Gaps = 16/105 (15%)
+
+Query  93   YPWMKPKKGGKNHFAF---------------VRESKRHRTSYTNKQLLELEKEFHFNKYL  137
+            +PW+K KK  +                    V  S+R RT +TN QLLELEKEFH+N+Y+
+Sbjct  71   FPWVKLKKSTRTRSPVDNIEEADDLIAPTDHVTSSRRLRTVFTNTQLLELEKEFHYNRYV  130
+
+Query  138  CSSRRREISKALQLTERQVKIWFQNRRMKWK-KDEKQKTEDCYSA  181
+            C  RR+EI+  L+L ERQVKIWFQNRRM+ K +D K ++E    A
+Sbjct  131  CKPRRKEIANFLELNERQVKIWFQNRRMRQKRRDTKGRSEAVQGA  175
+
+
+>Hsapiens.NP_076921.1 homeobox protein Hox-B8
+Length=243
+
+ Score = 94.4 bits (233),  Expect = 7e-23, Method: Compositional matrix adjust.
+ Identities = 54/120 (45%), Positives = 67/120 (56%), Gaps = 12/120 (10%)
+
+Query  75   ENQGSQSEPITQHLLDPIYPWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFN  134
+            E +GS+  P    L    +PWM+P+             +R R +Y+  Q LELEKEF FN
+Sbjct  121  EAEGSEQSPSPTQL----FPWMRPQAAAGR--------RRGRQTYSRYQTLELEKEFLFN  168
+
+Query  135  KYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEKQKTEDCYSAHQENIEEIPLSSA  194
+             YL   RR E+S AL LTERQVKIWFQNRRMKWKK+  +         QE +E+  L  A
+Sbjct  169  PYLTRKRRIEVSHALGLTERQVKIWFQNRRMKWKKENNKDKFPSSKCEQEELEKQKLERA  228
+
+
+>Bbelcheri.XP_019632097.1 unnamed protein product
+Length=212
+
+ Score = 92.0 bits (227),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 52/110 (47%), Positives = 63/110 (57%), Gaps = 16/110 (15%)
+
+Query  87   HLLDPIYPWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREIS  146
+             L  P YPWM+             E +R R +Y+  Q LELEKEFHFNKYL   RR EI+
+Sbjct  112  QLAIPFYPWMRTAG---------PERRRGRQTYSRYQTLELEKEFHFNKYLTRRRRIEIA  162
+
+Query  147  KALQLTERQVKIWFQNRRMKWKKD-------EKQKTEDCYSAHQENIEEI  189
+             AL LTERQ+KIWFQNRRMK KK+       + ++TE       E  EE+
+Sbjct  163  HALGLTERQIKIWFQNRRMKLKKEAAMLCPPKAEETEKNSDGQSEKSEEV  212
+
+
+>Aplanci.XP_022081986.1 unnamed protein product
+Length=395
+
+ Score = 95.1 bits (235),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 51/104 (49%), Positives = 61/104 (59%), Gaps = 13/104 (13%)
+
+Query  78   GSQSEPITQHLLDPIYPWMKP------------KKGGKNHFAFVRESKRHRTSYTNKQLL  125
+            G +  PI    L P YPW+               KG          S+R RT++TN QLL
+Sbjct  92   GGKGCPIPSVKL-PEYPWVSGTPPVTQGQTKVHGKGADGKGVKAAPSRRVRTAFTNTQLL  150
+
+Query  126  ELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            ELEKEF FNKY+C  RR EI+  L+LTERQVK+WFQNRRMK K+
+Sbjct  151  ELEKEFRFNKYICRPRRIEIACLLELTERQVKVWFQNRRMKQKR  194
+
+
+>Nvectensis.XP_001641625.2 unnamed protein product
+Length=243
+
+ Score = 91.7 bits (226),  Expect = 7e-22, Method: Compositional matrix adjust.
+ Identities = 42/59 (71%), Positives = 47/59 (80%), Gaps = 0/59 (0%)
+
+Query  114  RHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            R R +YT  QLLELEKEFHF +YL   RR E+++ L LTERQVKIWFQNRRMKWKKD K
+Sbjct  170  RKRMAYTRIQLLELEKEFHFTRYLTKERRTEMARMLDLTERQVKIWFQNRRMKWKKDNK  228
+
+
+>Dgigantea.XP_028410064.1 unnamed protein product
+Length=225
+
+ Score = 91.3 bits (225),  Expect = 8e-22, Method: Compositional matrix adjust.
+ Identities = 44/98 (45%), Positives = 66/98 (67%), Gaps = 12/98 (12%)
+
+Query  92   IYPWMKPKKGGKNHF----AFVRESKRH--------RTSYTNKQLLELEKEFHFNKYLCS  139
+            I+PWMK  +G +       +  ++S++         RT Y+  QL+ELEKEFH+N+YLC 
+Sbjct  68   IFPWMKESRGRQKQTVENPSNQKDSEKRDAAADQSPRTIYSTSQLVELEKEFHYNRYLCR  127
+
+Query  140  SRRREISKALQLTERQVKIWFQNRRMKWKKDEKQKTED  177
+             RR EI+++L+L+E+QVK+WFQNRRMKWKK  +   ++
+Sbjct  128  PRRIEIAQSLKLSEKQVKVWFQNRRMKWKKTNRDNRDN  165
+
+
+>Aplanci.XP_022082115.1 unnamed protein product
+Length=362
+
+ Score = 93.6 bits (231),  Expect = 9e-22, Method: Compositional matrix adjust.
+ Identities = 46/81 (57%), Positives = 57/81 (70%), Gaps = 4/81 (5%)
+
+Query  91   PIYPWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQ  150
+            P+Y WMK    G        + KR R +YT  Q LELEKEFHFN+YL   RR EI++++ 
+Sbjct  238  PVYGWMKIP--GTQMIG--TDKKRGRQTYTRYQTLELEKEFHFNRYLTRKRRIEIAQSVC  293
+
+Query  151  LTERQVKIWFQNRRMKWKKDE  171
+            LTERQ+KIWFQNRRMKWKK++
+Sbjct  294  LTERQIKIWFQNRRMKWKKEQ  314
+
+
+>Dgigantea.XP_028418706.1 unnamed protein product
+Length=265
+
+ Score = 91.3 bits (225),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 41/66 (62%), Positives = 52/66 (79%), Gaps = 0/66 (0%)
+
+Query  111  ESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKD  170
+            +S + R ++T KQL+ELEKEFHFNKYL  +RR EIS  L+LTE Q+KIWFQNRRMKWK+ 
+Sbjct  155  DSHKRRFTFTQKQLVELEKEFHFNKYLTRARRLEISNDLKLTENQIKIWFQNRRMKWKRG  214
+
+Query  171  EKQKTE  176
+             K+  +
+Sbjct  215  MKESIQ  220
+
+
+>Dgigantea.XP_028401490.1 unnamed protein product
+Length=280
+
+ Score = 90.9 bits (224),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 41/66 (62%), Positives = 52/66 (79%), Gaps = 0/66 (0%)
+
+Query  111  ESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKD  170
+            +S + R ++T KQL+ELEKEFHFNKYL  +RR EIS  L+LTE Q+KIWFQNRRMKWK+ 
+Sbjct  170  DSHKRRFTFTQKQLVELEKEFHFNKYLTRARRLEISNDLKLTENQIKIWFQNRRMKWKRG  229
+
+Query  171  EKQKTE  176
+             K+  +
+Sbjct  230  MKESIQ  235
+
+
+>Hsapiens.NP_073149.1 homeobox protein Hox-C8
+Length=242
+
+ Score = 89.7 bits (221),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 57/130 (44%), Positives = 76/130 (58%), Gaps = 17/130 (13%)
+
+Query  41   PRKSLYTYGEGERANEILQGEHSSRPNYSYPVPNENQGSQSEPITQHLLDPIYPWMKPKK  100
+            PR+SLY  G  + A+ +   +  S  N +    +E QG  ++  +  L+   +PWM+P  
+Sbjct  95   PRQSLY--GAQQEASVVQYPDCKSSANTN---SSEGQGHLNQNSSPSLM---FPWMRPHA  146
+
+Query  101  GGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWF  160
+             G+         +  R +Y+  Q LELEKEF FN YL   RR E+S AL LTERQVKIWF
+Sbjct  147  PGR---------RSGRQTYSRYQTLELEKEFLFNPYLTRKRRIEVSHALGLTERQVKIWF  197
+
+Query  161  QNRRMKWKKD  170
+            QNRRMKWKK+
+Sbjct  198  QNRRMKWKKE  207
+
+
+>Dgigantea.XP_028410183.1 unnamed protein product
+Length=199
+
+ Score = 88.6 bits (218),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 39/56 (70%), Positives = 47/56 (84%), Gaps = 0/56 (0%)
+
+Query  114  RHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            R R +YT +QLLELEKEFHF +YL   R+RE++  L+LTERQ+KIWFQNRRMKWKK
+Sbjct  124  RKRMAYTRQQLLELEKEFHFTRYLTRERKRELADNLKLTERQIKIWFQNRRMKWKK  179
+
+
+>Nvectensis.XP_001637783.1 unnamed protein product
+Length=209
+
+ Score = 88.2 bits (217),  Expect = 8e-21, Method: Compositional matrix adjust.
+ Identities = 44/75 (59%), Positives = 55/75 (73%), Gaps = 6/75 (8%)
+
+Query  98   PKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVK  157
+            P +GG +       SKR RT+YT+ QLLELEKEF  N+YL   RR +I+  L L+E+QVK
+Sbjct  115  PSRGGNS------RSKRIRTAYTSMQLLELEKEFSQNRYLSRLRRIQIAALLDLSEKQVK  168
+
+Query  158  IWFQNRRMKWKKDEK  172
+            IWFQNRR+KWKKD+K
+Sbjct  169  IWFQNRRVKWKKDKK  183
+
+
+>Hsapiens.NP_002135.2 homeobox protein Hox-B1
+Length=301
+
+ Score = 89.4 bits (220),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 45/87 (52%), Positives = 56/87 (64%), Gaps = 4/87 (5%)
+
+Query  92   IYPWMK----PKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISK  147
+             + WMK    P K  K     +      RT++T +QL ELEKEFHFNKYL  +RR EI+ 
+Sbjct  179  TFDWMKVKRNPPKTAKVSEPGLGSPSGLRTNFTTRQLTELEKEFHFNKYLSRARRVEIAA  238
+
+Query  148  ALQLTERQVKIWFQNRRMKWKKDEKQK  174
+             L+L E QVKIWFQNRRMK KK E+++
+Sbjct  239  TLELNETQVKIWFQNRRMKQKKREREE  265
+
+
+>Hsapiens.NP_062458.1 homeobox protein Hox-D8 isoform 1
+Length=290
+
+ Score = 89.0 bits (219),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 44/79 (56%), Positives = 53/79 (67%), Gaps = 8/79 (10%)
+
+Query  92   IYPWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQL  151
+            ++PWM+P+             +R R +Y+  Q LELEKEF FN YL   RR E+S AL L
+Sbjct  185  MFPWMRPQA--------APGRRRGRQTYSRFQTLELEKEFLFNPYLTRKRRIEVSHALAL  236
+
+Query  152  TERQVKIWFQNRRMKWKKD  170
+            TERQVKIWFQNRRMKWKK+
+Sbjct  237  TERQVKIWFQNRRMKWKKE  255
+
+
+>Hsapiens.NP_078777.1 homeobox protein Hox-D1
+Length=328
+
+ Score = 89.0 bits (219),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 45/86 (52%), Positives = 55/86 (64%), Gaps = 5/86 (6%)
+
+Query  93   YPWMK-----PKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISK  147
+            + WMK      KKG    +     S   RT+++ KQL ELEKEFHFNKYL  +RR EI+ 
+Sbjct  205  FEWMKVKRNASKKGKLAEYGAASPSSAIRTNFSTKQLTELEKEFHFNKYLTRARRIEIAN  264
+
+Query  148  ALQLTERQVKIWFQNRRMKWKKDEKQ  173
+             L L + QVKIWFQNRRMK KK E++
+Sbjct  265  CLHLNDTQVKIWFQNRRMKQKKRERE  290
+
+
+>Hvulgaris.XP_002163407.1 unnamed protein product
+Length=250
+
+ Score = 87.4 bits (215),  Expect = 4e-20, Method: Compositional matrix adjust.
+ Identities = 45/84 (54%), Positives = 58/84 (69%), Gaps = 1/84 (1%)
+
+Query  93   YP-WMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQL  151
+            YP +++P   G        +SKR R +Y+  QLLELEKEFHFN +L   RR E+SK L L
+Sbjct  148  YPDFIQPSVNGVPWMCREFDSKRKRMTYSRHQLLELEKEFHFNHFLKKERRTELSKKLNL  207
+
+Query  152  TERQVKIWFQNRRMKWKKDEKQKT  175
+            +ERQ+KIWFQNRRMK+KK+  + T
+Sbjct  208  SERQIKIWFQNRRMKFKKEMLKGT  231
+
+
+>Myessoensis.XP_021345170.1 unnamed protein product
+Length=304
+
+ Score = 87.8 bits (216),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 57/140 (41%), Positives = 73/140 (52%), Gaps = 19/140 (14%)
+
+Query  73   PNENQGSQSEPITQHLLDPIYPWMKPKKG-GK--------NHFAFV--------RESKRH  115
+            PN     Q     Q L +  + WM+ K+  GK          F F         ++    
+Sbjct  157  PNSGHIKQEPTAAQSLSNKPFRWMQIKRNPGKTVPTTTKQGDFGFTTAVTTATPQQPNMG  216
+
+Query  116  RTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK--DEKQ  173
+            RT++TNKQL ELEKEFHFNKYL  +RR EI+ +L L E QVKIWFQNRRMK KK   E Q
+Sbjct  217  RTNFTNKQLTELEKEFHFNKYLTRARRIEIAASLGLNETQVKIWFQNRRMKQKKRMREAQ  276
+
+Query  174  KTEDCYSAHQENIEEIPLSS  193
+                     Q NI+ + +++
+Sbjct  277  FENSMRDNCQLNIDGLGMTA  296
+
+
+>Dgigantea.XP_028406039.1 unnamed protein product
+Length=211
+
+ Score = 85.9 bits (211),  Expect = 6e-20, Method: Compositional matrix adjust.
+ Identities = 49/107 (46%), Positives = 64/107 (60%), Gaps = 13/107 (12%)
+
+Query  84   ITQHLLDPIYPWMKPKKG--------GKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNK  135
+            + +H L P+   M+            GK +      +KR RT+YT+ QLLELEKEF  N+
+Sbjct  88   LQEHFLGPVESGMRLDSNFGHDDDGCGKGN----SRTKRIRTAYTSLQLLELEKEFSNNR  143
+
+Query  136  YLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEKQ-KTEDCYSA  181
+            YL   RR +I+  L+LTE+QVKIWFQNRR+KWKKD +   T  C S 
+Sbjct  144  YLSRLRRIQIAAMLELTEKQVKIWFQNRRVKWKKDRRMSSTMSCSSG  190
+
+
+>Hvulgaris.NP_001274725.1 unnamed protein product
+Length=255
+
+ Score = 86.7 bits (213),  Expect = 6e-20, Method: Compositional matrix adjust.
+ Identities = 42/62 (68%), Positives = 51/62 (82%), Gaps = 0/62 (0%)
+
+Query  111  ESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKD  170
+            +SKR RT+YT+ QLLELEKEF  N+YL   RR +I+  L LTE+QVKIWFQNRR+KWKKD
+Sbjct  180  KSKRIRTAYTSIQLLELEKEFQNNRYLSRLRRIQIAAILDLTEKQVKIWFQNRRVKWKKD  239
+
+Query  171  EK  172
+            +K
+Sbjct  240  KK  241
+
+
+>Nvectensis.XP_001634252.2 unnamed protein product
+Length=260
+
+ Score = 86.7 bits (213),  Expect = 7e-20, Method: Compositional matrix adjust.
+ Identities = 38/61 (62%), Positives = 51/61 (84%), Gaps = 0/61 (0%)
+
+Query  112  SKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDE  171
+            S++ R ++T +QL+ELEKEFHF+KYL  +RR EI+  L+LTE Q+KIWFQNRRMKWK++ 
+Sbjct  149  SQKKRFTFTQRQLVELEKEFHFSKYLTRTRRIEIATTLKLTEMQIKIWFQNRRMKWKREF  208
+
+Query  172  K  172
+            K
+Sbjct  209  K  209
+
+
+>Myessoensis.XP_021345139.1 unnamed protein product
+Length=313
+
+ Score = 87.0 bits (214),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 47/96 (49%), Positives = 58/96 (60%), Gaps = 11/96 (11%)
+
+Query  76   NQGSQSEPITQHLLDPIYPWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNK  135
+            N GS++ P T     P YPWM        H       +R R +Y+  Q LELEKEF FN 
+Sbjct  192  NSGSEASPST-----PFYPWMGIVGPNSAH------RRRGRQTYSRYQTLELEKEFQFNH  240
+
+Query  136  YLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDE  171
+            YL   RR E++ +L LTERQ+KIWFQNRRMK KK++
+Sbjct  241  YLTRKRRIEVAHSLCLTERQIKIWFQNRRMKLKKEK  276
+
+
+>Aplanci.XP_022084558.1 unnamed protein product
+Length=386
+
+ Score = 87.8 bits (216),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 40/83 (48%), Positives = 57/83 (69%), Gaps = 0/83 (0%)
+
+Query  102  GKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQ  161
+            G  H   + +++R RT++T++QLLELE++F  NKYL   +R E++ +L LTE QVKIWFQ
+Sbjct  188  GHQHPTILGKTRRPRTAFTSQQLLELEQQFKKNKYLSRPKRFEVATSLMLTETQVKIWFQ  247
+
+Query  162  NRRMKWKKDEKQKTEDCYSAHQE  184
+            NRRMKWK+ +K K        +E
+Sbjct  248  NRRMKWKRGKKVKESQIAEGEKE  270
+
+
+>Aplanci.XP_022082139.1 unnamed protein product
+Length=277
+
+ Score = 86.3 bits (212),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 45/82 (55%), Positives = 55/82 (67%), Gaps = 3/82 (4%)
+
+Query  93   YPWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLT  152
+            +PWM    G        R  KR R +YT  Q LELEKEFH+N+YL   RR E+S  L LT
+Sbjct  163  FPWMN-VAGTVAGMDVGR--KRCRQTYTRYQTLELEKEFHYNRYLTRRRRIELSHQLALT  219
+
+Query  153  ERQVKIWFQNRRMKWKKDEKQK  174
+            ERQ+KIWFQNRRMK+KK+ K++
+Sbjct  220  ERQIKIWFQNRRMKYKKENKKE  241
+
+
+>Bbelcheri.XP_019614464.1 unnamed protein product
+Length=297
+
+ Score = 85.9 bits (211),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 40/66 (61%), Positives = 52/66 (79%), Gaps = 0/66 (0%)
+
+Query  111  ESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKD  170
+            +++R RT++T++QLLELEK F  NKYL   +R E++ AL LTE QVKIWFQNRRMKWK+ 
+Sbjct  154  KTRRPRTAFTSQQLLELEKYFKENKYLSRPKRFEVATALMLTETQVKIWFQNRRMKWKRS  213
+
+Query  171  EKQKTE  176
+            +K K E
+Sbjct  214  KKAKDE  219
+
+
+>Bbelcheri.XP_019639715.1 unnamed protein product
+Length=217
+
+ Score = 84.0 bits (206),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 39/66 (59%), Positives = 52/66 (79%), Gaps = 0/66 (0%)
+
+Query  111  ESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKD  170
+            +++R RT++T++QLLELEK F  NKYL   +R E++ +L LTE QVKIWFQNRRMKWK+ 
+Sbjct  75   KTRRPRTAFTSQQLLELEKHFKENKYLSRPKRFEVATSLMLTETQVKIWFQNRRMKWKRS  134
+
+Query  171  EKQKTE  176
+            +K K E
+Sbjct  135  KKAKEE  140
+
+
+>Hsapiens.NP_005506.3 motor neuron and pancreas homeobox protein 1 isoform 1
+Length=401
+
+ Score = 85.9 bits (211),  Expect = 6e-19, Method: Compositional matrix adjust.
+ Identities = 37/69 (54%), Positives = 52/69 (75%), Gaps = 0/69 (0%)
+
+Query  108  FVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKW  167
+             + + +R RT++T++QLLELE +F  NKYL   +R E++ +L LTE QVKIWFQNRRMKW
+Sbjct  237  LLGKCRRPRTAFTSQQLLELEHQFKLNKYLSRPKRFEVATSLMLTETQVKIWFQNRRMKW  296
+
+Query  168  KKDEKQKTE  176
+            K+ +K K +
+Sbjct  297  KRSKKAKEQ  305
+
+
+>Hsapiens.NP_689952.1 homeobox protein Hox-A9
+Length=272
+
+ Score = 84.3 bits (207),  Expect = 7e-19, Method: Compositional matrix adjust.
+ Identities = 40/69 (58%), Positives = 48/69 (70%), Gaps = 0/69 (0%)
+
+Query  109  VRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWK  168
+             R +++ R  YT  Q LELEKEF FN YL   RR E+++ L LTERQVKIWFQNRRMK K
+Sbjct  203  ARSTRKKRCPYTKHQTLELEKEFLFNMYLTRDRRYEVARLLNLTERQVKIWFQNRRMKMK  262
+
+Query  169  KDEKQKTED  177
+            K  K + +D
+Sbjct  263  KINKDRAKD  271
+
+
+>Aplanci.XP_022108079.1 unnamed protein product
+Length=279
+
+ Score = 84.0 bits (206),  Expect = 9e-19, Method: Compositional matrix adjust.
+ Identities = 40/67 (60%), Positives = 52/67 (78%), Gaps = 0/67 (0%)
+
+Query  112  SKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDE  171
+            SKR RT++T+ QLLELE+EF  N YL   RR EI+  L L+E+QVKIWFQNRR+K+KK+ 
+Sbjct  168  SKRIRTAFTSTQLLELEREFASNMYLSRLRRIEIATYLNLSEKQVKIWFQNRRVKYKKET  227
+
+Query  172  KQKTEDC  178
+            K ++ DC
+Sbjct  228  KVQSRDC  234
+
+
+>Hsapiens.NP_001476.2 homeobox protein GBX-2 isoform 1
+Length=348
+
+ Score = 84.7 bits (208),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 38/72 (53%), Positives = 51/72 (71%), Gaps = 0/72 (0%)
+
+Query  98   PKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVK  157
+            P  G         +++R RT++T++QLLELEKEFH  KYL  + R +I+ AL+L+E QVK
+Sbjct  233  PSSGAAGSTTSTGKNRRRRTAFTSEQLLELEKEFHCKKYLSLTERSQIAHALKLSEVQVK  292
+
+Query  158  IWFQNRRMKWKK  169
+            IWFQNRR KWK+
+Sbjct  293  IWFQNRRAKWKR  304
+
+
+>Myessoensis.XP_021342716.1 unnamed protein product
+Length=357
+
+ Score = 84.7 bits (208),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 37/70 (53%), Positives = 55/70 (79%), Gaps = 0/70 (0%)
+
+Query  107  AFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMK  166
+            + + +++R RT++T++QLLELE++F  NKYL   +R E++ +L LTE QVKIWFQNRRMK
+Sbjct  188  SLLGKTRRPRTAFTSQQLLELERQFKMNKYLSRPKRFEVATSLMLTETQVKIWFQNRRMK  247
+
+Query  167  WKKDEKQKTE  176
+            WK+ +K  +E
+Sbjct  248  WKRSKKPSSE  257
+
+
+>Dgigantea.XP_028418707.1 unnamed protein product
+Length=205
+
+ Score = 82.0 bits (201),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 37/60 (62%), Positives = 47/60 (78%), Gaps = 0/60 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            KR R  Y  +Q LELEKEFH+ +YL   RR E++ +L L+ERQ+KIWFQNRRMKWKK++K
+Sbjct  118  KRTREIYDRQQTLELEKEFHYTRYLTKERRAELANSLMLSERQIKIWFQNRRMKWKKEKK  177
+
+
+>Dgigantea.XP_028401610.1 unnamed protein product
+Length=205
+
+ Score = 82.0 bits (201),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 37/60 (62%), Positives = 47/60 (78%), Gaps = 0/60 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            KR R  Y  +Q LELEKEFH+ +YL   RR E++ +L L+ERQ+KIWFQNRRMKWKK++K
+Sbjct  118  KRTREIYDRQQTLELEKEFHYTRYLTKERRAELANSLMLSERQIKIWFQNRRMKWKKEKK  177
+
+
+>Hsapiens.NP_001092304.1 homeobox protein GBX-1
+Length=363
+
+ Score = 84.3 bits (207),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 37/58 (64%), Positives = 48/58 (83%), Gaps = 0/58 (0%)
+
+Query  112  SKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            S+R RT++T++QLLELEKEFH  KYL  + R +I+ AL+L+E QVKIWFQNRR KWK+
+Sbjct  261  SRRRRTAFTSEQLLELEKEFHCKKYLSLTERSQIAHALKLSEVQVKIWFQNRRAKWKR  318
+
+
+>Hsapiens.NP_076922.1 homeobox protein Hox-B9
+Length=250
+
+ Score = 81.6 bits (200),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 39/69 (57%), Positives = 49/69 (71%), Gaps = 0/69 (0%)
+
+Query  109  VRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWK  168
+             R S++ R  YT  Q LELEKEF FN YL   RR E+++ L L+ERQVKIWFQNRRMK K
+Sbjct  182  ARSSRKKRCPYTKYQTLELEKEFLFNMYLTRDRRHEVARLLNLSERQVKIWFQNRRMKMK  241
+
+Query  169  KDEKQKTED  177
+            K  K++ ++
+Sbjct  242  KMNKEQGKE  250
+
+
+>Aplanci.XP_022107904.1 unnamed protein product
+Length=317
+
+ Score = 82.8 bits (203),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 42/96 (44%), Positives = 58/96 (60%), Gaps = 8/96 (8%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            ++ RT++T  Q+ ELE EF  + YL   RR EI+  L LTERQVK+WFQNRRMKWK+   
+Sbjct  183  RKERTAFTKDQIRELENEFSHHNYLTRLRRYEIAVTLNLTERQVKVWFQNRRMKWKR---  239
+
+Query  173  QKTEDCYSAHQENIEEIPLSSALAPLYIPNSRSACL  208
+                 C  A ++++ E  L +  A L +P   S+ L
+Sbjct  240  -----CKGAREKDLAEKRLQAMEAKLGLPPGSSSAL  270
+
+
+>Myessoensis.XP_021345166.1 unnamed protein product
+Length=261
+
+ Score = 81.6 bits (200),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 47/104 (45%), Positives = 59/104 (57%), Gaps = 6/104 (6%)
+
+Query  67   NYSYPVPNENQGSQSEPITQHLLDPIYPWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLE  126
+            N + P+   + G+ + P         YPWM       N      + +R R +YT  Q LE
+Sbjct  131  NKAEPLSPCSTGTPATPSEGETPPSFYPWMSIVGPNSN------QRRRGRQTYTRFQTLE  184
+
+Query  127  LEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKD  170
+            LEKEF FN+YL   RR E+S  L LTERQ+KIWFQNRRMK KK+
+Sbjct  185  LEKEFKFNRYLTRRRRIELSHMLCLTERQIKIWFQNRRMKEKKE  228
+
+
+>Dgigantea.XP_028396296.1 unnamed protein product
+Length=197
+
+ Score = 79.3 bits (194),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 40/86 (47%), Positives = 59/86 (69%), Gaps = 0/86 (0%)
+
+Query  109  VRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWK  168
+            + + KR RT+++  Q+ ELE+EF  NKYL  SRR E+SK+L+LTE Q+KIWFQNRR KWK
+Sbjct  51   LNDRKRPRTAFSAHQIKELEEEFERNKYLTVSRRVEMSKSLKLTETQIKIWFQNRRTKWK  110
+
+Query  169  KDEKQKTEDCYSAHQENIEEIPLSSA  194
+            +    + E  ++ + ++I   P+  A
+Sbjct  111  RKMAAQMEYAHNLYTQSIFSQPMGMA  136
+
+
+>Aplanci.XP_022081842.1 unnamed protein product
+Length=337
+
+ Score = 81.6 bits (200),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 38/66 (58%), Positives = 46/66 (70%), Gaps = 0/66 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            ++ R  YT  Q LELEKEF FN YL   RR +I++ L LTERQVKIWFQNRRMK KK  +
+Sbjct  272  RKKRCPYTKYQTLELEKEFLFNMYLTRDRRVDIARLLNLTERQVKIWFQNRRMKMKKMHR  331
+
+Query  173  QKTEDC  178
+             +  +C
+Sbjct  332  AQVLNC  337
+
+
+>Bbelcheri.XP_019646238.1 unnamed protein product
+Length=341
+
+ Score = 81.3 bits (199),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 36/60 (60%), Positives = 46/60 (77%), Gaps = 0/60 (0%)
+
+Query  110  RESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            RESK+ RT+++N Q+ ELEK F   KYL +S R E++ AL LT+ QVK WFQNRRMKWK+
+Sbjct  142  RESKKLRTAFSNHQVHELEKRFSTQKYLSASDREELAHALDLTDAQVKTWFQNRRMKWKR  201
+
+
+>Bbelcheri.XP_019632090.1 unnamed protein product
+Length=326
+
+ Score = 80.9 bits (198),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 40/82 (49%), Positives = 52/82 (63%), Gaps = 11/82 (13%)
+
+Query  95   WMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTER  154
+            WM P+ G           ++ R  YT  Q+LELEKEF FN Y+   RR+EIS+ + L++R
+Sbjct  238  WMAPRVG-----------RKKRCPYTKYQILELEKEFLFNMYVSRERRQEISRHVNLSDR  286
+
+Query  155  QVKIWFQNRRMKWKKDEKQKTE  176
+            QVKIWFQNRRMK K+  K + E
+Sbjct  287  QVKIWFQNRRMKMKRMNKAREE  308
+
+
+>Bbelcheri.XP_019646237.1 unnamed protein product
+Length=341
+
+ Score = 80.9 bits (198),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 36/60 (60%), Positives = 46/60 (77%), Gaps = 0/60 (0%)
+
+Query  110  RESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            RESK+ RT+++N Q+ ELEK F   KYL +S R E++ AL LT+ QVK WFQNRRMKWK+
+Sbjct  142  RESKKLRTAFSNHQVHELEKRFSTQKYLSASDREELAHALDLTDAQVKTWFQNRRMKWKR  201
+
+
+>Nvectensis.XP_032225904.1 unnamed protein product
+Length=222
+
+ Score = 79.0 bits (193),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 34/63 (54%), Positives = 46/63 (73%), Gaps = 0/63 (0%)
+
+Query  116  RTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEKQKT  175
+            RT++T +Q+ ELEK+F   KYL ++ R +++  L +TE QVKIWFQNRR KWKK EK+  
+Sbjct  113  RTTFTGRQIFELEKQFEAKKYLTATERSDMASLLNVTETQVKIWFQNRRTKWKKQEKEIN  172
+
+Query  176  EDC  178
+            ED 
+Sbjct  173  EDA  175
+
+
+>Myessoensis.XP_021344647.1 unnamed protein product
+Length=117
+
+ Score = 76.3 bits (186),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 35/57 (61%), Positives = 44/57 (77%), Gaps = 0/57 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            ++ RT++T  Q+ ELEKEF  + YL   RR EI+ AL LTERQVK+WFQNRRMKWK+
+Sbjct  14   RKERTAFTKHQIRELEKEFCVHNYLTRLRRYEIAVALDLTERQVKVWFQNRRMKWKR  70
+
+
+>Bbelcheri.XP_019632096.1 unnamed protein product
+Length=183
+
+ Score = 78.2 bits (191),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 38/84 (45%), Positives = 57/84 (68%), Gaps = 0/84 (0%)
+
+Query  109  VRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWK  168
+            ++ S++ R  Y+  QLLELEKEF +N Y+   +R EI++ + LT+RQVKIWFQNRRMK K
+Sbjct  100  LQSSRKKRCPYSKVQLLELEKEFLYNMYITREQRGEIARKVNLTDRQVKIWFQNRRMKMK  159
+
+Query  169  KDEKQKTEDCYSAHQENIEEIPLS  192
+            + +++  E+ + AH     E  L+
+Sbjct  160  RMKQRHEEEAFRAHTGTALETDLN  183
+
+
+>Bbelcheri.XP_019636205.1 unnamed protein product
+Length=314
+
+ Score = 80.1 bits (196),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 39/101 (39%), Positives = 59/101 (58%), Gaps = 11/101 (11%)
+
+Query  84   ITQHLLDPIYPWMKPK-----------KGGKNHFAFVRESKRHRTSYTNKQLLELEKEFH  132
+            + QH + PI+PW+ P            +G        R+ KR RT++T  QLL LE  F 
+Sbjct  138  LPQHSMSPIHPWVLPHGFLPQHRLQVPEGTPGFMYPFRKPKRVRTAFTPTQLLRLEHAFE  197
+
+Query  133  FNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEKQ  173
+             N Y+    R+++++ L LTE QVK+WFQNRR K+K+D+++
+Sbjct  198  KNHYVVGQERKQLAQQLTLTETQVKVWFQNRRTKYKRDQQE  238
+
+
+>Bbelcheri.XP_019632265.1 unnamed protein product
+Length=305
+
+ Score = 80.1 bits (196),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 41/65 (63%), Positives = 47/65 (72%), Gaps = 0/65 (0%)
+
+Query  112  SKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDE  171
+            S++ R  YT  Q LELEKEF +N YL   RR EIS+ + LTERQVKIWFQNRRMK KK  
+Sbjct  234  SRKKRCPYTRFQTLELEKEFLYNMYLTRERRYEISQHVNLTERQVKIWFQNRRMKMKKMS  293
+
+Query  172  KQKTE  176
+            KQ+ E
+Sbjct  294  KQRQE  298
+
+
+>Hsapiens.NP_059105.2 homeobox protein Hox-C10
+Length=342
+
+ Score = 80.1 bits (196),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 38/61 (62%), Positives = 43/61 (70%), Gaps = 0/61 (0%)
+
+Query  109  VRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWK  168
+             +  ++ R  YT  Q LELEKEF FN YL   RR EISK + LT+RQVKIWFQNRRMK K
+Sbjct  265  AKSGRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEISKTINLTDRQVKIWFQNRRMKLK  324
+
+Query  169  K  169
+            K
+Sbjct  325  K  325
+
+
+>Hsapiens.NP_061824.3 homeobox protein Hox-A10
+Length=410
+
+ Score = 80.5 bits (197),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 37/61 (61%), Positives = 44/61 (72%), Gaps = 0/61 (0%)
+
+Query  109  VRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWK  168
+             +  ++ R  YT  Q LELEKEF FN YL   RR EIS+++ LT+RQVKIWFQNRRMK K
+Sbjct  333  AKSGRKKRCPYTKHQTLELEKEFLFNMYLTRERRLEISRSVHLTDRQVKIWFQNRRMKLK  392
+
+Query  169  K  169
+            K
+Sbjct  393  K  393
+
+
+>Hsapiens.NP_002139.2 homeobox protein Hox-D10
+Length=340
+
+ Score = 79.7 bits (195),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 42/79 (53%), Positives = 48/79 (61%), Gaps = 11/79 (14%)
+
+Query  91   PIYPWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQ  150
+            P   W+  K G           ++ R  YT  Q LELEKEF FN YL   RR EISK++ 
+Sbjct  256  PTSNWLTAKSG-----------RKKRCPYTKHQTLELEKEFLFNMYLTRERRLEISKSVN  304
+
+Query  151  LTERQVKIWFQNRRMKWKK  169
+            LT+RQVKIWFQNRRMK KK
+Sbjct  305  LTDRQVKIWFQNRRMKLKK  323
+
+
+>Myessoensis.XP_021357053.1 unnamed protein product
+Length=321
+
+ Score = 79.3 bits (194),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 35/57 (61%), Positives = 46/57 (81%), Gaps = 0/57 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            +R RT++T++QLLELEKEFH  KYL  + R +I+  L+L+E QVKIWFQNRR KWK+
+Sbjct  217  RRRRTAFTSEQLLELEKEFHSKKYLSLTERSQIAHNLKLSEVQVKIWFQNRRAKWKR  273
+
+
+>Bbelcheri.XP_019625107.1 unnamed protein product
+Length=627
+
+ Score = 80.1 bits (196),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 39/79 (49%), Positives = 53/79 (67%), Gaps = 0/79 (0%)
+
+Query  94   PWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTE  153
+            P  K + G        R+S+R RT++++ QLLELE+EF  N YL   RR EI+  L L+E
+Sbjct  491  PKPKTETGIAGGDGLPRDSRRMRTAFSSTQLLELEREFAANMYLSRLRRIEIATFLNLSE  550
+
+Query  154  RQVKIWFQNRRMKWKKDEK  172
+            +QVKIWFQNRR+K KK+ +
+Sbjct  551  KQVKIWFQNRRVKHKKEAR  569
+
+
+>Nvectensis.XP_032218198.1 unnamed protein product
+Length=217
+
+ Score = 77.4 bits (189),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 35/76 (46%), Positives = 51/76 (67%), Gaps = 0/76 (0%)
+
+Query  114  RHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEKQ  173
+            R RT+YT  Q LELEKEF +++Y+  +RR+E++  L L+E+ +KIWFQNRRMK KK +  
+Sbjct  134  RARTAYTASQQLELEKEFLYSRYITRTRRKELANTLDLSEKHIKIWFQNRRMKKKKTDSN  193
+
+Query  174  KTEDCYSAHQENIEEI  189
+               +   A+   I E+
+Sbjct  194  GAFEGVKANTREIREM  209
+
+
+>Nvectensis.XP_001625949.2 unnamed protein product
+Length=211
+
+ Score = 77.0 bits (188),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 42/104 (40%), Positives = 61/104 (59%), Gaps = 6/104 (6%)
+
+Query  94   PWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTE  153
+            P ++P +        + + ++ RT++T  Q+ ELE EF  N YL   RR EI+ +L LTE
+Sbjct  108  PLVQPGEQDPKSAKNLGKKRKERTAFTKHQIQELENEFQRNNYLTRLRRYEIAVSLDLTE  167
+
+Query  154  RQVKIWFQNRRMKWKK------DEKQKTEDCYSAHQENIEEIPL  191
+            RQVK+WFQNRRMKWK+      ++K   ED     + + E+I L
+Sbjct  168  RQVKVWFQNRRMKWKRVKGKRPEKKPAPEDSNQDEKSDSEDIIL  211
+
+
+>Myessoensis.XP_021347798.1 unnamed protein product
+Length=285
+
+ Score = 78.2 bits (191),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 36/62 (58%), Positives = 46/62 (74%), Gaps = 0/62 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            ++ RT++T  Q+ ELEKEF  + YL   RR EI+ AL LTERQVK+WFQNRRMKWK+ + 
+Sbjct  182  RKERTAFTKHQIRELEKEFCVHNYLTRLRRYEIAVALDLTERQVKVWFQNRRMKWKRVKG  241
+
+Query  173  QK  174
+             K
+Sbjct  242  TK  243
+
+
+>Hsapiens.NP_663632.1 GS homeobox 1
+Length=264
+
+ Score = 77.8 bits (190),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 38/61 (62%), Positives = 47/61 (77%), Gaps = 0/61 (0%)
+
+Query  112  SKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDE  171
+            SKR RT++T+ QLLELE+EF  N YL   RR EI+  L L+E+QVKIWFQNRR+K KK+ 
+Sbjct  147  SKRMRTAFTSTQLLELEREFASNMYLSRLRRIEIATYLNLSEKQVKIWFQNRRVKHKKEG  206
+
+Query  172  K  172
+            K
+Sbjct  207  K  207
+
+
+>Nvectensis.XP_032227750.1 unnamed protein product
+Length=232
+
+ Score = 77.0 bits (188),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 34/57 (60%), Positives = 45/57 (79%), Gaps = 0/57 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            KR RT++TN+Q+ +LE EF  +KYL  SRR E++ +L LTE Q+KIWFQNRR KWK+
+Sbjct  97   KRPRTAFTNEQIKDLEAEFQKSKYLSVSRRMELANSLSLTETQIKIWFQNRRTKWKR  153
+
+
+>Nvectensis.XP_032229387.1 unnamed protein product
+Length=242
+
+ Score = 77.0 bits (188),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 38/76 (50%), Positives = 53/76 (70%), Gaps = 0/76 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            ++ RT++T  QL ELE EF  N YL   RR EI+ +L LTERQVK+WFQNRRMKWK+ + 
+Sbjct  146  RKERTAFTTHQLRELENEFTRNNYLTRLRRYEIAVSLDLTERQVKVWFQNRRMKWKRVKG  205
+
+Query  173  QKTEDCYSAHQENIEE  188
+            ++  +  SA+   +E+
+Sbjct  206  ERKPEKKSAYLLQLEQ  221
+
+
+>Myessoensis.XP_021347813.1 unnamed protein product
+Length=297
+
+ Score = 77.8 bits (190),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 34/57 (60%), Positives = 44/57 (77%), Gaps = 0/57 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            ++ RT+++  Q+ ELEKEF  + YL   RR EI+ AL LTERQVK+WFQNRRMKWK+
+Sbjct  175  RKERTAFSKNQIRELEKEFGIHNYLTRLRRYEIAVALDLTERQVKVWFQNRRMKWKR  231
+
+
+>Dgigantea.XP_028394994.1 unnamed protein product
+Length=233
+
+ Score = 76.6 bits (187),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 35/66 (53%), Positives = 52/66 (79%), Gaps = 0/66 (0%)
+
+Query  111  ESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKD  170
+            +++R RT++T++Q L+LE EFH N+Y+  SRR E++ +L+LTE QVKIWFQNRR K K+ 
+Sbjct  121  KARRQRTTFTSEQTLKLELEFHQNEYITRSRRFELAASLKLTETQVKIWFQNRRAKDKRI  180
+
+Query  171  EKQKTE  176
+            EK + +
+Sbjct  181  EKAQLD  186
+
+
+>Myessoensis.XP_021352550.1 unnamed protein product
+Length=165
+
+ Score = 75.1 bits (183),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 34/64 (53%), Positives = 48/64 (75%), Gaps = 0/64 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            KR RT+++ +QL +LE+EF  N+YL    R E+SK LQL+E QVK+WFQNRR K+K+D  
+Sbjct  65   KRARTTFSPEQLYQLEREFQRNQYLVGKERTELSKNLQLSETQVKVWFQNRRTKYKRDRG  124
+
+Query  173  QKTE  176
+            ++ E
+Sbjct  125  REAE  128
+
+
+>Dgigantea.XP_028404807.1 unnamed protein product
+Length=237
+
+ Score = 76.6 bits (187),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 34/57 (60%), Positives = 44/57 (77%), Gaps = 0/57 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            ++ RT++T  Q+ ELE EF+ N YL   RR EI+ +L LTERQVK+WFQNRRMKWK+
+Sbjct  146  RKERTAFTKHQIQELENEFNRNNYLTRLRRYEIAVSLDLTERQVKVWFQNRRMKWKR  202
+
+
+>Myessoensis.XP_021363190.1 unnamed protein product
+Length=342
+
+ Score = 77.8 bits (190),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 34/59 (58%), Positives = 44/59 (75%), Gaps = 0/59 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDE  171
+            K+ RT++T +Q+ ELEK+F   KYL S+ R E++  L +TE QVKIWFQNRR KWKK E
+Sbjct  145  KKARTTFTGRQIFELEKQFELKKYLSSAERAEMAALLNVTETQVKIWFQNRRTKWKKQE  203
+
+
+>Aplanci.XP_022087028.1 unnamed protein product
+Length=348
+
+ Score = 77.8 bits (190),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 34/53 (64%), Positives = 43/53 (81%), Gaps = 0/53 (0%)
+
+Query  117  TSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            T++T+ QLLELEKEFH  KYL  S R +I+++L L+E QVKIWFQNRR KWK+
+Sbjct  226  TAFTSDQLLELEKEFHSKKYLTLSERSQIARSLHLSEVQVKIWFQNRRAKWKR  278
+
+
+>Aplanci.XP_022080795.1 unnamed protein product
+Length=310
+
+ Score = 77.4 bits (189),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 36/100 (36%), Positives = 58/100 (58%), Gaps = 12/100 (12%)
+
+Query  89   LDPIYPWMKPKKGGKNHFAFVR------------ESKRHRTSYTNKQLLELEKEFHFNKY  136
+             + ++PWM+ ++  ++     R            + K+ RTS+T  Q+ ELEK FH  KY
+Sbjct  133  FNSMFPWMESRRLARDRLTVTRRVGHPYQNRTPPKRKKPRTSFTRLQICELEKRFHRQKY  192
+
+Query  137  LCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEKQKTE  176
+            L S+ R  ++K L++T+ QVK WFQNRR KW++   ++ E
+Sbjct  193  LASAERAGLAKTLKMTDAQVKTWFQNRRTKWRRQTAEERE  232
+
+
+>Hsapiens.NP_573574.2 GS homeobox 2
+Length=304
+
+ Score = 77.4 bits (189),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 39/71 (55%), Positives = 50/71 (70%), Gaps = 0/71 (0%)
+
+Query  102  GKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQ  161
+            G +  + V   KR RT++T+ QLLELE+EF  N YL   RR EI+  L L+E+QVKIWFQ
+Sbjct  192  GGSDASQVPNGKRMRTAFTSTQLLELEREFSSNMYLSRLRRIEIATYLNLSEKQVKIWFQ  251
+
+Query  162  NRRMKWKKDEK  172
+            NRR+K KK+ K
+Sbjct  252  NRRVKHKKEGK  262
+
+
+>Nvectensis.XP_032229388.1 unnamed protein product
+Length=228
+
+ Score = 76.3 bits (186),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 35/62 (56%), Positives = 45/62 (73%), Gaps = 0/62 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            ++ RT+++  QL ELE EF  N YL   RR EI+ +L LTERQVK+WFQNRRMKWK+ + 
+Sbjct  143  RKERTAFSKHQLQELENEFIRNNYLTRLRRYEIAVSLDLTERQVKVWFQNRRMKWKRVKG  202
+
+Query  173  QK  174
+             K
+Sbjct  203  GK  204
+
+
+>Hsapiens.NP_001256.4 homeobox protein CDX-2 isoform 1
+Length=313
+
+ Score = 77.0 bits (188),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 38/81 (47%), Positives = 52/81 (64%), Gaps = 1/81 (1%)
+
+Query  95   WM-KPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTE  153
+            WM KP +         R   ++R  YT+ Q LELEKEFH+++Y+   R+ E++  L L+E
+Sbjct  168  WMRKPAQQSLGSQVKTRTKDKYRVVYTDHQRLELEKEFHYSRYITIRRKAELAATLGLSE  227
+
+Query  154  RQVKIWFQNRRMKWKKDEKQK  174
+            RQVKIWFQNRR K +K  K+K
+Sbjct  228  RQVKIWFQNRRAKERKINKKK  248
+
+
+>Bbelcheri.XP_019632094.1 unnamed protein product
+Length=288
+
+ Score = 76.6 bits (187),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 49/136 (36%), Positives = 67/136 (49%), Gaps = 24/136 (18%)
+
+Query  34   NSCLYTQPRKSLYTYGEGERANEILQGEHSSRPNYSYPVPNENQGSQSEPITQHLLDPIY  93
+            N C YT    S  T    E+ ++   G+   +P    P P +   S  +  +        
+Sbjct  138  NVCTYT----SASTAERSEQVSQAWDGQ-GCQPAEGPPTPAQGNNSSGDVTSN-------  185
+
+Query  94   PWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTE  153
+             WM  K            +++ R  YT  Q LELEKEF FN ++   RR+EI++ L LT+
+Sbjct  186  -WMSAK-----------STRKKRCPYTKYQTLELEKEFLFNMFVTRERRQEIARQLNLTD  233
+
+Query  154  RQVKIWFQNRRMKWKK  169
+            RQVKIWFQNRRMK K+
+Sbjct  234  RQVKIWFQNRRMKMKR  249
+
+
+>Nvectensis.XP_032239839.1 unnamed protein product
+Length=228
+
+ Score = 75.1 bits (183),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 34/57 (60%), Positives = 43/57 (75%), Gaps = 0/57 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            +R RT++T+KQLL+LE+EFH  KY+    R  I+  L LTE QVKIWFQNRR KWK+
+Sbjct  132  RRKRTAFTSKQLLQLEREFHNKKYVSLEERSVIATNLNLTEVQVKIWFQNRRAKWKR  188
+
+
+>Nvectensis.XP_032239572.1 unnamed protein product
+Length=225
+
+ Score = 75.1 bits (183),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 36/64 (56%), Positives = 48/64 (75%), Gaps = 0/64 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            +R RT++T++Q L+LE EFH N+Y+  SRR E++  L LTE QVKIWFQNRR K K+ EK
+Sbjct  117  RRQRTTFTSEQTLKLELEFHQNEYITRSRRFELAACLNLTETQVKIWFQNRRAKDKRLEK  176
+
+Query  173  QKTE  176
+             + E
+Sbjct  177  AQME  180
+
+
+>Bbelcheri.XP_019614445.1 unnamed protein product
+Length=308
+
+ Score = 76.3 bits (186),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 34/58 (59%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  118  SYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEKQKT  175
+            ++T++QLLELEKEFH  KYL  + R +I+ AL+L+E QVKIWFQNRR KWK+ +   T
+Sbjct  213  AFTSEQLLELEKEFHSKKYLSLTERSQIAHALKLSEVQVKIWFQNRRAKWKRVKAGNT  270
+
+
+>Myessoensis.XP_021356586.1 unnamed protein product
+Length=326
+
+ Score = 76.6 bits (187),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 39/95 (41%), Positives = 57/95 (60%), Gaps = 12/95 (13%)
+
+Query  89   LDPIYPWMKPKK-------GGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSR  141
+            L P + WMK           GK      R   ++R  Y++ Q LELEKEFH+++Y+   R
+Sbjct  149  LRPPFDWMKKASYTTSIPTAGK-----TRTKDKYRVVYSDHQRLELEKEFHYSRYITIRR  203
+
+Query  142  RREISKALQLTERQVKIWFQNRRMKWKKDEKQKTE  176
+            + E+++ L L+ERQVKIWFQNRR K +K  K++ +
+Sbjct  204  KSELAQTLSLSERQVKIWFQNRRAKERKQNKKRDD  238
+
+
+>Bbelcheri.XP_019636783.1 unnamed protein product
+Length=285
+
+ Score = 75.9 bits (185),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 34/57 (60%), Positives = 44/57 (77%), Gaps = 0/57 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            KR RT++T +Q+ ELE EF  NKYL  ++R E+S  L+LTE Q+KIWFQNRR KWK+
+Sbjct  146  KRPRTAFTAEQIKELEGEFQKNKYLSVTKRLELSNQLKLTETQIKIWFQNRRTKWKR  202
+
+
+>Bbelcheri.XP_019632267.1 unnamed protein product
+Length=342
+
+ Score = 76.3 bits (186),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 33/57 (58%), Positives = 44/57 (77%), Gaps = 0/57 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            ++ RT++T +Q++ELE EF  + YL   RR EI+  L LTERQVK+WFQNRRMKWK+
+Sbjct  248  RKERTAFTKQQIMELENEFRHHNYLTRLRRYEIAVKLDLTERQVKVWFQNRRMKWKR  304
+
+
+>Aplanci.XP_022082143.1 unnamed protein product
+Length=371
+
+ Score = 76.6 bits (187),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 34/47 (72%), Positives = 38/47 (81%), Gaps = 0/47 (0%)
+
+Query  116  RTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQN  162
+            RT++TNKQL ELEKEFHFNKYL  +RR EI+  L L E QVKIWFQN
+Sbjct  235  RTNFTNKQLTELEKEFHFNKYLTRARRVEIAAMLGLNETQVKIWFQN  281
+
+
+>Bbelcheri.XP_019636784.1 unnamed protein product
+Length=284
+
+ Score = 75.9 bits (185),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 34/57 (60%), Positives = 44/57 (77%), Gaps = 0/57 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            KR RT++T +Q+ ELE EF  NKYL  ++R E+S  L+LTE Q+KIWFQNRR KWK+
+Sbjct  148  KRPRTAFTAEQIKELEGEFQKNKYLSVTKRLELSNQLKLTETQIKIWFQNRRTKWKR  204
+
+
+>Hsapiens.NP_005184.1 homeobox protein CDX-4
+Length=284
+
+ Score = 75.5 bits (184),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 41/98 (42%), Positives = 61/98 (62%), Gaps = 9/98 (9%)
+
+Query  109  VRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWK  168
+             R  +++R  YT+ Q LELEKEFH N+Y+   R+ E++  L L+ERQVKIWFQNRR K +
+Sbjct  170  TRTKEKYRVVYTDHQRLELEKEFHCNRYITIQRKSELAVNLGLSERQVKIWFQNRRAKER  229
+
+Query  169  KDEKQKT---EDCYSAHQENIEEIPLSSALAPLYIPNS  203
+            K  K+K    E+   + Q +      S +++P  +PN+
+Sbjct  230  KMIKKKISQFENSGGSVQSD------SDSISPGELPNT  261
+
+
+>Bbelcheri.XP_019615194.1 unnamed protein product
+Length=331
+
+ Score = 75.9 bits (185),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 31/57 (54%), Positives = 43/57 (75%), Gaps = 0/57 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            K+ RT++T +Q+ ELEK+F   KYL +S R +++  L +T+ QVKIWFQNRR KWKK
+Sbjct  152  KKARTTFTGRQIFELEKQFEVKKYLSASERADLAALLNVTDTQVKIWFQNRRTKWKK  208
+
+
+>Hsapiens.NP_004518.1 homeobox protein MOX-1 isoform 1
+Length=254
+
+ Score = 74.7 bits (182),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 33/59 (56%), Positives = 45/59 (76%), Gaps = 0/59 (0%)
+
+Query  111  ESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            ++++ RT++T +QL ELE EF  + YL   RR EI+  L L+ERQVK+WFQNRRMKWK+
+Sbjct  170  KARKERTAFTKEQLRELEAEFAHHNYLTRLRRYEIAVNLDLSERQVKVWFQNRRMKWKR  228
+
+
+>Nvectensis.XP_032222966.1 unnamed protein product
+Length=185
+
+ Score = 73.2 bits (178),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 47/137 (34%), Positives = 71/137 (52%), Gaps = 9/137 (7%)
+
+Query  62   HSSRPNYSYPVPNENQGSQSEPITQHLLDPIYPWM---KPKKGGKNH----FAFVRESKR  114
+            HS R   + P  N       + I +     +YPWM   +P++ G  H          +  
+Sbjct  48   HSHRDFVTCPSNNVPLVKNHQLINEDAGCGVYPWMVIPRPQRPGCRHGPTPLKTSSSTSN  107
+
+Query  115  H--RTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            H  R+++T  Q LE+EKEF ++ Y+   RR EI  AL L+E+QV+ WFQNRRMK K++ K
+Sbjct  108  HAPRSAFTTVQQLEIEKEFLYDHYVSRVRRIEIVMALDLSEKQVRTWFQNRRMKLKREAK  167
+
+Query  173  QKTEDCYSAHQENIEEI  189
+               E  +   +E ++ I
+Sbjct  168  NVEEVLHVEIRERLKSI  184
+
+
+>Hsapiens.NP_001795.2 homeobox protein CDX-1
+Length=265
+
+ Score = 74.7 bits (182),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 33/61 (54%), Positives = 44/61 (72%), Gaps = 0/61 (0%)
+
+Query  109  VRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWK  168
+             R   ++R  YT+ Q LELEKEFH+++Y+   R+ E++  L LTERQVKIWFQNRR K +
+Sbjct  151  TRTKDKYRVVYTDHQRLELEKEFHYSRYITIRRKSELAANLGLTERQVKIWFQNRRAKER  210
+
+Query  169  K  169
+            K
+Sbjct  211  K  211
+
+
+>Hsapiens.NP_005915.2 homeobox protein MOX-2
+Length=304
+
+ Score = 75.1 bits (183),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 33/57 (58%), Positives = 43/57 (75%), Gaps = 0/57 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            ++ RT++T +Q+ ELE EF  + YL   RR EI+  L LTERQVK+WFQNRRMKWK+
+Sbjct  188  RKERTAFTKEQIRELEAEFAHHNYLTRLRRYEIAVNLDLTERQVKVWFQNRRMKWKR  244
+
+
+>Myessoensis.XP_021356583.1 unnamed protein product
+Length=370
+
+ Score = 75.5 bits (184),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 36/59 (61%), Positives = 47/59 (80%), Gaps = 0/59 (0%)
+
+Query  112  SKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKD  170
+            SKR RT++T+ QLLELE+EF  + YL   RR EI+  L L+E+QVKIWFQNRR+K+KK+
+Sbjct  250  SKRIRTAFTSTQLLELEREFSTSMYLSRLRRIEIATYLNLSEKQVKIWFQNRRVKYKKE  308
+
+
+>Nvectensis.XP_001625948.2 unnamed protein product
+Length=198
+
+ Score = 73.2 bits (178),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 33/57 (58%), Positives = 42/57 (74%), Gaps = 0/57 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            ++ RT ++  QL ELE+EF  N YL   RR EI+ +L L ERQVK+WFQNRRMKWK+
+Sbjct  127  RKERTVFSKYQLTELEREFCRNNYLTRLRRYEIAVSLDLGERQVKVWFQNRRMKWKR  183
+
+
+>Hsapiens.NP_005512.1 T-cell leukemia homeobox protein 1 isoform 1
+Length=330
+
+ Score = 74.7 bits (182),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 40/102 (39%), Positives = 60/102 (59%), Gaps = 8/102 (8%)
+
+Query  83   PITQHLLDPIYPWMKP-KKGGKNHFA-------FVRESKRHRTSYTNKQLLELEKEFHFN  134
+            P   +L    +PWM+  ++  K+ F           + K+ RTS+T  Q+ ELEK FH  
+Sbjct  164  PGVNNLTGLTFPWMESNRRYTKDRFTGHPYQNRTPPKKKKPRTSFTRLQICELEKRFHRQ  223
+
+Query  135  KYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEKQKTE  176
+            KYL S+ R  ++KAL++T+ QVK WFQNRR KW++   ++ E
+Sbjct  224  KYLASAERAALAKALKMTDAQVKTWFQNRRTKWRRQTAEERE  265
+
+
+>Aplanci.XP_022081678.1 unnamed protein product
+Length=264
+
+ Score = 73.9 bits (180),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 39/80 (49%), Positives = 54/80 (68%), Gaps = 3/80 (4%)
+
+Query  107  AFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMK  166
+            A  R +KR    Y+   + ELEKEF  ++YL   RR  ++++L LTERQVKIWFQNRRMK
+Sbjct  186  ALPRRTKRR--PYSKMTIFELEKEFQAHQYLTRDRRARLAQSLSLTERQVKIWFQNRRMK  243
+
+Query  167  WKK-DEKQKTEDCYSAHQEN  185
+             KK +EK+K++    A ++N
+Sbjct  244  QKKVNEKEKSKGSGKAERKN  263
+
+
+>Nvectensis.XP_032239584.1 unnamed protein product
+Length=186
+
+ Score = 72.4 bits (176),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 40/90 (44%), Positives = 56/90 (62%), Gaps = 11/90 (12%)
+
+Query  94   PWMKPKK-----GGKNHFAFVRE---SKRHR---TSYTNKQLLELEKEFHFNKYLCSSRR  142
+            PW++  +     G   H+   R    S RHR   T++++ QLL LE++F  +KYL   +R
+Sbjct  77   PWIQCGQHFMPPGCSQHYLSARNMIVSGRHRRPRTAFSSHQLLALERQFQLHKYLTRPQR  136
+
+Query  143  REISKALQLTERQVKIWFQNRRMKWKKDEK  172
+             E++ +L LTE QVKIWFQNRRMKWK+  K
+Sbjct  137  YELATSLMLTETQVKIWFQNRRMKWKRCNK  166
+
+
+>Myessoensis.XP_021361144.1 unnamed protein product
+Length=323
+
+ Score = 74.3 bits (181),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 33/64 (52%), Positives = 47/64 (73%), Gaps = 0/64 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            K+ RTS+T  Q++ELEK FH  KYL S+ R  ++KAL++T+ QVK WFQNRR KW++   
+Sbjct  207  KKPRTSFTRLQIMELEKRFHRQKYLASAERSALAKALKMTDAQVKTWFQNRRTKWRRQTA  266
+
+Query  173  QKTE  176
+            ++ E
+Sbjct  267  EERE  270
+
+
+>Myessoensis.XP_021357529.1 unnamed protein product
+Length=281
+
+ Score = 73.9 bits (180),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 36/78 (46%), Positives = 48/78 (62%), Gaps = 8/78 (10%)
+
+Query  100  KGGKNHFAF--------VRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQL  151
+            KGG  HF +        + + K  +  ++N Q LELEK+F   KYL    R+ ++K LQL
+Sbjct  143  KGGPKHFMWNYPFIQRPMHKRKGGQVRFSNDQTLELEKKFEAQKYLSPPERKRLAKVLQL  202
+
+Query  152  TERQVKIWFQNRRMKWKK  169
+            TERQVK WFQNRR KW++
+Sbjct  203  TERQVKTWFQNRRAKWRR  220
+
+
+>Aplanci.XP_022080923.1 unnamed protein product
+Length=479
+
+ Score = 74.7 bits (182),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 32/59 (54%), Positives = 44/59 (75%), Gaps = 0/59 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDE  171
+            K+ RT+++ +Q+ ELEK+F   KYL +S R E++  L +T+ QVKIWFQNRR KWKK E
+Sbjct  194  KKARTTFSGRQIFELEKQFEAKKYLSASERAELATLLNVTDTQVKIWFQNRRTKWKKME  252
+
+
+>Nvectensis.XP_032220664.1 unnamed protein product
+Length=214
+
+ Score = 72.4 bits (176),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 33/65 (51%), Positives = 49/65 (75%), Gaps = 0/65 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            +R RT +T++QL  LE+EF  ++YL  + R+ ++K+L L+E QVKIWFQNRR+KW+KD  
+Sbjct  141  RRKRTIFTSEQLRRLEEEFDKHQYLVGTERQNLAKSLNLSETQVKIWFQNRRIKWRKDNL  200
+
+Query  173  QKTED  177
+            Q+  D
+Sbjct  201  QQYPD  205
+
+
+>Hvulgaris.XP_004206396.1 unnamed protein product
+Length=285
+
+ Score = 73.6 bits (179),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 58/172 (34%), Positives = 80/172 (47%), Gaps = 39/172 (23%)
+
+Query  26   SPPRLAHLNSCLYTQPRKSLYTYGEGERANEILQGEHSSRPNYSYPVPNENQGSQSEPIT  85
+            +PP  + L S   TQ    L  YG     +++  G +S   N  +  P     SQ  P  
+Sbjct  58   TPPIFSTLAS---TQYGSELVPYGCD---SDLFSGSNSHYQNLQHHYP-----SQISPYF  106
+
+Query  86   QHLLDPIYPWMKP------------------KKGGKNHFAFVRESK----------RHRT  117
+             HL    +PW++P                   + G  H A     K          R RT
+Sbjct  107  FHLPSYSFPWVRPPLLPEFWWNSDRCVSQQNVQVGHIHNAVPSAKKEKQVSPCGKRRKRT  166
+
+Query  118  SYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            +Y+ +QL +LE+EF  N++L   RR E++  L L+ERQVKIWFQNRRMK+KK
+Sbjct  167  AYSKQQLYKLEREFWVNRFLSRERRMELASILDLSERQVKIWFQNRRMKYKK  218
+
+
+>Hsapiens.NP_055028.3 homeobox protein Hox-D9
+Length=352
+
+ Score = 73.9 bits (180),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 34/56 (61%), Positives = 40/56 (71%), Gaps = 0/56 (0%)
+
+Query  109  VRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRR  164
+             R +++ R  YT  Q LELEKEF FN YL   RR E+++ L LTERQVKIWFQNRR
+Sbjct  282  ARSTRKKRCPYTKYQTLELEKEFLFNMYLTRDRRYEVARILNLTERQVKIWFQNRR  337
+
+
+>Nvectensis.XP_032219204.1 unnamed protein product
+Length=253
+
+ Score = 72.8 bits (177),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 32/57 (56%), Positives = 44/57 (77%), Gaps = 0/57 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            KR RT++TN Q+ ELE EF  NKYL  +RR E++ +L+L++ Q+KIWFQNRR K K+
+Sbjct  133  KRTRTAFTNTQIRELEAEFQKNKYLTITRRAELANSLELSDTQIKIWFQNRRTKLKR  189
+
+
+>Hsapiens.NP_005510.1 homeobox protein HMX2
+Length=273
+
+ Score = 73.2 bits (178),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 45/129 (35%), Positives = 65/129 (50%), Gaps = 18/129 (14%)
+
+Query  97   KPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQV  156
+            +P+ GG    A   + K+ RT ++  Q+ +LE  F   +YL SS R  ++ +LQLTE QV
+Sbjct  135  RPRDGGAERQAGAAK-KKTRTVFSRSQVYQLESTFDMKRYLSSSERACLASSLQLTETQV  193
+
+Query  157  KIWFQNRRMKWKKDEKQKTEDCYSAH--------------QENIEEIPLSSAL---APLY  199
+            K WFQNRR KWK+    + E    AH                ++  +P+  +L   APLY
+Sbjct  194  KTWFQNRRNKWKRQLSAELEAANMAHASAQTLVSMPLVFRDSSLLRVPVPRSLAFPAPLY  253
+
+Query  200  IPNSRSACL  208
+             P S  + L
+Sbjct  254  YPGSNLSAL  262
+
+
+>Aplanci.XP_022082137.1 unnamed protein product
+Length=305
+
+ Score = 73.2 bits (178),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 34/65 (52%), Positives = 45/65 (69%), Gaps = 0/65 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            ++ R  YT  Q  ELE+EF FN YL   RR  I+++L L+ERQ+KIWFQNRRMK KK   
+Sbjct  187  RKKRRPYTKYQTFELEREFLFNMYLTRDRRTHIARSLSLSERQIKIWFQNRRMKLKKMRV  246
+
+Query  173  QKTED  177
+            ++ +D
+Sbjct  247  REDQD  251
+
+
+>Hsapiens.NP_004088.2 homeobox protein EMX1
+Length=290
+
+ Score = 73.2 bits (178),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 40/104 (38%), Positives = 60/104 (58%), Gaps = 19/104 (18%)
+
+Query  90   DPI--YPWM--------------KPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHF  133
+            DP+  YPW+               P+ G   H  F R+ KR RT+++  QLL LE+ F  
+Sbjct  154  DPLHFYPWVLRNRFFGHRFQASDVPQDGLLLHGPFARKPKRIRTAFSPSQLLRLERAFEK  213
+
+Query  134  NKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEKQKTED  177
+            N Y+  + R++++ +L L+E QVK+WFQNRR K+K   +QK E+
+Sbjct  214  NHYVVGAERKQLAGSLSLSETQVKVWFQNRRTKYK---RQKLEE  254
+
+
+>Hsapiens.NP_066305.2 T-cell leukemia homeobox protein 3
+Length=291
+
+ Score = 72.8 bits (177),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 31/64 (48%), Positives = 46/64 (72%), Gaps = 0/64 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            K+ RTS++  Q+ ELEK FH  KYL S+ R  ++K+L++T+ QVK WFQNRR KW++   
+Sbjct  167  KKPRTSFSRVQICELEKRFHRQKYLASAERAALAKSLKMTDAQVKTWFQNRRTKWRRQTA  226
+
+Query  173  QKTE  176
+            ++ E
+Sbjct  227  EERE  230
+
+
+>Bbelcheri.XP_019637779.1 unnamed protein product
+Length=260
+
+ Score = 72.4 bits (176),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 36/97 (37%), Positives = 56/97 (58%), Gaps = 13/97 (13%)
+
+Query  91   PIYPWM----------KPKKGGKNHFAFV---RESKRHRTSYTNKQLLELEKEFHFNKYL  137
+            P +PW+          + +  G  H       R+ KR RT++T  QLL LE  F  N Y+
+Sbjct  118  PCHPWLLARHQAVFGHRMQDPGNGHLLLANPFRKPKRIRTAFTPSQLLRLEHAFEKNHYV  177
+
+Query  138  CSSRRREISKALQLTERQVKIWFQNRRMKWKKDEKQK  174
+                R+ ++++L LTE QVK+WFQNRR K+K+D++++
+Sbjct  178  VGQERKHLAQSLSLTETQVKVWFQNRRTKYKRDQQEE  214
+
+
+>Nvectensis.XP_032233249.1 unnamed protein product
+Length=227
+
+ Score = 71.6 bits (174),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 31/66 (47%), Positives = 50/66 (76%), Gaps = 0/66 (0%)
+
+Query  107  AFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMK  166
+            ++V++ KR RT+++ +QL +LEK F  N Y+    R++I+K L L+E QVK+WFQNRR K
+Sbjct  115  SYVQKRKRARTAFSAEQLKKLEKRFQANHYIVGEERQKIAKDLDLSEAQVKVWFQNRRTK  174
+
+Query  167  WKKDEK  172
+            +K+D++
+Sbjct  175  FKRDQE  180
+
+
+>Nvectensis.XP_032221976.1 unnamed protein product
+Length=197
+
+ Score = 70.9 bits (172),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 31/71 (44%), Positives = 46/71 (65%), Gaps = 0/71 (0%)
+
+Query  104  NHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNR  163
+            N F   R  KR RT++T  QLL LE  F  N Y+  + R++++  L L+E Q+K+WFQNR
+Sbjct  83   NGFVACRRPKRIRTAFTPTQLLHLENAFEKNHYIVGTERKQLASYLNLSETQIKVWFQNR  142
+
+Query  164  RMKWKKDEKQK  174
+            R KWK+ + ++
+Sbjct  143  RTKWKRQQAEE  153
+
+
+>Aplanci.XP_022090705.1 unnamed protein product
+Length=327
+
+ Score = 72.8 bits (177),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 40/89 (45%), Positives = 52/89 (58%), Gaps = 6/89 (7%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            ++ R +Y++KQL  LE EF  +KYL  S+R E+S AL LTE Q+K WFQNRR KWK   K
+Sbjct  185  RKPRQAYSSKQLERLEDEFKADKYLSVSKRLELSMALNLTETQIKTWFQNRRTKWK---K  241
+
+Query  173  QKTEDCYSAHQENIEEIPLSSALAPLYIP  201
+            Q       A ++ +   P    L P Y P
+Sbjct  242  QMMARLKIAQRQGLWTAPF---LTPWYSP  267
+
+
+>Myessoensis.XP_021359646.1 unnamed protein product
+Length=264
+
+ Score = 71.6 bits (174),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 39/110 (35%), Positives = 62/110 (56%), Gaps = 15/110 (14%)
+
+Query  92   IYPWMKPKK---------GGKN---HFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCS  139
+            +YPWM  +          G ++   +F   R+ KR RT+++  QLL+LE  F  N Y+  
+Sbjct  137  MYPWMLARHPQGLFGLPFGHQDPSFYFHPYRKPKRIRTAFSPSQLLKLEHAFEKNHYVVG  196
+
+Query  140  SRRREISKALQLTERQVKIWFQNRRMKWKK---DEKQKTEDCYSAHQENI  186
+              R++++  L LTE QVK+WFQNRR K+K+   D+ +  +D     Q++I
+Sbjct  197  QERKDLAAKLGLTETQVKVWFQNRRTKFKRVKSDDDEPQDDAEGQQQDDI  246
+
+
+>Bbelcheri.XP_019625318.1 unnamed protein product
+Length=329
+
+ Score = 72.0 bits (175),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 33/66 (50%), Positives = 46/66 (70%), Gaps = 0/66 (0%)
+
+Query  109  VRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWK  168
+             R   ++R  Y++ Q LELEKEF+ NKY+   R+ +++  L L+ERQVKIWFQNRR K +
+Sbjct  190  TRTKDKYRVVYSDHQRLELEKEFYSNKYITIKRKVQLANELGLSERQVKIWFQNRRAKQR  249
+
+Query  169  KDEKQK  174
+            K  K+K
+Sbjct  250  KMAKRK  255
+
+
+>Hsapiens.NP_001269359.1 transcription factor LBX2 isoform 1
+Length=198
+
+ Score = 70.5 bits (171),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 32/73 (44%), Positives = 45/73 (62%), Gaps = 0/73 (0%)
+
+Query  108  FVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKW  167
+            F R+ ++ RT++T +Q+LELE+ F F KYL  S R  ++  L L   QV  WFQNRR K 
+Sbjct  81   FGRKRRKSRTAFTAQQVLELERRFVFQKYLAPSERDGLATRLGLANAQVVTWFQNRRAKL  140
+
+Query  168  KKDEKQKTEDCYS  180
+            K+D ++   D  S
+Sbjct  141  KRDVEEMRADVAS  153
+
+
+>Bbelcheri.XP_019626406.1 unnamed protein product
+Length=284
+
+ Score = 71.6 bits (174),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 35/67 (52%), Positives = 46/67 (69%), Gaps = 1/67 (1%)
+
+Query  119  YTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEKQKTEDC  178
+            ++N Q LELEK+F   KYL    R+ ++K+LQLTERQVK WFQNRR KW++  KQ+   C
+Sbjct  153  FSNDQTLELEKKFESQKYLSPPERKRLAKSLQLTERQVKTWFQNRRAKWRR-LKQEVPTC  211
+
+Query  179  YSAHQEN  185
+             S   E+
+Sbjct  212  KSDSGES  218
+
+
+>Hvulgaris.XP_002163970.1 unnamed protein product
+Length=262
+
+ Score = 71.2 bits (173),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 32/58 (55%), Positives = 45/58 (78%), Gaps = 0/58 (0%)
+
+Query  114  RHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDE  171
+            R R S+ + +++ELEKEF +NKYL   RR E ++ L+L+E Q+KIWFQNRRMK KK++
+Sbjct  163  RKRCSFGHSKIIELEKEFKYNKYLSRDRRVEFARNLELSESQIKIWFQNRRMKQKKEQ  220
+
+
+>Hsapiens.NP_067015.2 homeobox protein Hox-D11
+Length=338
+
+ Score = 72.0 bits (175),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 33/65 (51%), Positives = 46/65 (71%), Gaps = 0/65 (0%)
+
+Query  112  SKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDE  171
+            S++ R  YT  Q+ ELE+EF FN Y+   +R ++S+ L LT+RQVKIWFQNRRMK KK  
+Sbjct  266  SRKKRCPYTKYQIRELEREFFFNVYINKEKRLQLSRMLNLTDRQVKIWFQNRRMKEKKLN  325
+
+Query  172  KQKTE  176
+            + + +
+Sbjct  326  RDRLQ  330
+
+
+>Bbelcheri.XP_019642725.1 unnamed protein product
+Length=250
+
+ Score = 71.2 bits (173),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 40/89 (45%), Positives = 54/89 (61%), Gaps = 3/89 (3%)
+
+Query  83   PITQHLLDPIYPWMKPKKG--GKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSS  140
+            P +  L  P+Y   KP     G N    V++ +R RT +T  QLL LEK F   KYL + 
+Sbjct  81   PFSVPLPLPVYLRAKPDPAPEGANGVR-VKKCRRSRTVFTELQLLGLEKRFEKQKYLSTP  139
+
+Query  141  RRREISKALQLTERQVKIWFQNRRMKWKK  169
+             R E++++L L++ QVK W+QNRRMKWKK
+Sbjct  140  DRVELAESLGLSQLQVKTWYQNRRMKWKK  168
+
+
+>Hvulgaris.XP_012556008.1 unnamed protein product
+Length=248
+
+ Score = 70.9 bits (172),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 31/57 (54%), Positives = 43/57 (75%), Gaps = 0/57 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            ++ RT+++  Q+ +LE EF  N YL   RR EI+ +L L+ERQVK+WFQNRRMKWK+
+Sbjct  176  RKERTAFSKDQIRDLENEFVRNNYLTRLRRYEIAVSLSLSERQVKVWFQNRRMKWKR  232
+
+
+>Bbelcheri.XP_019617459.1 unnamed protein product
+Length=262
+
+ Score = 70.9 bits (172),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 36/82 (44%), Positives = 54/82 (66%), Gaps = 3/82 (4%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            ++ R +Y+++QL  LE+EF  +KYL  S+R E++++L+LTE QVK WFQNRR KWK   K
+Sbjct  139  RKPRQAYSSRQLERLEEEFKKDKYLSVSKRVELAESLELTEIQVKTWFQNRRTKWK---K  195
+
+Query  173  QKTEDCYSAHQENIEEIPLSSA  194
+            Q        HQ++   +P +S 
+Sbjct  196  QTAARMRMLHQQDAGILPSTSV  217
+
+
+>Bbelcheri.XP_019615136.1 unnamed protein product
+Length=308
+
+ Score = 71.6 bits (174),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 31/62 (50%), Positives = 45/62 (73%), Gaps = 0/62 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            K+ RTS+T  Q+ ELEK FH  KYL S+ R +++  L++T+ QVK WFQNRR KW+K  +
+Sbjct  128  KKPRTSFTRLQICELEKRFHKQKYLASAERAQLATQLKMTDAQVKTWFQNRRTKWRKTTE  187
+
+Query  173  QK  174
+            ++
+Sbjct  188  ER  189
+
+
+>Myessoensis.XP_021370369.1 unnamed protein product
+Length=263
+
+ Score = 70.9 bits (172),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 33/65 (51%), Positives = 45/65 (69%), Gaps = 0/65 (0%)
+
+Query  110  RESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            R+ +R RT +T+ QL+ LEK F   KYL +  R +++ +L LT+ QVK W+QNRRMKWKK
+Sbjct  128  RKCRRSRTVFTDLQLMGLEKRFEGQKYLSTPERLDLADSLGLTQIQVKTWYQNRRMKWKK  187
+
+Query  170  DEKQK  174
+               QK
+Sbjct  188  MVMQK  192
+
+
+>Bbelcheri.XP_019636787.1 unnamed protein product
+Length=254
+
+ Score = 70.9 bits (172),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 31/59 (53%), Positives = 45/59 (76%), Gaps = 0/59 (0%)
+
+Query  111  ESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            E KR RT++T++QL  L+KEF  N+YL   RR+++++ L+L E Q+KIWFQN+R K KK
+Sbjct  160  EEKRPRTAFTSEQLQRLKKEFQENRYLTEQRRQDLARELKLNESQIKIWFQNKRAKIKK  218
+
+
+>Aplanci.XP_022108013.1 unnamed protein product
+Length=356
+
+ Score = 71.6 bits (174),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 35/85 (41%), Positives = 53/85 (62%), Gaps = 1/85 (1%)
+
+Query  91   PIYPWMKPKKGGKN-HFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKAL  149
+            P + WM+      N      R   ++R  Y++ Q LELEKEF +++Y+   R+ E++ +L
+Sbjct  152  PYHDWMRSSSYRVNPQTGKTRTKDKYRVVYSDHQRLELEKEFIYSRYITIRRKAELAVSL  211
+
+Query  150  QLTERQVKIWFQNRRMKWKKDEKQK  174
+             L+ERQVKIWFQNRR K +K  K++
+Sbjct  212  GLSERQVKIWFQNRRAKERKQNKKR  236
+
+
+>Hsapiens.NP_776272.1 homeobox protein Hox-C12
+Length=282
+
+ Score = 70.9 bits (172),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 37/96 (39%), Positives = 51/96 (53%), Gaps = 0/96 (0%)
+
+Query  74   NENQGSQSEPITQHLLDPIYPWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHF  133
+            NE            L+ P+ P       G   +     S++ R  Y+  QL ELE EF  
+Sbjct  176  NEGNKGAGAGDPGSLVSPLNPGGGLSASGAPWYPINSRSRKKRKPYSKLQLAELEGEFLV  235
+
+Query  134  NKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            N+++   RRRE+S  L L+++QVKIWFQNRRMK K+
+Sbjct  236  NEFITRQRRRELSDRLNLSDQQVKIWFQNRRMKKKR  271
+
+
+>Nvectensis.XP_032230744.1 unnamed protein product
+Length=220
+
+ Score = 70.1 bits (170),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 34/69 (49%), Positives = 45/69 (65%), Gaps = 0/69 (0%)
+
+Query  110  RESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            R  ++ RT +T+ QL  LEK F   KYL +S R ++++ L L E QVK WFQNRRMKWKK
+Sbjct  133  RRCRKSRTVFTDLQLRVLEKTFSEQKYLDTSSRSKLAQTLGLNETQVKTWFQNRRMKWKK  192
+
+Query  170  DEKQKTEDC  178
+            +  +  ED 
+Sbjct  193  ETGKDEEDV  201
+
+
+>Nvectensis.XP_032235579.1 unnamed protein product
+Length=204
+
+ Score = 69.7 bits (169),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 32/66 (48%), Positives = 46/66 (70%), Gaps = 0/66 (0%)
+
+Query  104  NHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNR  163
+            +H + + +S+R RT++T+ QL  LE++F   KYL  S R  ++K++ LT  QVK WFQNR
+Sbjct  70   SHKSHMNKSRRRRTAFTSSQLKSLEEKFQEKKYLTISERNSLAKSMHLTNTQVKTWFQNR  129
+
+Query  164  RMKWKK  169
+            R KWKK
+Sbjct  130  RTKWKK  135
+
+
+>Hsapiens.NP_057254.1 T-cell leukemia homeobox protein 2
+Length=284
+
+ Score = 70.9 bits (172),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 31/64 (48%), Positives = 46/64 (72%), Gaps = 0/64 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            K+ RTS++  Q+LELE+ F   KYL S+ R  ++KAL++T+ QVK WFQNRR KW++   
+Sbjct  158  KKPRTSFSRSQVLELERRFLRQKYLASAERAALAKALRMTDAQVKTWFQNRRTKWRRQTA  217
+
+Query  173  QKTE  176
+            ++ E
+Sbjct  218  EERE  221
+
+
+>Nvectensis.XP_032240936.1 unnamed protein product
+Length=236
+
+ Score = 70.1 bits (170),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 35/67 (52%), Positives = 45/67 (67%), Gaps = 3/67 (4%)
+
+Query  107  AFVRESKRHR---TSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNR  163
+            AF  ES+R R   T +T  QL +LE  F  +KYL +  R E +++LQLT  Q+K W+QNR
+Sbjct  147  AFFNESRRFRRIRTVFTRDQLQKLEDRFKHDKYLSTQDRNEFARSLQLTPLQLKTWYQNR  206
+
+Query  164  RMKWKKD  170
+            RMKWKKD
+Sbjct  207  RMKWKKD  213
+
+
+>Hsapiens.NP_008828.1 homeobox protein Hox-C9
+Length=260
+
+ Score = 70.5 bits (171),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 58/141 (41%), Positives = 74/141 (52%), Gaps = 24/141 (17%)
+
+Query  51   GERANEILQGEHSSRPNYSYPVPNE--NQGSQSEPITQHL-------------LDPIYPW  95
+            G RA+    GE  S P+Y Y  P E  ++  Q+ P  +               LDP  P 
+Sbjct  125  GRRAD-CGPGEGRSYPDYMYGSPGELRDRAPQTLPSPEADALAGSKHKEEKADLDPSNPV  183
+
+Query  96   MKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQ  155
+                     ++   R +++ R  YT  Q LELEKEF FN YL   RR E+++ L LTERQ
+Sbjct  184  A--------NWIHARSTRKKRCPYTKYQTLELEKEFLFNMYLTRDRRYEVARVLNLTERQ  235
+
+Query  156  VKIWFQNRRMKWKKDEKQKTE  176
+            VKIWFQNRRMK KK  K+KT+
+Sbjct  236  VKIWFQNRRMKMKKMNKEKTD  256
+
+
+>Aplanci.XP_022096635.1 unnamed protein product
+Length=284
+
+ Score = 70.5 bits (171),  Expect = 9e-14, Method: Compositional matrix adjust.
+ Identities = 31/78 (40%), Positives = 49/78 (63%), Gaps = 7/78 (9%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK---  169
+            K  +  ++N Q +ELEK+F   KYL    R++++K LQL+ERQVK WFQNRR KW++   
+Sbjct  167  KGGQVRFSNDQTMELEKKFESQKYLSPPERKKLAKLLQLSERQVKTWFQNRRAKWRRVKQ  226
+
+Query  170  ----DEKQKTEDCYSAHQ  183
+                 + +  ++C  +H+
+Sbjct  227  EVPTGKGEGDDNCTDSHE  244
+
+
+>Dgigantea.XP_028396277.1 unnamed protein product
+Length=217
+
+ Score = 68.9 bits (167),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 30/57 (53%), Positives = 43/57 (75%), Gaps = 0/57 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            KR RT++++ Q+  LE+EF  N+YL   RR E++  L+L+E Q+KIWFQNRR KWK+
+Sbjct  106  KRKRTAFSSHQIKVLEQEFENNRYLSVCRRMELAAGLKLSETQIKIWFQNRRTKWKR  162
+
+
+>Aplanci.XP_022098312.1 unnamed protein product
+Length=411
+
+ Score = 70.9 bits (172),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 31/68 (46%), Positives = 45/68 (66%), Gaps = 0/68 (0%)
+
+Query  110  RESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            R+ ++ RT++ N+Q+ ELE+ F + KYL  + R EI+  L LT  QV  WFQNRR K K+
+Sbjct  169  RKKRKSRTAFNNQQIFELERRFLYQKYLTPADRDEIASVLGLTNAQVITWFQNRRAKLKR  228
+
+Query  170  DEKQKTED  177
+            D ++ T D
+Sbjct  229  DMEELTMD  236
+
+
+>Hsapiens.NP_002720.1 hematopoietically-expressed homeobox protein HHEX
+Length=270
+
+ Score = 69.7 bits (169),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 34/77 (44%), Positives = 49/77 (64%), Gaps = 3/77 (4%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            K  +  ++N Q +ELEK+F   KYL    R+ ++K LQL+ERQVK WFQNRR KW+   +
+Sbjct  138  KGGQVRFSNDQTIELEKKFETQKYLSPPERKRLAKMLQLSERQVKTWFQNRRAKWR---R  194
+
+Query  173  QKTEDCYSAHQENIEEI  189
+             K E+  S  +E +E +
+Sbjct  195  LKQENPQSNKKEELESL  211
+
+
+>Hsapiens.NP_004089.1 homeobox protein EMX2 isoform 1
+Length=252
+
+ Score = 69.3 bits (168),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 36/80 (45%), Positives = 52/80 (65%), Gaps = 3/80 (4%)
+
+Query  105  HFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRR  164
+            H A  R+ KR RT+++  QLL LE  F  N Y+  + R++++ +L LTE QVK+WFQNRR
+Sbjct  147  HNALARKPKRIRTAFSPSQLLRLEHAFEKNHYVVGAERKQLAHSLSLTETQVKVWFQNRR  206
+
+Query  165  MKWKKDEKQKTEDCYSAHQE  184
+             K+K   +QK E+  S  Q+
+Sbjct  207  TKFK---RQKLEEEGSDSQQ  223
+
+
+>Nvectensis.XP_032240856.1 unnamed protein product
+Length=217
+
+ Score = 68.9 bits (167),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 33/66 (50%), Positives = 46/66 (70%), Gaps = 0/66 (0%)
+
+Query  104  NHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNR  163
+            NH     +S+R RT++T+ QL  LE++F   KYL  S R E++K++ L++ QVK WFQNR
+Sbjct  81   NHKYHSSKSRRKRTAFTSSQLKYLEEKFQEKKYLTISERNELAKSMYLSDTQVKTWFQNR  140
+
+Query  164  RMKWKK  169
+            R KWKK
+Sbjct  141  RTKWKK  146
+
+
+>Aplanci.XP_022080659.1 unnamed protein product
+Length=261
+
+ Score = 69.3 bits (168),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 32/71 (45%), Positives = 49/71 (69%), Gaps = 2/71 (3%)
+
+Query  110  RESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWK-  168
+            R+ KR RT+++  QLL LE+ F  N Y+  + R++++ +L LTE QVK+WFQNRR K+K 
+Sbjct  171  RKPKRIRTAFSPSQLLRLEQAFEKNHYVVGAERKQLAASLNLTETQVKVWFQNRRTKYKR  230
+
+Query  169  -KDEKQKTEDC  178
+             K E++  +D 
+Sbjct  231  VKSEEEGEQDA  241
+
+
+>Hsapiens.NP_006352.2 homeobox protein Hox-B13
+Length=284
+
+ Score = 69.7 bits (169),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 30/60 (50%), Positives = 42/60 (70%), Gaps = 0/60 (0%)
+
+Query  110  RESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            R  ++ R  Y+  QL ELE+E+  NK++   +RR+IS A  L+ERQ+ IWFQNRR+K KK
+Sbjct  214  RRGRKKRIPYSKGQLRELEREYAANKFITKDKRRKISAATSLSERQITIWFQNRRVKEKK  273
+
+
+>Hsapiens.NP_055027.1 homeobox protein Hox-C11
+Length=304
+
+ Score = 69.7 bits (169),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 31/65 (48%), Positives = 46/65 (71%), Gaps = 0/65 (0%)
+
+Query  112  SKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDE  171
+            +++ R  Y+  Q+ ELE+EF FN Y+   +R ++S+ L LT+RQVKIWFQNRRMK KK  
+Sbjct  232  TRKKRCPYSKFQIRELEREFFFNVYINKEKRLQLSRMLNLTDRQVKIWFQNRRMKEKKLS  291
+
+Query  172  KQKTE  176
+            + + +
+Sbjct  292  RDRLQ  296
+
+
+>Nvectensis.XP_032229701.1 unnamed protein product
+Length=245
+
+ Score = 68.9 bits (167),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 32/64 (50%), Positives = 43/64 (67%), Gaps = 0/64 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            K+ RT++T  Q+ ELEK F   KYL S  R E++  L LT+ QVK WFQNRRMK K+  +
+Sbjct  89   KKPRTAFTESQISELEKRFQSQKYLGSKERSELAGTLGLTDTQVKTWFQNRRMKLKRQRQ  148
+
+Query  173  QKTE  176
+            + T+
+Sbjct  149  EDTD  152
+
+
+>Aplanci.XP_022079383.1 unnamed protein product
+Length=313
+
+ Score = 69.7 bits (169),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 35/62 (56%), Positives = 44/62 (71%), Gaps = 1/62 (2%)
+
+Query  116  RTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK-DEKQK  174
+            R  Y+  Q++ELEKEF  N YL   RR  +++ L LTERQVKIW+QNRRMK KK  E++K
+Sbjct  231  RRPYSKLQIIELEKEFQDNMYLTRDRRTRLAEVLNLTERQVKIWYQNRRMKMKKMTEREK  290
+
+Query  175  TE  176
+             E
+Sbjct  291  QE  292
+
+
+>Nvectensis.XP_032220496.1 unnamed protein product
+Length=234
+
+ Score = 68.6 bits (166),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 38/91 (42%), Positives = 52/91 (57%), Gaps = 4/91 (4%)
+
+Query  91   PIYPWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQ  150
+            P+Y  +KP     +     R  ++ RT +T+ QL  LEK F   KYL +S R ++++ L 
+Sbjct  109  PVYFRLKPTIRTPSG----RRCRKSRTVFTDLQLRVLEKTFSEQKYLDTSSRAKLAQTLG  164
+
+Query  151  LTERQVKIWFQNRRMKWKKDEKQKTEDCYSA  181
+            L E QVK WFQNRRMKWKK+  +   D   A
+Sbjct  165  LNETQVKTWFQNRRMKWKKESNRNKSDAEEA  195
+
+
+>Nvectensis.XP_032233281.1 unnamed protein product
+Length=189
+
+ Score = 67.8 bits (164),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 30/58 (52%), Positives = 42/58 (72%), Gaps = 0/58 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKD  170
+            KR RTS+T  QL  LE EF  + Y+   +R +++  L L+ERQVK+WFQNRRMK+K++
+Sbjct  121  KRSRTSFTPAQLDRLEDEFRVDMYVVGLKRMKLANDLNLSERQVKVWFQNRRMKYKRE  178
+
+
+>Hsapiens.NP_005514.1 homeobox protein Hox-A11
+Length=313
+
+ Score = 69.3 bits (168),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 34/78 (44%), Positives = 51/78 (65%), Gaps = 4/78 (5%)
+
+Query  99   KKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKI  158
+            K GG +     + +++ R  YT  Q+ ELE+EF F+ Y+   +R ++S+ L LT+RQVKI
+Sbjct  232  KAGGSSG----QRTRKKRCPYTKYQIRELEREFFFSVYINKEKRLQLSRMLNLTDRQVKI  287
+
+Query  159  WFQNRRMKWKKDEKQKTE  176
+            WFQNRRMK KK  + + +
+Sbjct  288  WFQNRRMKEKKINRDRLQ  305
+
+
+>Bbelcheri.XP_019637776.1 unnamed protein product
+Length=277
+
+ Score = 68.9 bits (167),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/63 (48%), Positives = 44/63 (70%), Gaps = 0/63 (0%)
+
+Query  110  RESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            R+ KR RT++T  QLL LE  F  N Y+    R+ ++++L LTE QVK+WFQNRR K K+
+Sbjct  159  RKPKRIRTAFTPSQLLRLEHAFEKNHYVVGQERKHLAQSLSLTETQVKVWFQNRRTKHKR  218
+
+Query  170  DEK  172
+            +++
+Sbjct  219  EQQ  221
+
+
+>Nvectensis.XP_032220012.1 unnamed protein product
+Length=216
+
+ Score = 68.2 bits (165),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/58 (52%), Positives = 44/58 (76%), Gaps = 0/58 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKD  170
+            +R RT++T+ QL  LE +F F+KYL  + R  ++++LQLT RQ+K WFQNRR KWK++
+Sbjct  100  RRKRTAFTSFQLKCLEDKFKFSKYLTIAERDMMARSLQLTNRQIKTWFQNRRTKWKRE  157
+
+
+>Hsapiens.NP_001106175.1 ventral anterior homeobox 1 isoform a
+Length=334
+
+ Score = 69.3 bits (168),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 32/64 (50%), Positives = 44/64 (69%), Gaps = 0/64 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            KR RTS+T +QL  LE EF   +Y+    R E+++ L L+E QVK+WFQNRR K KKD+ 
+Sbjct  101  KRTRTSFTAEQLYRLEMEFQRCQYVVGRERTELARQLNLSETQVKVWFQNRRTKQKKDQG  160
+
+Query  173  QKTE  176
+            + +E
+Sbjct  161  KDSE  164
+
+
+>Hsapiens.NP_006553.2 transcription factor LBX1
+Length=281
+
+ Score = 68.9 bits (167),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 32/72 (44%), Positives = 47/72 (65%), Gaps = 0/72 (0%)
+
+Query  110  RESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            ++ ++ RT++TN Q+ ELEK F + KYL  + R +I++ L LT  QV  WFQNRR K K+
+Sbjct  123  KKRRKSRTAFTNHQIYELEKRFLYQKYLSPADRDQIAQQLGLTNAQVITWFQNRRAKLKR  182
+
+Query  170  DEKQKTEDCYSA  181
+            D ++   D  SA
+Sbjct  183  DLEEMKADVESA  194
+
+
+>Aplanci.XP_022080804.1 unnamed protein product
+Length=279
+
+ Score = 68.6 bits (166),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 39/88 (44%), Positives = 53/88 (60%), Gaps = 8/88 (9%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            KR RTS+T+ QL +LEKEF  N+Y+    R  ++  L LTE QVK+WFQNRR K+K+   
+Sbjct  171  KRARTSFTSYQLEQLEKEFKCNQYMVGRDRARLATNLDLTETQVKVWFQNRRTKFKR---  227
+
+Query  173  QKTEDCYSAH--QENIEEIPLSSALAPL  198
+               E C +A   ++N E I   + L  L
+Sbjct  228  ---EQCKAAEFKEKNAESIAACNILKLL  252
+
+
+>Aplanci.XP_022082136.1 unnamed protein product
+Length=309
+
+ Score = 68.9 bits (167),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 34/57 (60%), Positives = 41/57 (72%), Gaps = 1/57 (2%)
+
+Query  119  YTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK-DEKQK  174
+            Y+  Q+ ELEKEF  N YL   RR ++S +L L+ERQ+KIWFQNRRMK KK  EK K
+Sbjct  183  YSKFQIYELEKEFQANMYLTRDRRSKLSHSLNLSERQIKIWFQNRRMKLKKVSEKAK  239
+
+
+>Bbelcheri.XP_019636296.1 unnamed protein product
+Length=277
+
+ Score = 68.6 bits (166),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 30/60 (50%), Positives = 43/60 (72%), Gaps = 0/60 (0%)
+
+Query  110  RESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            R+ KR RT +T +QL  LE+EF   +Y+  S R  ++ +L LTE QVK+WFQNRR+KW++
+Sbjct  177  RKGKRIRTIFTPEQLERLEREFSRQQYMVGSERYHLAASLNLTEAQVKVWFQNRRIKWRR  236
+
+
+>Myessoensis.XP_021361239.1 unnamed protein product
+Length=274
+
+ Score = 68.6 bits (166),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 31/64 (48%), Positives = 46/64 (72%), Gaps = 0/64 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            K+ RTS+T  Q++ELE+ F   KYL SS R  I+K+L++++ QVK WFQNRR KW++   
+Sbjct  182  KKPRTSFTRLQIMELERRFEQQKYLASSERSSIAKSLKMSDSQVKTWFQNRRTKWRRQTA  241
+
+Query  173  QKTE  176
+            ++ E
+Sbjct  242  EEKE  245
+
+
+>Hsapiens.NP_001277008.1 NK1 transcription factor-related protein 1
+Length=448
+
+ Score = 69.3 bits (168),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 30/57 (53%), Positives = 40/57 (70%), Gaps = 0/57 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            +R RT++T +QL+ LE +F   +YL    R  ++ +L LTE QVKIWFQNRR KWKK
+Sbjct  297  RRARTAFTYEQLVALENKFKATRYLSVCERLNLALSLSLTETQVKIWFQNRRTKWKK  353
+
+
+>Nvectensis.XP_001640831.1 unnamed protein product
+Length=275
+
+ Score = 68.2 bits (165),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 37/85 (44%), Positives = 50/85 (59%), Gaps = 2/85 (2%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            +R RT++T +QL+ LE +F   +YL    R  ++ +L LTE QVKIWFQNRR KWKK  +
+Sbjct  158  RRARTAFTYEQLVALENKFKSTRYLSVCERLNLALSLGLTETQVKIWFQNRRTKWKK--Q  215
+
+Query  173  QKTEDCYSAHQENIEEIPLSSALAP  197
+                D  +  + NI   P S A  P
+Sbjct  216  NPGMDVTAPTRPNIPHGPASLAGYP  240
+
+
+>Hsapiens.NP_061815.2 homeobox protein HMX1 isoform 1
+Length=348
+
+ Score = 68.9 bits (167),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 28/54 (52%), Positives = 38/54 (70%), Gaps = 0/54 (0%)
+
+Query  116  RTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            RT ++  Q+ +LE  F   +YL S+ R  ++ +LQLTE QVKIWFQNRR KWK+
+Sbjct  207  RTVFSRSQVFQLESTFDLKRYLSSAERAGLAASLQLTETQVKIWFQNRRNKWKR  260
+
+
+>Hsapiens.NP_036608.1 ventral anterior homeobox 2
+Length=290
+
+ Score = 68.6 bits (166),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 32/64 (50%), Positives = 43/64 (67%), Gaps = 0/64 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            KR RTS+T +QL  LE EF   +Y+    R E+++ L L+E QVK+WFQNRR K KKD+ 
+Sbjct  103  KRTRTSFTAEQLYRLEMEFQRCQYVVGRERTELARQLNLSETQVKVWFQNRRTKQKKDQS  162
+
+Query  173  QKTE  176
+            +  E
+Sbjct  163  RDLE  166
+
+
+>Hsapiens.NP_001139812.1 NK1 transcription factor-related protein 2
+Length=310
+
+ Score = 68.6 bits (166),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 30/57 (53%), Positives = 40/57 (70%), Gaps = 0/57 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            +R RT++T +QL+ LE +F   +YL    R  ++ +L LTE QVKIWFQNRR KWKK
+Sbjct  164  RRARTAFTYEQLVALENKFRATRYLSVCERLNLALSLSLTETQVKIWFQNRRTKWKK  220
+
+
+>Nvectensis.XP_032228794.1 unnamed protein product
+Length=206
+
+ Score = 67.0 bits (162),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 32/59 (54%), Positives = 41/59 (69%), Gaps = 0/59 (0%)
+
+Query  116  RTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEKQK  174
+            R  ++  QL  LEKEF  NKYL  S+R ++SK L +TE QVK WFQNRR KW+K + Q+
+Sbjct  122  RPLFSKTQLSRLEKEFSGNKYLTESKREQLSKDLGMTETQVKTWFQNRRTKWRKKKMQR  180
+
+
+>Dgigantea.XP_028391215.1 unnamed protein product
+Length=175
+
+ Score = 66.2 bits (160),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 29/60 (48%), Positives = 44/60 (73%), Gaps = 0/60 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            KR+RT+++  QL  LE EF  N Y+   +R  +++ L+L ER +KIWFQNRRMK+K+D++
+Sbjct  100  KRYRTTFSPSQLKRLEGEFSCNMYVVGLKRLRLAQELKLEERHIKIWFQNRRMKYKRDQR  159
+
+
+>Hsapiens.NP_003649.2 homeobox protein BarH-like 2
+Length=279
+
+ Score = 67.8 bits (164),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 30/60 (50%), Positives = 44/60 (73%), Gaps = 0/60 (0%)
+
+Query  110  RESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            ++ +R RT +T  QL+ LEK+F   KYL +  R +++++L LT+ QVK W+QNRRMKWKK
+Sbjct  131  KKPRRSRTIFTELQLMGLEKKFQKQKYLSTPDRLDLAQSLGLTQLQVKTWYQNRRMKWKK  190
+
+
+>Dgigantea.XP_028391568.1 unnamed protein product
+Length=270
+
+ Score = 67.8 bits (164),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 40/101 (40%), Positives = 57/101 (56%), Gaps = 5/101 (5%)
+
+Query  110  RESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            ++ K+ RT++T +Q+ ELE  F   KYL SS R E+++ L +T+ QVKIWFQNRR K+KK
+Sbjct  132  KKKKKARTTFTGRQIWELENTFKEKKYLTSSERNELAELLNVTDCQVKIWFQNRRTKYKK  191
+
+Query  170  DEKQKTEDCYSAHQENIEEIPLSSALAPLYIPNSRSACLHS  210
+             E   T        + I E  LS+  +P     S  +  H 
+Sbjct  192  LEVTPTN-----GDDEIGEESLSARCSPASPITSEDSTTHD  227
+
+
+>Bbelcheri.XP_019632103.1 unnamed protein product
+Length=216
+
+ Score = 66.6 bits (161),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 36/80 (45%), Positives = 52/80 (65%), Gaps = 3/80 (4%)
+
+Query  99   KKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKI  158
+            + GG +    VR  +R    Y+  QL ELE E+  N+Y+   +R ++S+ L LTERQVKI
+Sbjct  139  QNGGGSLTKPVRPKRR---PYSKYQLNELENEYVQNQYISRDKRLQLSQKLNLTERQVKI  195
+
+Query  159  WFQNRRMKWKKDEKQKTEDC  178
+            WFQNRR+K KK +++ +E C
+Sbjct  196  WFQNRRIKQKKLDRRNSEMC  215
+
+
+>Hsapiens.NP_001099044.1 homeobox protein HMX3
+Length=357
+
+ Score = 68.2 bits (165),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 33/81 (41%), Positives = 48/81 (59%), Gaps = 2/81 (2%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            K+ RT ++  Q+ +LE  F   +YL SS R  ++ +L LTE QVKIWFQNRR KWK+   
+Sbjct  228  KKTRTVFSRSQVFQLESTFDMKRYLSSSERAGLAASLHLTETQVKIWFQNRRNKWKRQLA  287
+
+Query  173  QKTEDCYSAH--QENIEEIPL  191
+             + E    +H   + I  +P+
+Sbjct  288  AELEAANLSHAAAQRIVRVPI  308
+
+
+>Hsapiens.NP_005020.1 pituitary homeobox 3
+Length=302
+
+ Score = 67.8 bits (164),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 33/79 (42%), Positives = 49/79 (62%), Gaps = 1/79 (1%)
+
+Query  101  GGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWF  160
+            G     +  ++ +R RT +T++QL ELE  F  N+Y   S R EI+    LTE +V++WF
+Sbjct  51   GSPEDGSLKKKQRRQRTHFTSQQLQELEATFQRNRYPDMSTREEIAVWTNLTEARVRVWF  110
+
+Query  161  QNRRMKWKKDEK-QKTEDC  178
+            +NRR KW+K E+ Q+ E C
+Sbjct  111  KNRRAKWRKRERSQQAELC  129
+
+
+>Dgigantea.XP_028391593.1 unnamed protein product
+Length=216
+
+ Score = 66.6 bits (161),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 33/67 (49%), Positives = 45/67 (67%), Gaps = 2/67 (3%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWK--KD  170
+            K  +  ++N+Q +ELEK F   KYL    R+ ++K LQL+ERQ+K WFQNRR KW+  K 
+Sbjct  129  KGGQVRFSNEQTVELEKTFEKQKYLSPPERKSLAKMLQLSERQIKTWFQNRRAKWRRLKQ  188
+
+Query  171  EKQKTED  177
+            E + TED
+Sbjct  189  EGKTTED  195
+
+
+>Bbelcheri.XP_019637589.1 unnamed protein product
+Length=289
+
+ Score = 67.4 bits (163),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 29/64 (45%), Positives = 46/64 (72%), Gaps = 0/64 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            KR RT++T  QL +LE+ F  ++Y+    R E+++ L LTE QVK+WFQNRR K+K+++ 
+Sbjct  119  KRARTAFTADQLKDLERAFRDSQYVVGQDRTELARQLGLTETQVKVWFQNRRTKYKREKA  178
+
+Query  173  QKTE  176
+            ++ E
+Sbjct  179  REAE  182
+
+
+>Bbelcheri.XP_019641359.1 unnamed protein product
+Length=330
+
+ Score = 67.8 bits (164),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 31/76 (41%), Positives = 46/76 (61%), Gaps = 1/76 (1%)
+
+Query  117  TSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEKQKTE  176
+            T ++ +Q+ +LE  F   +YL SS R  ++ +L LTE QVKIWFQNRR KWK+    + E
+Sbjct  205  TVFSRQQVFQLESTFDMKRYLSSSERAGLAASLHLTETQVKIWFQNRRNKWKRQLAAELE  264
+
+Query  177  DCYSAH-QENIEEIPL  191
+                AH  + +  +P+
+Sbjct  265  AANMAHAAQRMVRVPI  280
+
+
+>Dgigantea.XP_028394749.1 unnamed protein product
+Length=217
+
+ Score = 66.6 bits (161),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 30/61 (49%), Positives = 44/61 (72%), Gaps = 0/61 (0%)
+
+Query  109  VRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWK  168
+            + + +R RT++T+ QL  LE++F   KYL  S R +++K+L L++ QVK WFQNRR KWK
+Sbjct  75   IHKMRRRRTAFTSSQLKSLEEKFDDKKYLTISERNKLAKSLNLSDTQVKTWFQNRRTKWK  134
+
+Query  169  K  169
+            K
+Sbjct  135  K  135
+
+
+>Hsapiens.NP_796374.2 homeobox protein Nkx-6.2
+Length=277
+
+ Score = 67.0 bits (162),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 32/80 (40%), Positives = 46/80 (58%), Gaps = 4/80 (5%)
+
+Query  94   PWMKPKKGGKNHFAFVRES---KRH-RTSYTNKQLLELEKEFHFNKYLCSSRRREISKAL  149
+            PW  P+  G      V +    K+H R +++ +Q+  LEK F   KYL    R  ++ +L
+Sbjct  126  PWRDPRLAGPAPAGGVLDKDGKKKHSRPTFSGQQIFALEKTFEQTKYLAGPERARLAYSL  185
+
+Query  150  QLTERQVKIWFQNRRMKWKK  169
+             +TE QVK+WFQNRR KW+K
+Sbjct  186  GMTESQVKVWFQNRRTKWRK  205
+
+
+>Myessoensis.XP_021362094.1 unnamed protein product
+Length=293
+
+ Score = 67.4 bits (163),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 33/76 (43%), Positives = 48/76 (63%), Gaps = 0/76 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            ++ RT++TN+Q+ ELEK F + KYL  + R EI++ L LT  QV  WFQNRR K K+D +
+Sbjct  159  RKSRTAFTNQQIYELEKRFLYQKYLTPADRDEIAQTLGLTNAQVITWFQNRRAKLKRDLE  218
+
+Query  173  QKTEDCYSAHQENIEE  188
+            +   D   A  +  +E
+Sbjct  219  ELKNDVVHAKLDTDDE  234
+
+
+>Bbelcheri.XP_019618647.1 unnamed protein product
+Length=204
+
+ Score = 66.2 bits (160),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 31/65 (48%), Positives = 44/65 (68%), Gaps = 0/65 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            ++ RT +++ QL  LEK F   KYL +  R +++ AL LTE QVK WFQNRRMK KK ++
+Sbjct  102  RKARTVFSDSQLNGLEKRFESQKYLSTPERMDLAAALNLTETQVKTWFQNRRMKHKKLQR  161
+
+Query  173  QKTED  177
+            ++  D
+Sbjct  162  KRESD  166
+
+
+>Hsapiens.NP_067545.3 homeobox protein BarH-like 1
+Length=254
+
+ Score = 67.0 bits (162),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 29/61 (48%), Positives = 43/61 (70%), Gaps = 0/61 (0%)
+
+Query  109  VRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWK  168
+             ++ +R RT +T  QL+ LEK F   KYL +  R +++++L L++ QVK W+QNRRMKWK
+Sbjct  139  AKKGRRSRTVFTELQLMGLEKRFEKQKYLSTPDRIDLAESLGLSQLQVKTWYQNRRMKWK  198
+
+Query  169  K  169
+            K
+Sbjct  199  K  199
+
+
+>Hsapiens.NP_002439.2 homeobox protein MSX-1
+Length=303
+
+ Score = 67.4 bits (163),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 32/77 (42%), Positives = 48/77 (62%), Gaps = 0/77 (0%)
+
+Query  110  RESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            + +++ RT +T  QLL LE++F   +YL  + R E S +L LTE QVKIWFQNRR K K+
+Sbjct  170  KTNRKPRTPFTTAQLLALERKFRQKQYLSIAERAEFSSSLSLTETQVKIWFQNRRAKAKR  229
+
+Query  170  DEKQKTEDCYSAHQENI  186
+             ++ + E    A +  +
+Sbjct  230  LQEAELEKLKMAAKPML  246
+
+
+>Hsapiens.NP_001129743.2 homeobox protein Nkx-2.6
+Length=301
+
+ Score = 67.4 bits (163),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 30/76 (39%), Positives = 47/76 (62%), Gaps = 0/76 (0%)
+
+Query  100  KGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIW  159
+            +GG++     R+ ++ R  ++  Q+L LE+ F   +YL +  R  ++ ALQLT  QVKIW
+Sbjct  120  RGGRSEQPKARQRRKPRVLFSQAQVLALERRFKQQRYLSAPEREHLASALQLTSTQVKIW  179
+
+Query  160  FQNRRMKWKKDEKQKT  175
+            FQNRR K K+  + K+
+Sbjct  180  FQNRRYKCKRQRQDKS  195
+
+
+>Myessoensis.XP_021352527.1 unnamed protein product
+Length=317
+
+ Score = 67.4 bits (163),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 30/57 (53%), Positives = 40/57 (70%), Gaps = 0/57 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            +R RT++T +QL+ LE +F   +YL    R  ++ +L LTE QVKIWFQNRR KWKK
+Sbjct  190  RRARTAFTYEQLVALENKFKTTRYLSVCERLNLALSLNLTETQVKIWFQNRRTKWKK  246
+
+
+>Hsapiens.NP_000514.2 homeobox protein Hox-D13
+Length=343
+
+ Score = 67.4 bits (163),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 32/60 (53%), Positives = 40/60 (67%), Gaps = 0/60 (0%)
+
+Query  110  RESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            R  ++ R  YT  QL ELE E+  NK++   +RR IS A  L+ERQV IWFQNRR+K KK
+Sbjct  274  RRGRKKRVPYTKLQLKELENEYAINKFINKDKRRRISAATNLSERQVTIWFQNRRVKDKK  333
+
+
+>Aplanci.XP_022080911.1 unnamed protein product
+Length=316
+
+ Score = 67.4 bits (163),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 30/82 (37%), Positives = 43/82 (52%), Gaps = 0/82 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            K  R +++ +Q+  LEK F   KYL    R  ++ AL +TE QVK+WFQNRR KW+K   
+Sbjct  176  KHTRPTFSGQQIFALEKTFEQTKYLAGPERARLAYALGMTESQVKVWFQNRRTKWRKKHA  235
+
+Query  173  QKTEDCYSAHQENIEEIPLSSA  194
+             +       H    E +   S+
+Sbjct  236  AEMASAKRKHDSETEHLAAESS  257
+
+
+>Dgigantea.XP_028415076.1 unnamed protein product
+Length=278
+
+ Score = 67.0 bits (162),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 40/98 (41%), Positives = 57/98 (58%), Gaps = 2/98 (2%)
+
+Query  110  RESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            + +++ RT +T  QLL LE++F   +YL  + R E S +L LTE QVKIWFQNRR K K+
+Sbjct  120  KTNRKPRTPFTTTQLLALERKFRQKQYLSIAERAEFSSSLNLTETQVKIWFQNRRAKAKR  179
+
+Query  170  DEKQKTEDCYSAHQENIEEIPLSSALAPLYIPNSRSAC  207
+              + + E  Y    + I  +P S  +AP     +RS C
+Sbjct  180  LHEAEIEK-YKLVTKPI-LLPPSVPIAPPSYATTRSTC  215
+
+
+>Bbelcheri.XP_019646339.1 unnamed protein product
+Length=342
+
+ Score = 67.4 bits (163),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 30/57 (53%), Positives = 40/57 (70%), Gaps = 0/57 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            +R RT++T +QL+ LE +F   +YL    R  ++ +L LTE QVKIWFQNRR KWKK
+Sbjct  216  RRARTAFTYEQLVALENKFKQTRYLSVCERLNLALSLSLTETQVKIWFQNRRTKWKK  272
+
+
+>Nvectensis.XP_032220675.1 unnamed protein product
+Length=197
+
+ Score = 65.5 bits (158),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 30/65 (46%), Positives = 44/65 (68%), Gaps = 0/65 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            K  +  ++N+Q +ELEK F   KYL    R+++SK L L+ERQVK WFQNRR KW++ ++
+Sbjct  116  KGGQVRFSNEQTMELEKIFETQKYLSPPERKQLSKVLGLSERQVKTWFQNRRAKWRRFKQ  175
+
+Query  173  QKTED  177
+            +   D
+Sbjct  176  ESQGD  180
+
+
+>Bbelcheri.XP_019646152.1 unnamed protein product
+Length=275
+
+ Score = 66.6 bits (161),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 31/67 (46%), Positives = 46/67 (69%), Gaps = 0/67 (0%)
+
+Query  110  RESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            + +++ RT +T +QLL LE++F   +YL  + R E S +L LTE QVKIWFQNRR K K+
+Sbjct  150  KTNRKPRTPFTTQQLLALERKFRQKQYLSIAERAEFSASLNLTETQVKIWFQNRRAKAKR  209
+
+Query  170  DEKQKTE  176
+             ++ + E
+Sbjct  210  LQEAELE  216
+
+
+>Hsapiens.NP_000513.2 homeobox protein Hox-A13
+Length=388
+
+ Score = 67.4 bits (163),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 31/60 (52%), Positives = 40/60 (67%), Gaps = 0/60 (0%)
+
+Query  110  RESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            R  ++ R  YT  QL ELE+E+  NK++   +RR IS    L+ERQV IWFQNRR+K KK
+Sbjct  320  RRGRKKRVPYTKVQLKELEREYATNKFITKDKRRRISATTNLSERQVTIWFQNRRVKEKK  379
+
+
+>Nvectensis.XP_032233891.1 unnamed protein product
+Length=258
+
+ Score = 66.6 bits (161),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 36/76 (47%), Positives = 49/76 (64%), Gaps = 1/76 (1%)
+
+Query  108  FVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKW  167
+            F+R+ K+ R  +++ Q+  LEKEF   KYL  S+R E+SK L +TE QVK WFQNRR KW
+Sbjct  123  FMRKPKQ-RPLFSHNQIQRLEKEFKEEKYLTESKRAELSKDLGMTETQVKTWFQNRRTKW  181
+
+Query  168  KKDEKQKTEDCYSAHQ  183
+            +K+ K +      A Q
+Sbjct  182  RKELKDEIALSTRAAQ  197
+
+
+>Aplanci.XP_022096625.1 unnamed protein product
+Length=389
+
+ Score = 67.4 bits (163),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 27/61 (44%), Positives = 42/61 (69%), Gaps = 0/61 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            ++ RT++T +Q+  +E +F  + YL +  RRE++K L L + QVK WFQNRRM+WK+   
+Sbjct  200  RKGRTTFTKEQVDTMEAQFQTSMYLTTGARRELAKELMLEDNQVKTWFQNRRMRWKRQHP  259
+
+Query  173  Q  173
+            Q
+Sbjct  260  Q  260
+
+
+>Myessoensis.XP_021353738.1 unnamed protein product
+Length=323
+
+ Score = 67.0 bits (162),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 35/93 (38%), Positives = 51/93 (55%), Gaps = 2/93 (2%)
+
+Query  87   HLLD--PIYPWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRRE  144
+            H +D  P+ P+      G       R+    R  ++N Q   LEK F   KY+    RR+
+Sbjct  187  HSIDSLPVGPYSILNDDGSGCNQSKRKRSWSRAVFSNLQRKGLEKRFEVQKYVTKPDRRQ  246
+
+Query  145  ISKALQLTERQVKIWFQNRRMKWKKDEKQKTED  177
+            ++  L LT+ QVK+WFQNRRMKW+  ++QK +D
+Sbjct  247  LAAMLGLTDAQVKVWFQNRRMKWRHAQQQKEKD  279
+
+
+>Hsapiens.NP_002440.2 homeobox protein MSX-2 isoform 1
+Length=267
+
+ Score = 66.2 bits (160),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 36/91 (40%), Positives = 53/91 (58%), Gaps = 5/91 (5%)
+
+Query  110  RESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            + +++ RT +T  QLL LE++F   +YL  + R E S +L LTE QVKIWFQNRR K K+
+Sbjct  140  KTNRKPRTPFTTSQLLALERKFRQKQYLSIAERAEFSSSLNLTETQVKIWFQNRRAKAKR  199
+
+Query  170  DEKQKTEDCYSAHQENIEE-----IPLSSAL  195
+             ++ + E    A +  +        P+SS L
+Sbjct  200  LQEAELEKLKMAAKPMLPSSFSLPFPISSPL  230
+
+
+>Hsapiens.NP_001980.1 homeobox even-skipped homolog protein 1 isoform 1
+Length=407
+
+ Score = 67.4 bits (163),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 29/63 (46%), Positives = 42/63 (67%), Gaps = 0/63 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            +R+RT++T +Q+  LEKEF+   Y+   RR E++ AL L E  +K+WFQNRRMK K+   
+Sbjct  184  RRYRTAFTREQIARLEKEFYRENYVSRPRRCELAAALNLPETTIKVWFQNRRMKDKRQRL  243
+
+Query  173  QKT  175
+              T
+Sbjct  244  AMT  246
+
+
+>Aplanci.XP_022096638.1 unnamed protein product
+Length=416
+
+ Score = 67.4 bits (163),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 34/72 (47%), Positives = 44/72 (61%), Gaps = 8/72 (11%)
+
+Query  98   PKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVK  157
+            P K GK         +R RT++T +QL+ LE +F   +YL    R  ++ +L LTE QVK
+Sbjct  281  PGKAGK--------PRRARTAFTYEQLVALENKFKSTRYLSVCERLNLALSLSLTETQVK  332
+
+Query  158  IWFQNRRMKWKK  169
+            IWFQNRR KWKK
+Sbjct  333  IWFQNRRTKWKK  344
+
+
+>Aplanci.XP_022084684.1 unnamed protein product
+Length=143
+
+ Score = 63.9 bits (154),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 30/63 (48%), Positives = 44/63 (70%), Gaps = 0/63 (0%)
+
+Query  117  TSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEKQKTE  176
+            T++T+ Q L+LE E+H  +Y+   RR E+++ L LTE Q+KIWFQNRR K K+ EK + +
+Sbjct  33   TTFTSDQTLKLEMEYHRTEYITRMRRVELAELLSLTETQIKIWFQNRRAKDKRIEKAQLD  92
+
+Query  177  DCY  179
+              Y
+Sbjct  93   QQY  95
+
+
+>Nvectensis.XP_001632417.1 unnamed protein product
+Length=257
+
+ Score = 66.2 bits (160),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 29/57 (51%), Positives = 41/57 (72%), Gaps = 0/57 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            KR R +++++Q+ ELE+ F   KYL    R +++ AL+LTE QVKIWFQNRR K K+
+Sbjct  131  KRSRAAFSHQQVFELERRFSHQKYLSGPERADLAAALKLTETQVKIWFQNRRYKTKR  187
+
+
+>Nvectensis.XP_032222500.1 unnamed protein product
+Length=205
+
+ Score = 65.5 bits (158),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 30/57 (53%), Positives = 41/57 (72%), Gaps = 0/57 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            KR RT +T +QL  LEKEF   +Y+  + R  ++ +L LTE QVK+WFQNRR+KW+K
+Sbjct  139  KRIRTIFTPEQLERLEKEFERQQYMVGAERHYLAASLNLTETQVKVWFQNRRIKWRK  195
+
+
+>Bbelcheri.XP_019646332.1 unnamed protein product
+Length=270
+
+ Score = 66.2 bits (160),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 26/61 (43%), Positives = 42/61 (69%), Gaps = 0/61 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            ++ RT++T +Q++ LE+ F   KYL ++ R  ++ A  LT+ QVK WFQNRRMK K+ ++
+Sbjct  103  RKARTAFTTEQVMALEERFRLQKYLSAADRETLANATGLTDEQVKTWFQNRRMKLKRQQQ  162
+
+Query  173  Q  173
+             
+Sbjct  163  D  163
+
+
+>Dgigantea.XP_028403140.1 unnamed protein product
+Length=243
+
+ Score = 65.9 bits (159),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 40/98 (41%), Positives = 57/98 (58%), Gaps = 2/98 (2%)
+
+Query  110  RESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            + +++ RT +T  QLL LE++F   +YL  + R E S +L LTE QVKIWFQNRR K K+
+Sbjct  120  KTNRKPRTPFTTTQLLALERKFRQKQYLSIAERAEFSSSLNLTETQVKIWFQNRRAKAKR  179
+
+Query  170  DEKQKTEDCYSAHQENIEEIPLSSALAPLYIPNSRSAC  207
+              + + E  Y    + I  +P S  +AP     +RS C
+Sbjct  180  LHEAEIEK-YKLVTKPI-LLPPSVPIAPPSYATTRSTC  215
+
+
+>Hsapiens.NP_064448.1 barH-like 1 homeobox protein
+Length=327
+
+ Score = 66.6 bits (161),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 27/61 (44%), Positives = 43/61 (70%), Gaps = 0/61 (0%)
+
+Query  109  VRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWK  168
+            +++ ++ RT++T+ QL +LE+ F   KYL    R E++ +L LT+ QVK W+QNRR KWK
+Sbjct  175  LKKPRKARTAFTDHQLAQLERSFERQKYLSVQDRMELAASLNLTDTQVKTWYQNRRTKWK  234
+
+Query  169  K  169
+            +
+Sbjct  235  R  235
+
+
+>Dgigantea.XP_028391052.1 unnamed protein product
+Length=245
+
+ Score = 65.9 bits (159),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 32/57 (56%), Positives = 41/57 (72%), Gaps = 0/57 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            KR RT +T +QL  LEKEF   +YL    RR ++  L+LTE QVK+WFQNRR+KW+K
+Sbjct  183  KRIRTIFTPEQLERLEKEFAEQQYLVGIERRYLASTLRLTETQVKVWFQNRRIKWRK  239
+
+
+>Myessoensis.XP_021363064.1 unnamed protein product
+Length=354
+
+ Score = 66.6 bits (161),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 34/80 (43%), Positives = 46/80 (58%), Gaps = 11/80 (14%)
+
+Query  90   DPIYPWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKAL  149
+            D +   MKPKK           +++ RT++T+ QL  LEK F   KYL    R E++  L
+Sbjct  198  DSVTGLMKPKK-----------ARKARTAFTDHQLNSLEKTFERQKYLSVQDRMELAAKL  246
+
+Query  150  QLTERQVKIWFQNRRMKWKK  169
+             LT+ QVK W+QNRR KWK+
+Sbjct  247  NLTDTQVKTWYQNRRTKWKR  266
+
+
+>Hsapiens.NP_001418.2 homeobox protein engrailed-2
+Length=333
+
+ Score = 66.6 bits (161),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 31/64 (48%), Positives = 42/64 (66%), Gaps = 0/64 (0%)
+
+Query  111  ESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKD  170
+            E KR RT++T +QL  L+ EF  N+YL   RR+ +++ L L E Q+KIWFQN+R K KK 
+Sbjct  243  EDKRPRTAFTAEQLQRLKAEFQTNRYLTEQRRQSLAQELSLNESQIKIWFQNKRAKIKKA  302
+
+Query  171  EKQK  174
+               K
+Sbjct  303  TGNK  306
+
+
+>Bbelcheri.XP_019646328.1 unnamed protein product
+Length=324
+
+ Score = 66.6 bits (161),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 26/61 (43%), Positives = 42/61 (69%), Gaps = 0/61 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            ++ RT++T +Q++ LE+ F   KYL ++ R  ++K   LT+ QVK WFQNRRMK K+ ++
+Sbjct  159  RKARTAFTTEQVMALEERFRLQKYLSAADRETLAKGTGLTDEQVKTWFQNRRMKLKRQQQ  218
+
+Query  173  Q  173
+             
+Sbjct  219  D  219
+
+
+>Nvectensis.XP_001634765.2 unnamed protein product
+Length=209
+
+ Score = 65.1 bits (157),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 31/80 (39%), Positives = 51/80 (64%), Gaps = 0/80 (0%)
+
+Query  110  RESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            R+ ++ RT +TN+Q++ELE+ F + KYL  S R +I+ AL L   Q+  WFQNRR K ++
+Sbjct  121  RKRRKPRTCFTNRQIIELERRFMYQKYLSPSDRDDIAMALGLPGAQIITWFQNRRAKMRR  180
+
+Query  170  DEKQKTEDCYSAHQENIEEI  189
+            D ++   D  ++   + EE+
+Sbjct  181  DVEELKSDVKASSILSSEEV  200
+
+
+>Hsapiens.NP_067016.3 homeobox protein Hox-D12
+Length=270
+
+ Score = 65.9 bits (159),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 28/58 (48%), Positives = 43/58 (74%), Gaps = 0/58 (0%)
+
+Query  112  SKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            +++ R  YT +Q+ ELE EF  N+++   +R+E+S  L L+++QVKIWFQNRRMK K+
+Sbjct  202  ARKKRKPYTKQQIAELENEFLVNEFINRQKRKELSNRLNLSDQQVKIWFQNRRMKKKR  259
+
+
+>Myessoensis.XP_021363077.1 unnamed protein product
+Length=259
+
+ Score = 65.9 bits (159),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 29/61 (48%), Positives = 42/61 (69%), Gaps = 0/61 (0%)
+
+Query  109  VRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWK  168
+            V+++++ RT++T+ QL  LEK F   KYL    R E++  L LT+ QVK W+QNRR KWK
+Sbjct  132  VKKARKARTAFTDHQLNSLEKIFERQKYLSVQDRMELAAKLSLTDTQVKTWYQNRRTKWK  191
+
+Query  169  K  169
+            +
+Sbjct  192  R  192
+
+
+>Myessoensis.XP_021344808.1 unnamed protein product
+Length=259
+
+ Score = 65.9 bits (159),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 29/61 (48%), Positives = 42/61 (69%), Gaps = 0/61 (0%)
+
+Query  109  VRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWK  168
+            V+++++ RT++T+ QL  LEK F   KYL    R E++  L LT+ QVK W+QNRR KWK
+Sbjct  132  VKKARKARTAFTDHQLNSLEKIFERQKYLSVQDRMELAAKLSLTDTQVKTWYQNRRTKWK  191
+
+Query  169  K  169
+            +
+Sbjct  192  R  192
+
+
+>Myessoensis.XP_021346960.1 unnamed protein product
+Length=316
+
+ Score = 66.2 bits (160),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 33/71 (46%), Positives = 48/71 (68%), Gaps = 2/71 (3%)
+
+Query  110  RESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWK-  168
+            R+ KR RT+++  QLL+LEK F  + Y+    R++++  LQLTE QVK+WFQNRR K K 
+Sbjct  201  RKPKRIRTAFSPSQLLQLEKSFEKSHYVVGQERKDLAGELQLTETQVKVWFQNRRTKHKR  260
+
+Query  169  -KDEKQKTEDC  178
+             K E+   ++C
+Sbjct  261  TKSEEGDGKEC  271
+
+
+>Myessoensis.XP_021346959.1 unnamed protein product
+Length=301
+
+ Score = 66.2 bits (160),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 32/76 (42%), Positives = 45/76 (59%), Gaps = 0/76 (0%)
+
+Query  94   PWMKPKKGGKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTE  153
+            P+  P       F+  R+ KR RT++   QLL LE  F  N Y+    R++++  L LTE
+Sbjct  173  PFNVPTIDSDLLFSRFRKPKRIRTAFAPSQLLRLEHAFEKNHYVVGQERKDLASDLHLTE  232
+
+Query  154  RQVKIWFQNRRMKWKK  169
+             QVK+WFQNRR K+K+
+Sbjct  233  TQVKVWFQNRRTKFKR  248
+
+
+>Dgigantea.XP_028391275.1 unnamed protein product
+Length=268
+
+ Score = 65.9 bits (159),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 30/57 (53%), Positives = 40/57 (70%), Gaps = 0/57 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            +R RT++T +QL+ LE +F   +YL    R  ++ +L LTE QVKIWFQNRR KWKK
+Sbjct  153  RRARTAFTYEQLVALENKFKTTRYLSVCERLNLAMSLSLTETQVKIWFQNRRTKWKK  209
+
+
+>Hsapiens.NP_001091639.1 brain-specific homeobox protein homolog
+Length=233
+
+ Score = 65.5 bits (158),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 31/65 (48%), Positives = 45/65 (69%), Gaps = 1/65 (2%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            ++ RT +++ QL  LEK F   +YL +  R E++ AL L+E QVK WFQNRRMK KK + 
+Sbjct  111  RKARTVFSDSQLSGLEKRFEIQRYLSTPERVELATALSLSETQVKTWFQNRRMKHKK-QL  169
+
+Query  173  QKTED  177
+            +K++D
+Sbjct  170  RKSQD  174
+
+
+>Aplanci.XP_022098314.1 unnamed protein product
+Length=329
+
+ Score = 66.2 bits (160),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 32/69 (46%), Positives = 46/69 (67%), Gaps = 2/69 (3%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            KR R ++++ Q+ ELE+ F   +YL    R +++ AL+LTE+QVKIWFQNRR K K+  K
+Sbjct  197  KRSRAAFSHAQVFELERRFGHQRYLSGPERADLAAALKLTEQQVKIWFQNRRYKTKR--K  254
+
+Query  173  QKTEDCYSA  181
+            Q   D  S+
+Sbjct  255  QMAADMMSS  263
+
+
+>Bbelcheri.XP_019615135.1 unnamed protein product
+Length=318
+
+ Score = 66.2 bits (160),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 31/72 (43%), Positives = 47/72 (65%), Gaps = 0/72 (0%)
+
+Query  110  RESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            ++ ++ RT++TN Q+ ELEK F + KYL  + R +I+++L LT  QV  WFQNRR K K+
+Sbjct  133  KKRRKSRTAFTNHQIYELEKRFLYQKYLSPADRDQIAQSLGLTNAQVITWFQNRRAKLKR  192
+
+Query  170  DEKQKTEDCYSA  181
+            D  +   D  +A
+Sbjct  193  DLDELKADMTAA  204
+
+
+>Aplanci.XP_022098347.1 unnamed protein product
+Length=351
+
+ Score = 66.2 bits (160),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 31/67 (46%), Positives = 45/67 (67%), Gaps = 0/67 (0%)
+
+Query  110  RESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            + +++ RT +T  QLL LE++F   +YL  + R E S +L LTE QVKIWFQNRR K K+
+Sbjct  210  KTNRKPRTPFTTSQLLSLERKFRQKQYLSIAERAEFSASLNLTETQVKIWFQNRRAKAKR  269
+
+Query  170  DEKQKTE  176
+             ++ + E
+Sbjct  270  LQEAELE  276
+
+
+>Nvectensis.XP_032219765.1 unnamed protein product
+Length=274
+
+ Score = 65.5 bits (158),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 27/64 (42%), Positives = 45/64 (70%), Gaps = 0/64 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKKDEK  172
+            K++R+S++ +Q+  LEK F   +YL +  R++++ AL +T+ QVK WFQNRRMK K+   
+Sbjct  98   KKNRSSFSAEQVFRLEKTFELQQYLGTKERQQLALALNMTDNQVKTWFQNRRMKQKRKRA  157
+
+Query  173  QKTE  176
+            + T+
+Sbjct  158  EFTQ  161
+
+
+>Hvulgaris.XP_012566941.1 unnamed protein product
+Length=218
+
+ Score = 64.7 bits (156),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 29/49 (59%), Positives = 38/49 (78%), Gaps = 0/49 (0%)
+
+Query  111  ESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIW  159
+            +SKR R +Y+  QLLELEK+FHFN +L   RR E++K L L+ERQ+KIW
+Sbjct  167  DSKRKRMTYSRHQLLELEKDFHFNHFLKKERRAELAKQLNLSERQIKIW  215
+
+
+>Bbelcheri.XP_019646207.1 unnamed protein product
+Length=341
+
+ Score = 65.9 bits (159),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 30/57 (53%), Positives = 40/57 (70%), Gaps = 0/57 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            +R RT++T +QL+ LE +F   +YL    R  ++ +L LTE QVKIWFQNRR KWKK
+Sbjct  210  RRVRTAFTYEQLVALENKFKQTRYLSVCERLNLALSLSLTETQVKIWFQNRRTKWKK  266
+
+
+>Nvectensis.XP_032222101.1 unnamed protein product
+Length=269
+
+ Score = 65.5 bits (158),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 37/92 (40%), Positives = 54/92 (59%), Gaps = 13/92 (14%)
+
+Query  110  RESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            + +++ RT +T  QLL LE++F   +YL  + R E S +L LTE QVKIWFQNRR K K+
+Sbjct  128  KANRKPRTPFTTSQLLALERKFRQKQYLSIAERAEFSASLNLTETQVKIWFQNRRAKAKR  187
+
+Query  170  DEKQKTEDCYSAHQENIEEIPLSSA--LAPLY  199
+                        H+  +E++ L+S   +AP Y
+Sbjct  188  -----------LHEAELEKLKLASKPYIAPGY  208
+
+
+>Bbelcheri.XP_019646156.1 unnamed protein product
+Length=269
+
+ Score = 65.5 bits (158),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 28/57 (49%), Positives = 40/57 (70%), Gaps = 0/57 (0%)
+
+Query  113  KRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQNRRMKWKK  169
+            KR R ++++ Q+ ELE+ F   +YL    R +++ AL+LTE QVKIWFQNRR K K+
+Sbjct  141  KRSRAAFSHAQVFELERRFSHQRYLSGPERADLAAALKLTETQVKIWFQNRRYKTKR  197
+
+
+>Aplanci.XP_022095570.1 unnamed protein product
+Length=418
+
+ Score = 66.2 bits (160),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 31/81 (38%), Positives = 50/81 (62%), Gaps = 0/81 (0%)
+
+Query  102  GKNHFAFVRESKRHRTSYTNKQLLELEKEFHFNKYLCSSRRREISKALQLTERQVKIWFQ  161
+            G  H    R+ +R RT++T  QL +LE+ F   +Y     R E++  L+L+E +V++WFQ
+Sbjct  168  GTGHPKAARKVRRSRTTFTTYQLHQLERAFEKTQYPDVFTREELAMRLELSEARVQVWFQ  227
+
+Query  162  NRRMKWKKDEKQKTEDCYSAH  182
+            NRR KW+K EK ++ +  S +
+Sbjct  228  NRRAKWRKMEKVQSRESPSGY  248
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.129    0.392    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6703525374
+
+
+  Database: allprotein.fas
+    Posted date:  Sep 23, 2021  12:18 PM
+  Number of letters in database: 81,927,641
+  Number of sequences in database:  150,063
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
